@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace StatPlayer
 {
-    class Joueur
+    class Equipe
     {
         string nom_;
-        string equipe_;
-        Char[] position_;
-        int nbredeB_;
-        int nbrdeP_;
-        int nbrdeMa_;
+        string ville_;
+        string division_;
+        string conference_;
+        List<Joueur> joueurs_;
         
     }
 }
