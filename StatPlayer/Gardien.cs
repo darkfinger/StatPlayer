@@ -5,9 +5,8 @@
         public Gardien(Joueur joueur) : base(joueur)
         {
         }
-        public Gardien(string nom, string position, uint match, uint but, uint passe) : base(nom, position, match, but, passe)
+        public Gardien(string nom, string position, uint match, uint but, uint passe) : base(nom, position, but, passe)
         {
         }
-    }
-    
+    }    
 }

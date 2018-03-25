@@ -2,7 +2,7 @@
 
 namespace StatPlayer
 {
-    class Joueur
+    abstract class Joueur
     {
         private static readonly String[]  POSITION = { "D", "G", "AG", "AD","C"};
         String nom_;
@@ -11,7 +11,6 @@ namespace StatPlayer
         char[] position_;
         uint nombreDeBut_;
         uint nombreDePasse_;
-        uint nombreDeMatch_;
 
         public String Nom
         {
@@ -135,34 +134,14 @@ namespace StatPlayer
                     throw new Exception();
                 }
             }
-        }
-        public uint NombreDeMatch
-        {
-            get
-            {
-                return this.nombreDeMatch_;
-            }
-            set
-            {
-                if (value >= 0)//if the quantity is positive
-                {
-                    //chack if the format is in the correct form
-                    try { this.nombreDeMatch_ = value; } catch (FormatException) { throw new Exception(); }
-
-                }
-                else
-                {
-                    throw new Exception();
-                }
-            }
-        }
+        }       
         public uint Total {
             get
             {
                 return this.NombreDeBut+this.NombreDePasse;
             }
         }
-        public Joueur(String nom, string position, uint match=0,uint but=0,uint passe=0)
+        public Joueur(String nom, string position,uint but=0,uint passe=0)
         {
             String[] fullName = nom.Split(' ');
             if (fullName.Length == 1)
@@ -178,32 +157,22 @@ namespace StatPlayer
                 }
 
             }
-            this.Position = position;
-            this.NombreDeMatch = match;
-            if (this.NombreDeMatch == 0)
-            {
-                this.NombreDeBut = 0;
-                this.NombreDePasse = 0;
-            }
-            else
-            {
-                this.NombreDeBut = but;
-                this.NombreDePasse = passe;
-            }
+            this.Position = position;            
+            this.NombreDeBut = but;
+            this.NombreDePasse = passe;        
         }
         public Joueur(Joueur joueur)
         {
             this.Nom = joueur.Nom;
             this.PostNom = joueur.PostNom;
             this.Position = joueur.Position;
-            this.NombreDeMatch = joueur.NombreDeMatch;
             this.NombreDeBut = joueur.NombreDeBut;
             this.NombreDePasse = joueur.NombreDePasse;
         }
         public override string ToString()
         {
             String details;
-            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeMatch + " " + this.NombreDeBut + " " + this.NombreDePasse;
+            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeBut + " " + this.NombreDePasse;
             return details;
         }
     }

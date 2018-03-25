@@ -11,8 +11,7 @@ namespace StatPlayer
         int nombreButEq1_;
         int nombreButEq2_;
         char typeDePartie_;
-        List<Joueur> listjoueurClesDeLaPartie_;
-        List<Joueur> listGardienClesDeLaPartie_;
+        List<Joueur> listjoueurDeLaPartie_;
         public Equipe Equipe1
         {
             get
@@ -118,42 +117,21 @@ namespace StatPlayer
         {
             get
             {
-                return this.listjoueurClesDeLaPartie_;
+                return this.listjoueurDeLaPartie_;
             }
             set
             {
-                try { this.listjoueurClesDeLaPartie_ = value; } catch (Exception) { throw new Exception(); }
+                try { this.listjoueurDeLaPartie_ = value; } catch (Exception) { throw new Exception(); }
             }
-        }
-        private List<Joueur> ListGardienClesDeLaPartie
-        {
-            get
-            {
-                return this.listGardienClesDeLaPartie_;
-            }
-            set
-            {
-                try { this.listGardienClesDeLaPartie_ = value; } catch (Exception) { throw new Exception(); }
-            }
-        }
+        }      
         public Joueur this[int index]
         {
             get
             {
                 // on retourne une copie de la tasse dans la liste, rendant impossible
                 // d'atteindre la tasse originale qui se trouve dans la liste
-                return new Joueur(ListjoueurClesDeLaPartie[index]);
+                return new JoueurDeSurface(ListjoueurClesDeLaPartie[index]);
             }
-        }
-        public Gardien this[short index]
-        {            
-            get
-            {
-                int i = index;
-                // on retourne une copie de la tasse dans la liste, rendant impossible
-                // d'atteindre la tasse originale qui se trouve dans la liste
-                return new Gardien(ListGardienClesDeLaPartie[i]);
-            }
-        }
+        }        
     }
 }
