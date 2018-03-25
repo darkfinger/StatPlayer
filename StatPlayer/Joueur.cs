@@ -1,94 +1,180 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StatPlayer
 {
-    class Joueur
-    {
-        string nomJ_;
-        string nomEquip_;
-        Char position_;
-        uint nbrBut_;
-        uint nbrPass_;
+    abstract class Joueur
+    {        
+	private static readonly String[]  POSITION = { "D", "G", "AG", "AD","C"};
+        String nom_;
+        String postNom_;
+        String NomEquipe_;
+        char[] position_;
+        uint nombreDeBut_;
+        uint nombreDePasse_;
 
-        public string NomJ
+        public String Nom
         {
             get
             {
-                return nomJ_;
+                return this.nom_;
             }
-
-            private set
+            set
             {
-                nomJ_= value;
+                if (!string.IsNullOrWhiteSpace(value) && value is String)
+                {
+                    this.nom_ = value;
+                }
+                else
+                {
+                    throw new Exception();
+                }
             }
         }
-
-
-
-        public string NomEquip
+        public String PostNom
         {
             get
             {
-                return nomEquip_;
+                return this.postNom_;
             }
-
-            private set
+            set
             {
-                nomEquip_= value;
+                if (!string.IsNullOrWhiteSpace(value) && value is String)
+                {
+                    this.postNom_ = value;
+                }
+                else
+                {
+                    throw new Exception();
+                }
             }
         }
-
-        public char Position
+        public String NomEquipe
         {
             get
             {
-                return position_;
+                return this.NomEquipe_;
             }
-
-            private set
+            set
             {
-                position_= value;
+                if (!string.IsNullOrWhiteSpace(value) && value is String)
+                {
+                    this.NomEquipe_ = value;
+                }
+                else
+                {
+                    throw new Exception();
+                }
             }
         }
-
-
-
-        public uint NbrBut
+        public String Position
         {
             get
             {
-                return nbrBut_;
+                String pos="";
+                foreach(char p in this.position_)
+                {pos += p.ToString();}
+                return pos.Replace(" ","");
             }
-
-            private set
+            set
             {
-                nbrBut_= value;
+                foreach(String p in POSITION)
+                {
+                    //we cannot throw an Exception on an else, because we want to check that the value in every index of POSITION
+                    //if we throw it, the program will stop after checking the first index and not founding an accurate position
+                    if (value.ToUpper().Equals(p))
+                    {
+                        this.position_=value.ToUpper().ToCharArray();
+                        break;//if we found one on the first position, we don't have to go all along.
+                    }
+                }
+                //if the loop finds an accurate position then the attribut will be assigned, if it's still null 
+                //it means it didn't found an accurate value, therefore we throw an error
+                if (this.position_ == null)
+                {
+                    throw new Exception();
+                }
             }
         }
-
-
-
-
-        public uint NbrPass
+        public uint NombreDeBut
         {
             get
             {
-                return nbrPass_;
+                return this.nombreDeBut_;
             }
-
-            private set
+            set
             {
-                nbrPass_= value;
+                if (value >= 0)//if the but is positive
+                {
+                    //chack if the format is in the correct form
+                    try { this.nombreDeBut_ = value; } catch (FormatException) { throw new Exception(); }
+
+                }
+                else
+                {
+                    throw new Exception();
+                }
             }
         }
+        public uint NombreDePasse
+        {
+            get
+            {
+                return this.nombreDePasse_;
+            }
+            set
+            {
+                if (value >= 0)//if the passe is positive
+                {
+                    //chack if the format is in the correct form
+                    try { this.nombreDePasse_ = value; } catch (FormatException) { throw new Exception(); }
 
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+        }       
+        public uint Total {
+            get
+            {
+                return this.NombreDeBut+this.NombreDePasse;
+            }
+        }
+        public Joueur(String nom, string position,uint but=0,uint passe=0)
+        {
+            String[] fullName = nom.Split(' ');
+            if (fullName.Length == 1)
+            {
+                this.Nom = fullName[0];
+            }
+            else
+            {
+                this.Nom = fullName[0];
+                for(int i=1; i<fullName.Length; i++)
+                {
+                    this.PostNom += fullName[i] + " ";
+                }
 
-
-
+            }
+            this.Position = position;            
+            this.NombreDeBut = but;
+            this.NombreDePasse = passe;        
+        }
+        public Joueur(Joueur joueur)
+        {
+            this.Nom = joueur.Nom;
+            this.PostNom = joueur.PostNom;
+            this.Position = joueur.Position;
+            this.NombreDeBut = joueur.NombreDeBut;
+            this.NombreDePasse = joueur.NombreDePasse;
+        }
+        public override string ToString()
+        {
+            String details;
+            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeBut + " " + this.NombreDePasse;
+            return details;
+        }
     }
 
 

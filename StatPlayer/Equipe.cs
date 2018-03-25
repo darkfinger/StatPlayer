@@ -80,24 +80,6 @@ namespace StatPlayer
             {
                 listJoueurs_ = value;
             } 
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
 }
