@@ -218,3 +218,4 @@ pip-log.txt
 StatPlayer/.vs/StatPlayer/v15/sqlite3/storage.ide
 *.ide
 *.suo
+*.ide
