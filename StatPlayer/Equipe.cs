@@ -1,6 +1,0 @@
-﻿namespace StatPlayer
-{
-    class Equipe
-    {
-    }
-}
