@@ -215,8 +215,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-*.cache
 StatPlayer/.vs/StatPlayer/v15/sqlite3/storage.ide
 *.ide
 *.suo
-*.ide
+*.cache
