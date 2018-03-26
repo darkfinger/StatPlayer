@@ -49,7 +49,7 @@ namespace StatPlayer
         {
             if (joueur.Position.ToUpper().Equals("G"))
             {
-                throw new ApplicationException("only players with position diferent the G can be JoueurDesurface");
+                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
             }
             this.NombreDeMatch = 0;
             this.NombreDeBut = 0;
@@ -64,7 +64,7 @@ namespace StatPlayer
         {
             if (joueur.Position.ToUpper().Equals("G"))
             {
-                throw new ApplicationException("only players with position diferent the G can be JoueurDesurface");
+                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
             }
             this.NombreDeMatch = match;
             if (this.NombreDeMatch == 0)
@@ -99,7 +99,7 @@ namespace StatPlayer
         {
             if (position.ToUpper().Equals("G"))
             {
-                throw new Exception();
+                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
             }
             this.NombreDeMatch = match;
             if (this.NombreDeMatch == 0)

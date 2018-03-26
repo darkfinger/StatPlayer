@@ -22,10 +22,10 @@ namespace StatPlayer
         /// <param name="Ville"></param>
         /// <param name="division"></param>
         /// <param name="conference"></param>
-        public Equipe(String nom, String Ville, String division , String conference)
+        public Equipe(String nom, String ville, String division , String conference)
         {
             this.Nom = nom;
-            this.Ville = Ville;
+            this.Ville = ville;
             this.Division = division;
             this.Conference = conference;
             this.ListJoueurs = new List<Joueur>();
@@ -38,13 +38,29 @@ namespace StatPlayer
         /// <param name="division"></param>
         /// <param name="conference"></param>
         /// <param name="listJoueur"></param>
-        public Equipe(String nom, String Ville, String division, String conference, List<Joueur> listJoueur)
+        public Equipe(String nom, String ville, String division, String conference, List<Joueur> listJoueur)
         {
             this.Nom = nom;
-            this.Ville = Ville;
+            this.Ville = ville;
             this.Division = division;
             this.Conference = conference;
             this.ListJoueurs = listJoueur;
+        }
+        /// <summary>
+        /// copy constructeur
+        /// </summary>
+        /// <param name="nom"></param>
+        /// <param name="Ville"></param>
+        /// <param name="division"></param>
+        /// <param name="conference"></param>
+        /// <param name="listJoueur"></param>
+        public Equipe(Equipe e)
+        {
+            this.Nom = e.Nom;
+            this.Ville = e.Ville;
+            this.Division = e.Division;
+            this.Conference = e.Conference;
+            this.ListJoueurs = e.ListJoueurs;
         }
         /// <summary>
         /// propriete du non

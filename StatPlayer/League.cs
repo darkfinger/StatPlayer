@@ -43,8 +43,6 @@ namespace StatPlayer
         {
             get
             {
-                // on retourne une copie de la tasse dans la liste, rendant impossible
-                // d'atteindre la tasse originale qui se trouve dans la liste
                 return new Equipe(listEquipe_[index]);
             }
         }
