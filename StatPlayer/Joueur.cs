@@ -4,14 +4,22 @@ namespace StatPlayer
 {
     abstract class Joueur
     {
+        /// <summary>
+        /// une static readonly array considered as a constant array
+        /// </summary>
         private static readonly String[]  POSITION = { "D", "G", "AG", "AD","C"};
+        /// <summary>
+        /// attribut declaration
+        /// </summary>
         String nom_;
         String postNom_;
         String NomEquipe_;
         char[] position_;
         uint nombreDeBut_;
         uint nombreDePasse_;
-
+        /// <summary>
+        /// property for attribut Nom
+        /// </summary>
         public String Nom
         {
             get
@@ -30,6 +38,9 @@ namespace StatPlayer
                 }
             }
         }
+        /// <summary>
+        /// property for attribut postNom
+        /// </summary>
         public String PostNom
         {
             get
@@ -48,6 +59,9 @@ namespace StatPlayer
                 }
             }
         }
+        /// <summary>
+        /// property for attribut nomEquipe
+        /// </summary>
         public String NomEquipe
         {
             get
@@ -66,6 +80,9 @@ namespace StatPlayer
                 }
             }
         }
+        /// <summary>
+        /// property for attribut Position
+        /// </summary>
         public String Position
         {
             get
@@ -79,12 +96,12 @@ namespace StatPlayer
             {
                 foreach(String p in POSITION)
                 {
-                    //we cannot throw an Exception on an else, because we want to check that the value in every index of POSITION
-                    //if we throw it, the program will stop after checking the first index and not founding an accurate position
+                    //we cannot throw an Exception in an else, because we want to check that the value in every index of POSITION.
+                    //if we throw it inside else, the program will stop after checking and not founding an accurate position at the first index 
                     if (value.ToUpper().Equals(p))
                     {
                         this.position_=value.ToUpper().ToCharArray();
-                        break;//if we found one on the first position, we don't have to go all along.
+                        break;//if we found one on the actual index, we break the if, we don't have to go all along.
                     }
                 }
                 //if the loop finds an accurate position then the attribut will be assigned, if it's still null 
@@ -95,6 +112,9 @@ namespace StatPlayer
                 }
             }
         }
+        /// <summary>
+        /// property for attribut NombreDeBut
+        /// </summary>
         public uint NombreDeBut
         {
             get
@@ -106,15 +126,18 @@ namespace StatPlayer
                 if (value >= 0)//if the but is positive
                 {
                     //chack if the format is in the correct form
-                    try { this.nombreDeBut_ = value; } catch (FormatException) { throw new Exception(); }
+                    try { this.nombreDeBut_ = value; } catch (FormatException) { throw new ApplicationException("Mauvais format pour le nombre de but"); }
 
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Mauvais format pour le nombre de but");
                 }
             }
         }
+        /// <summary>
+        /// attribute for nombredePasse
+        /// </summary>
         public uint NombreDePasse
         {
             get
@@ -126,21 +149,21 @@ namespace StatPlayer
                 if (value >= 0)//if the passe is positive
                 {
                     //chack if the format is in the correct form
-                    try { this.nombreDePasse_ = value; } catch (FormatException) { throw new Exception(); }
-
+                    try { this.nombreDePasse_ = value; } catch (FormatException) { throw new ApplicationException("Mauvais format pour le nombre de Pass"); }
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Mauvais format pour le nombre de Pass");
                 }
             }
-        }       
-        public uint Total {
-            get
-            {
-                return this.NombreDeBut+this.NombreDePasse;
-            }
         }
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nom"></param>
+        /// <param name="position"></param>
+        /// <param name="but"></param>
+        /// <param name="passe"></param>
         public Joueur(String nom, string position,uint but=0,uint passe=0)
         {
             String[] fullName = nom.Split(' ');
@@ -161,6 +184,10 @@ namespace StatPlayer
             this.NombreDeBut = but;
             this.NombreDePasse = passe;        
         }
+        /// <summary>
+        /// copy constructor
+        /// </summary>
+        /// <param name="joueur"></param>
         public Joueur(Joueur joueur)
         {
             this.Nom = joueur.Nom;
@@ -169,6 +196,10 @@ namespace StatPlayer
             this.NombreDeBut = joueur.NombreDeBut;
             this.NombreDePasse = joueur.NombreDePasse;
         }
+        /// <summary>
+        /// toString ovverride to print out stat of an individual player
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             String details;
