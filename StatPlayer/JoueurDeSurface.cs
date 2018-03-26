@@ -22,12 +22,12 @@ namespace StatPlayer
                 if (value >= 0)//if the quantity is positive
                 {
                     //chack if the format is in the correct form
-                    try { this.nombreDeMatch_ = value; } catch (FormatException) { throw new Exception(); }
+                    try { this.nombreDeMatch_ = value; } catch (FormatException) { throw new ApplicationException("invalid format for NombreDeMatch"); }
 
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("invalid format for NombreDeMatch");
                 }
             }
         }
@@ -56,7 +56,7 @@ namespace StatPlayer
             this.NombreDePasse = 0;            
         }
         /// <summary>
-        /// copy constructeur with an additional param for the nombredematch 
+        /// copy constructeur of joueur with an additional param for the nombredematch 
         /// </summary>
         /// <param name="joueur"></param>
         /// <param name="match"></param>
@@ -73,14 +73,28 @@ namespace StatPlayer
                 this.NombreDePasse = 0;
             }
         }
-    /// <summary>
-    /// constructur inhereted from parent and additional param for nombredematch
-    /// </summary>
-    /// <param name="nom"></param>
-    /// <param name="position"></param>
-    /// <param name="match"></param>
-    /// <param name="but"></param>
-    /// <param name="passe"></param>
+        /// <summary>
+        /// copy constructeur of joueurDeSurface
+        /// </summary>
+        /// <param name="joueur"></param>
+        /// <param name="match"></param>
+        public JoueurDeSurface(JoueurDeSurface joueurDeSurface) : base(joueurDeSurface)
+        {
+            this.NombreDeMatch = joueurDeSurface.NombreDeMatch;
+            if (this.NombreDeMatch == 0)
+            {
+                this.NombreDeBut = 0;
+                this.NombreDePasse = 0;
+            }
+        }
+        /// <summary>
+        /// constructur inhereted from parent and additional param for nombredematch
+        /// </summary>
+        /// <param name="nom"></param>
+        /// <param name="position"></param>
+        /// <param name="match"></param>
+        /// <param name="but"></param>
+        /// <param name="passe"></param>
         public JoueurDeSurface(string nom, string position, uint match, uint but, uint passe) : base(nom, position, but, passe)
         {
             if (position.ToUpper().Equals("G"))

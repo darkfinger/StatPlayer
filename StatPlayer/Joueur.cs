@@ -108,7 +108,7 @@ namespace StatPlayer
                 //it means it didn't found an accurate value, therefore we throw an error
                 if (this.position_ == null)
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Mauvais format pour le Position d'un joueur"); ;
                 }
             }
         }
