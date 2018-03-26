@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace StatPlayer
 {
-    abstract class Joueur
+    class Joueur
     {
         /// <summary>
         /// une static readonly array considered as a constant array
