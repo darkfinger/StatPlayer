@@ -40,6 +40,7 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
+*.ide
 
 # Build results
 
@@ -214,4 +215,5 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+StatPlayer/.vs/StatPlayer/v15/sqlite3/storage.ide
 *.ide
