@@ -18,6 +18,15 @@ namespace StatPlayer
             Joueur d = new JoueurDeSurface("dav kaz", "ad", 0, 4, 6);
             Console.WriteLine(d);
             Console.WriteLine("-------------------------------------------------");
+
+
+            Joueur test = new Gardien("dav k", "G", 5, 4, 6,0,0,0,0);
+            Console.WriteLine(test);
+            Console.WriteLine("--------Gardien cree-----------------------------------------");
+
+            Joueur test2 = new JoueurDeSurface(test);
+            Console.WriteLine(test2);
+            Console.WriteLine("--------Gardien creation d'un jour de surface avec un gardien---------------");
         }
     }
 }

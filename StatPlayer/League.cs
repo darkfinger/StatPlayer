@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace StatPlayer
 {
     class League
     {
+        StreamReader streamReader;
         uint nombreEquipe_;
         List<Equipe> listEquipe_;
         public uint NombreEquipe_
@@ -45,6 +47,24 @@ namespace StatPlayer
             {
                 return new Equipe(listEquipe_[index]);
             }
+
         }
+
+
+
+        public List<Joueur> LectureJoueurStats(StreamReader R)
+            
+        { StreamReader R = new StreamReader("../../JoueursStats.txt");
+            string Lect;
+            while (R.EndOfStream
+
+
+        }
+
+
     }
+
+
+
+
 }
