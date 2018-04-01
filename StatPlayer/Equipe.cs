@@ -262,5 +262,12 @@ namespace StatPlayer
             }
             
         }
+
+        public override string ToString()
+        {
+            String details;
+            details = "Nom Equipe : "+this.Nom + " -Vilee : " + this.Ville + " -Division : " + this.Division + " -Conference : " + this.Conference;
+            return details;
+        }
     }
 }

@@ -1,0 +1,15 @@
+Anaheim Ducks;Francois Beauchemin;D;60;3;10
+Anaheim Ducks;Kevin Bieksa;D;59;0;8
+Anaheim Ducks;Joseph Blandisi;AG;3;0;0
+Anaheim Ducks;Jared Boll;AD;10;1;0
+Anaheim Ducks;Reto Berra;G;5;0;0;182;7;1;1
+Anaheim Ducks;John Gibson;G;56;0;1;3225;130;29;17
+Arizona Coyotes;Niklas Hjalmarsson;D;48;1;8
+Arizona Coyotes;Clayton Keller;AG;74;21;2
+Arizona Coyotes;Mario Kempe;AD;18;2;2
+Arizona Coyotes;Brad Richardson;C;68;3;11
+Arizona Coyotes;Derek Stepan;C;74;13;38
+Arizona Coyotes;Anton Khudobin;G;28;0;2;1594;66;15;6
+Boston Bruins;Anton Khudobin;G;28;0;2;1594;66;15;6
+Boston Bruins;Mario Kempe;AD;18;2;2
+Boston Bruins;Brad Richardson;C;68;3;11

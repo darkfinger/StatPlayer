@@ -95,18 +95,19 @@ namespace StatPlayer
         /// <param name="match"></param>
         /// <param name="but"></param>
         /// <param name="passe"></param>
-        public JoueurDeSurface(string nom, string position, uint match, uint but, uint passe) : base(nom, position, but, passe)
+        public JoueurDeSurface(String nomEquipe,string nom, string position, uint match, uint but, uint passe) : base(nomEquipe,nom, position, but, passe)
         {
-            if (position.ToUpper().Equals("G"))
+            if (IsJoueurDeSurface(this))
             {
-                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
+                this.NombreDeMatch = match;
+                if (this.NombreDeMatch == 0)
+                {
+                    this.NombreDeBut = 0;
+                    this.NombreDePasse = 0;
+                }
             }
-            this.NombreDeMatch = match;
-            if (this.NombreDeMatch == 0)
-            {
-                this.NombreDeBut = 0;
-                this.NombreDePasse = 0;
-            }
+            else { throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");}
+            
         }
         /// <summary>
         /// toString ovverride to print out stat of an individual player
@@ -118,6 +119,14 @@ namespace StatPlayer
             details = this.Nom + " " + this.PostNom + " " + this.Position + " "+this.NombreDeMatch 
                         +" " + this.NombreDeBut + " " + this.NombreDePasse + " " +this.Total;
             return details;
+        }
+        public Boolean IsJoueurDeSurface(Joueur j)
+        {
+            if (!j.Position.ToUpper().Equals("G"))
+            {
+                return true;
+            }
+            else { return false; }
         }
     }
 }

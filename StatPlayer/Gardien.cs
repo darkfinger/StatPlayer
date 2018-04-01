@@ -145,10 +145,6 @@ namespace StatPlayer
         public Gardien(Gardien gardien) 
             : base(gardien)
         {
-            if (!gardien.Position.ToUpper().Equals("G"))
-            {
-                throw new ApplicationException("only players with position G can be Gardien");
-            }
             this.NombreDeMinute = gardien.NombreDeMinute;
             this.NombreDeVictoire = gardien.NombreDeVictoire;
             this.NombreDefaite = gardien.NombreDefaite;
@@ -179,8 +175,8 @@ namespace StatPlayer
             }
             
         }
-        public Gardien(string nom, string position, uint minute, uint but, uint passe, uint nombreVictoire, uint nombreDefaite, uint nombreTotalDeTire, uint nombreButAlloue) 
-            : base(nom, position, but, passe)
+        public Gardien(String nomEquipe, string nom, string position, uint minute, uint but, uint passe, uint nombreVictoire, uint nombreDefaite, uint nombreTotalDeTire, uint nombreButAlloue) 
+            : base(nomEquipe, nom, position, but, passe)
         {
             if (!position.ToUpper().Equals("G"))
             {
@@ -211,7 +207,7 @@ namespace StatPlayer
         public override string ToString()
         {
             String details;
-            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeMinute
+            details =this.Nom + " " + this.PostNom + " " +this.NomEquipe+" "+  this.Position + " " + this.NombreDeMinute
                         + " " + this.NombreDeBut + " " + this.NombreDePasse + " " + this.NombreDeVictoire
                         + " " + this.NombreDefaite + " " + this.NombreTotalDeTire + " " + this.NombreButAlloue;
             return details;

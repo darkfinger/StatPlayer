@@ -164,8 +164,9 @@ namespace StatPlayer
         /// <param name="position"></param>
         /// <param name="but"></param>
         /// <param name="passe"></param>
-        public Joueur(String nom, string position,uint but=0,uint passe=0)
+        public Joueur(String nomEquipe, String nom, string position,uint but=0,uint passe=0)
         {
+            this.NomEquipe = nomEquipe;
             String[] fullName = nom.Split(' ');
             if (fullName.Length == 1)
             {
@@ -190,6 +191,7 @@ namespace StatPlayer
         /// <param name="joueur"></param>
         public Joueur(Joueur joueur)
         {
+            this.NomEquipe = joueur.NomEquipe;
             this.Nom = joueur.Nom;
             this.PostNom = joueur.PostNom;
             this.Position = joueur.Position;
@@ -203,7 +205,7 @@ namespace StatPlayer
         public override string ToString()
         {
             String details;
-            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeBut + " " + this.NombreDePasse;
+            details =this.NomEquipe+" "+ this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeBut + " " + this.NombreDePasse;
             return details;
         }
     }
