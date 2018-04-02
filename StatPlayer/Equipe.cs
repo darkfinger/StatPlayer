@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace StatPlayer
 {
-    class Equipe
+    class Equipe:IComparable
     {
         /// <summary>
         /// declaration de variable attribut
@@ -268,6 +268,17 @@ namespace StatPlayer
             String details;
             details = "Nom Equipe : "+this.Nom + " -Vilee : " + this.Ville + " -Division : " + this.Division + " -Conference : " + this.Conference;
             return details;
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (!(obj is Equipe))
+            {
+                throw new ArgumentException("L'objet n'est pas de la meme classe");
+            }
+            Equipe autre = obj as Equipe;
+            int comparaison = Nom.CompareTo(autre.Nom);          
+            return comparaison;
         }
     }
 }

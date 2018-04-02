@@ -1,3 +1,7 @@
+Anaheim Ducks;Francois Beauchemin;D;60;4;9
+Anaheim Ducks;Arancois Beauchemin;D;50;4;9
+Anaheim Ducks;Arancois Aeauchemin;D;50;4;9
+Anaheim Ducks;Francois Beauchemin;D;50;4;9
 Anaheim Ducks;Francois Beauchemin;D;60;3;10
 Anaheim Ducks;Kevin Bieksa;D;59;0;8
 Anaheim Ducks;Joseph Blandisi;AG;3;0;0

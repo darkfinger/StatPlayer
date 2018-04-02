@@ -49,36 +49,27 @@ namespace StatPlayer
                 }
             }
         }
-        public uint NombreEquipe_
+        public uint NombreEquipe
         {
             get { return this.nombreEquipe_; }
             set
             {
 
-                if (value >= 0)//if the but is positive
+                if (value > 0)//must be positive and less then 32 equipe
                 {
-                    //chack if the format is in the correct form
+                    //chack if the format is in the correct format
                     try { this.nombreEquipe_ = value; } catch (FormatException) { throw new Exception(); }
-
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Nombre d'equipe pas compatible");
                 }
             }
-        }
-        public Equipe this[int index]
+        }       
+        public League(uint nombreEquipe)
         {
-            get
-            {
-                return new Equipe(listEquipe_[index]);
-            }
-
-        }
-
-        public League()
-        {
-            if (this.NombreEquipe_<32)
+            this.NombreEquipe = nombreEquipe;
+            if (this.LectureEquipe(streamReader).Count<=this.NombreEquipe)
             {
             this.ListEquipe = this.LectureEquipe(streamReader);
             }
@@ -88,8 +79,7 @@ namespace StatPlayer
             }
             this.ListJoueur = LectureJoueurStats(streamReader);
         }
-
-        public List<Joueur> LectureJoueurStats(StreamReader streamReader)            
+        public List<Joueur> LectureJoueurStats(StreamReader streamReader)
         { streamReader = new StreamReader("../../JoueursStats2.txt");
             String chaine;
             List<Joueur> listJoueur = new List<Joueur>(); 
@@ -110,9 +100,7 @@ namespace StatPlayer
                 }
             }
             return listJoueur;
-        }
-
-
+        }    
         public List<Equipe> LectureEquipe(StreamReader streamReader)
         {
             streamReader = new StreamReader("../../Equipe.txt");
@@ -127,6 +115,72 @@ namespace StatPlayer
                
             }
             return listEquipe;
+        }
+        public List<Equipe> GetEquipes()
+        {
+            return new List<Equipe>(this.ListEquipe);
+        }
+        public void AffectationJoueurDansEquipe()
+        {
+            foreach(Joueur j in ListJoueur)
+            {
+                foreach (Equipe e in ListEquipe)
+                {
+                    if (j.NomEquipe.Equals(e.Nom))
+                    {
+                        e.AddJoueurToTheTeam(j);
+                    }
+                }
+            }
+        }
+        public List<Joueur> ProduirClassementJoueurParEquipe()
+        {
+            List<Joueur> classementparEquip = new List<Joueur>();
+            this.ListEquipe.Sort();
+             foreach (Equipe e in this.ListEquipe)
+            {
+                List<JoueurDeSurface>ljs= e.GetListJoueurDeSurface();
+                ljs.Sort();
+                foreach (JoueurDeSurface j in ljs)
+                {
+                    classementparEquip.Add(j);
+                }
+                List<Gardien> lg = e.GetListGardien();
+                lg.Sort();
+                foreach (Gardien j in lg)
+                {
+                    classementparEquip.Add(j);
+                }
+            }
+            return classementparEquip;
+        }
+        public List<JoueurDeSurface> ProduirClassementGenJoueurDeSurface()
+        {
+            List<JoueurDeSurface> classementJoueur = new List<JoueurDeSurface>();
+            foreach (Equipe e in this.ListEquipe)
+            {
+                List<JoueurDeSurface> ljs = e.GetListJoueurDeSurface();                
+                foreach (JoueurDeSurface j in ljs)
+                {
+                    classementJoueur.Add(j);
+                }
+            }
+            classementJoueur.Sort();
+            return classementJoueur;
+        }
+        public List<Gardien> ProduirClassementGenGardien()
+        {
+            List<Gardien> classementparGardien = new List<Gardien>();
+            foreach (Equipe e in this.ListEquipe)
+            {
+                List<Gardien> ljs = e.GetListGardien(); 
+                foreach (Gardien j in ljs)
+                {
+                    classementparGardien.Add(j);
+                }
+            }
+            classementparGardien.Sort();
+            return classementparGardien;
         }
     }
 }

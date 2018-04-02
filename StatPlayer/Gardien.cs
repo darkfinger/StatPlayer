@@ -2,7 +2,7 @@
 
 namespace StatPlayer
 {
-    class Gardien:Joueur
+    class Gardien:Joueur,IComparable
     {
         /// <summary>
         /// attribut declaration
@@ -126,7 +126,22 @@ namespace StatPlayer
                     throw new ApplicationException("invalid format for nombreButAlloue_");
                 }
             }
-        }                
+        }
+        public override float Rendement
+        {
+            get
+            {
+                if (this.NombreDeMinute == 0)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return this.NombreButAlloue/this.NombreDeMinute;
+                }
+                
+            }
+        }
         public Gardien(Joueur joueur) 
             : base(joueur)
         {
@@ -211,6 +226,34 @@ namespace StatPlayer
                         + " " + this.NombreDeBut + " " + this.NombreDePasse + " " + this.NombreDeVictoire
                         + " " + this.NombreDefaite + " " + this.NombreTotalDeTire + " " + this.NombreButAlloue;
             return details;
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (!(obj is Gardien))
+            {
+                throw new ArgumentException("L'objet n'est pas de la classe Etudiant");
+            }
+            Gardien autreGardien = obj as Gardien;
+            int comparaison = -(Rendement.CompareTo(autreGardien.Rendement));
+            //Console.WriteLine(Rendement + " est sup que " + autreJoueur.Rendement + " comp==" + comparaison);
+            if (comparaison == 0)
+            {
+                comparaison = -(NombreDeBut.CompareTo(autreGardien.NombreDeBut));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (NombreDeMinute.CompareTo(autreGardien.NombreDeMinute));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (Nom.CompareTo(autreGardien.Nom));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (PostNom.CompareTo(autreGardien.PostNom));
+            }
+            return comparaison;
         }
     }
 }

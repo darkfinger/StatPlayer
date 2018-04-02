@@ -7,7 +7,7 @@ namespace StatPlayer
         /// <summary>
         /// une static readonly array considered as a constant array
         /// </summary>
-        private static readonly String[]  POSITION = { "D", "G", "AG", "AD","C"};
+        private static readonly String[] POSITION = { "D", "G", "AG", "AD", "C" };
         /// <summary>
         /// attribut declaration
         /// </summary>
@@ -87,20 +87,20 @@ namespace StatPlayer
         {
             get
             {
-                String pos="";
-                foreach(char p in this.position_)
-                {pos += p.ToString();}
-                return pos.Replace(" ","");
+                String pos = "";
+                foreach (char p in this.position_)
+                { pos += p.ToString(); }
+                return pos.Replace(" ", "");
             }
             set
             {
-                foreach(String p in POSITION)
+                foreach (String p in POSITION)
                 {
                     //we cannot throw an Exception in an else, because we want to check that the value in every index of POSITION.
                     //if we throw it inside else, the program will stop after checking and not founding an accurate position at the first index 
                     if (value.ToUpper().Equals(p))
                     {
-                        this.position_=value.ToUpper().ToCharArray();
+                        this.position_ = value.ToUpper().ToCharArray();
                         break;//if we found one on the actual index, we break the if, we don't have to go all along.
                     }
                 }
@@ -156,6 +156,10 @@ namespace StatPlayer
                     throw new ApplicationException("Mauvais format pour le nombre de Pass");
                 }
             }
+        }
+        public abstract float Rendement
+        {
+            get;
         }
         /// <summary>
         /// Constructor

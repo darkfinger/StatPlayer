@@ -6,17 +6,32 @@ namespace StatPlayer
 {
     class Program
     {
+        static League league;
+        
         static void Main(string[] args)
         {
+            init();
 
-            StreamReader streamReader = null;
-            League l = new League();
-            foreach (Joueur j in ) { Console.WriteLine(j); }
-            Console.WriteLine("--------Equipe-----------------------------------------");
-            foreach (Equipe e in listE) { Console.WriteLine(e); }
+            foreach (Joueur j in league.ProduirClassementJoueurParEquipe())
+            {
+                Console.WriteLine(j);
+            }
+            Console.WriteLine("************************Classement general Joueur*************************");
+            foreach (JoueurDeSurface j in league.ProduirClassementGenJoueurDeSurface())
+            {
+                Console.WriteLine(j);
+            }
+            Console.WriteLine("************************Classement general Gardien*************************");
+            foreach (Gardien j in league.ProduirClassementGenGardien())
+            {
+                Console.WriteLine(j);
+            }
 
-            //Joueur test = new Gardien("e","dav k", "G", 5, 4, 6,0,0,0,0);
-            //Console.WriteLine(test);
+        }
+        private static void init()
+        {
+            league = new League(35);
+            league.AffectationJoueurDansEquipe();
         }
     }
 }
