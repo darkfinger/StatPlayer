@@ -10,6 +10,7 @@ namespace StatPlayer
     class League
     {
         StreamReader streamReader;
+        enum TYPEPARTIE{R='R',P='P',F='F'};
         uint nombreEquipe_;
         List<Equipe> listEquipe_;
         List<Joueur> listJoueur_;
@@ -201,6 +202,39 @@ namespace StatPlayer
             }
             classementparGardien.Sort();
             return classementparGardien;
+        }
+        public void LectureResultat(StreamReader streamReader)
+        {
+            streamReader = new StreamReader("../../resultat.txt");
+            String chaine;
+            List<Joueur> listJoueur = new List<Joueur>();
+            while (!streamReader.EndOfStream)
+            {
+                chaine = streamReader.ReadLine();
+                String[] part = chaine.Split(';');
+                string lastIndex = part[part.Length - 1].ToUpper() ;
+                if ((lastIndex.Equals(TYPEPARTIE.F))||(lastIndex.Equals(TYPEPARTIE.P))|| lastIndex.Equals(TYPEPARTIE.R))
+                {
+                    Equipe equipe1 = null, equipe2 = null;
+                    foreach(Equipe e in this.ListEquipe)
+                    {
+                        if (part[0] == e.Nom)
+                            equipe1 = e;
+
+                        if (part[2] == e.Nom)
+                            equipe2 = e;
+                    }
+                    if(equipe1!=null && equipe2 != null)
+                    {
+                        Partie laPartie = new Partie(equipe1,int.Parse(part[1]),equipe2, int.Parse(part[3]),char.Parse(part[4])); 
+                    }
+                    
+                }
+                if(int.TryParse(part[part.Length - 1], out num))
+                {
+
+                }
+            }
         }
     }
 }
