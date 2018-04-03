@@ -1,1098 +1,1098 @@
-Anaheim Ducks;Francois Beauchemin;D;60;3;10;0;0;0;0;0;0
-Anaheim Ducks;Kevin Bieksa;D;59;0;8;0;0;0;0;0;0
-Anaheim Ducks;Joseph Blandisi;AG;3;0;0;0;0;0;0;0;0
-Anaheim Ducks;Jared Boll;AD;10;1;0;0;0;0;0;0;0
-Anaheim Ducks;J.T. Brown;AD;19;1;2;0;0;0;0;0;0
-Anaheim Ducks;Jason Chimera;AG;10;1;1;0;0;0;0;0;0
-Anaheim Ducks;Andrew Cogliano;AG;73;8;20;0;0;0;0;0;0
-Anaheim Ducks;Patrick Eaves;AD;2;1;0;0;0;0;0;0;0
-Anaheim Ducks;Giovanni Fiore;AG;1;0;0;0;0;0;0;0;0
-Anaheim Ducks;Cam Fowler;D;63;8;22;0;0;0;0;0;0
-Anaheim Ducks;Ryan Getzlaf;C;49;11;45;0;0;0;0;0;0
-Anaheim Ducks;Derek Grant;C;59;11;12;0;0;0;0;0;0
-Anaheim Ducks;Adam Henrique;C;50;16;13;0;0;0;0;0;0
-Anaheim Ducks;Korbinian Holzer;D;16;0;0;0;0;0;0;0;0
-Anaheim Ducks;Ondrej Kase;AD;59;18;16;0;0;0;0;0;0
-Anaheim Ducks;Chris Kelly;C;11;0;2;0;0;0;0;0;0
-Anaheim Ducks;Nicolas Kerdiles;AG;2;0;0;0;0;0;0;0;0
-Anaheim Ducks;Ryan Kesler;C;37;7;3;0;0;0;0;0;0
-Anaheim Ducks;Kalle Kossila;AG;10;1;1;0;0;0;0;0;0
-Anaheim Ducks;Mike Liambas;AG;7;0;1;0;0;0;0;0;0
-Anaheim Ducks;Hampus Lindholm;D;62;11;17;0;0;0;0;0;0
-Anaheim Ducks;Josh Manson;D;73;5;26;0;0;0;0;0;0
-Anaheim Ducks;Jaycob Megna;D;14;0;1;0;0;0;0;0;0
-Anaheim Ducks;Brandon Montour;D;73;9;20;0;0;0;0;0;0
-Anaheim Ducks;Corey Perry;AD;64;16;28;0;0;0;0;0;0
-Anaheim Ducks;Marcus Pettersson;D;15;1;2;0;0;0;0;0;0
-Anaheim Ducks;Rickard Rakell;C;70;31;32;0;0;0;0;0;0
-Anaheim Ducks;Dennis Rasmussen;C;27;1;3;0;0;0;0;0;0
-Anaheim Ducks;Nick Ritchie;AG;69;8;17;0;0;0;0;0;0
-Anaheim Ducks;Kevin Roy;AG;25;6;1;0;0;0;0;0;0
-Anaheim Ducks;Logan Shaw;AD;42;2;6;0;0;0;0;0;0
-Anaheim Ducks;Jakob Silfverberg;AD;70;16;18;0;0;0;0;0;0
-Anaheim Ducks;Sami Vatanen;D;15;1;3;0;0;0;0;0;0
-Anaheim Ducks;Antoine Vermette;C;63;8;8;0;0;0;0;0;0
-Anaheim Ducks;Chris Wagner;C;64;6;9;0;0;0;0;0;0
-Anaheim Ducks;Andy Welinski;D;4;0;2;0;0;0;0;0;0
-Anaheim Ducks;Reto Berra;G;5;0;0;182;7;1;1;95;
-Anaheim Ducks;John Gibson;G;56;0;1;3225;130;29;17;1772;84
-Anaheim Ducks;Ryan Miller;G;24;0;0;1132;47;8;6;634;85
-Arizona Coyotes;Josh Archibald;AD;33;5;5;0;0;0;0;0;0
-Arizona Coyotes;Kyle Capobianco;D;1;0;0;0;0;0;0;0;0
-Arizona Coyotes;Jakob Chychrun;D;44;2;10;0;0;0;0;0;0
-Arizona Coyotes;Adam Clendening;D;5;0;2;0;0;0;0;0;0
-Arizona Coyotes;Kevin Connauton;D;66;7;8;0;0;0;0;0;0
-Arizona Coyotes;Nick Cousins;C;63;12;6;0;0;0;0;0;0
-Arizona Coyotes;Lawson Crouse;AG;11;1;0;0;0;0;0;0;0
-Arizona Coyotes;Laurent Dauphin;C;2;0;0;0;0;0;0;0;0
-Arizona Coyotes;Jason Demers;D;69;6;14;0;0;0;0;0;0
-Arizona Coyotes;Max Domi;AG;74;8;29;0;0;0;0;0;0
-Arizona Coyotes;Anthony Duclair;AG;33;9;6;0;0;0;0;0;0
-Arizona Coyotes;Christian Dvorak;C;74;15;20;0;0;0;0;0;0
-Arizona Coyotes;Oliver Ekman-Larsson;D;74;13;26;0;0;0;0;0;0
-Arizona Coyotes;Christian Fischer;AD;71;13;18;0;0;0;0;0;0
-Arizona Coyotes;Alex Goligoski;D;70;11;22;0;0;0;0;0;0
-Arizona Coyotes;Freddie Hamilton;C;8;0;0;0;0;0;0;0;0
-Arizona Coyotes;Joel Hanley;D;4;0;0;0;0;0;0;0;0
-Arizona Coyotes;Niklas Hjalmarsson;D;48;1;8;0;0;0;0;0;0
-Arizona Coyotes;Clayton Keller;AG;74;21;36;0;0;0;0;0;0
-Arizona Coyotes;Mario Kempe;AD;18;2;2;0;0;0;0;0;0
-Arizona Coyotes;Jordan Martinook;AG;73;6;8;0;0;0;0;0;0
-Arizona Coyotes;Nicholas Merkley;AD;1;0;0;0;0;0;0;0;0
-Arizona Coyotes;Dakota Mermis;D;7;0;0;0;0;0;0;0;0
-Arizona Coyotes;Richard Panik;AD;27;4;7;0;0;0;0;0;0
-Arizona Coyotes;Brendan Perlini;AG;66;16;12;0;0;0;0;0;0
-Arizona Coyotes;Brad Richardson;C;68;3;11;0;0;0;0;0;0
-Arizona Coyotes;Tobias Rieder;AD;58;8;11;0;0;0;0;0;0
-Arizona Coyotes;Zac Rinaldo;AG;47;4;2;0;0;0;0;0;0
-Arizona Coyotes;Luke Schenn;D;56;0;5;0;0;0;0;0;0
-Arizona Coyotes;Derek Stepan;C;74;13;38;0;0;0;0;0;0
-Arizona Coyotes;Dylan Strome;C;13;2;1;0;0;0;0;0;0
-Arizona Coyotes;Louis Domingue;G;7;0;0;388;28;0;6;194;
-Arizona Coyotes;Adin Hill;G;4;0;0;241;14;1;3;129;
-Arizona Coyotes;Darcy Kuemper;G;7;0;0;416;22;2;4;197;
-Arizona Coyotes;Marek Langhamer;G;1;0;0;29;0;0;0;10;
-Arizona Coyotes;Antti Raanta;G;42;0;0;2302;91;17;16;1236;84
-Arizona Coyotes;Scott Wedgewood;G;20;0;0;1097;63;5;9;587;123
-Boston Bruins;Noel Acciari;C;51;8;1;0;0;0;0;0;0
-Boston Bruins;Kenny Agostino;AG;5;0;1;0;0;0;0;0;0
-Boston Bruins;David Backes;AD;50;12;16;0;0;0;0;0;0
-Boston Bruins;Matt Beleskey;AG;14;0;0;0;0;0;0;0;0
-Boston Bruins;Patrice Bergeron;C;55;27;27;0;0;0;0;0;0
-Boston Bruins;Anders Bjork;AG;30;4;8;0;0;0;0;0;0
-Boston Bruins;Anton Blidh;AG;1;0;0;0;0;0;0;0;0
-Boston Bruins;Brandon Carlo;D;72;0;6;0;0;0;0;0;0
-Boston Bruins;Colby Cave;C;1;0;0;0;0;0;0;0;0
-Boston Bruins;Peter Cehlarik;AG;6;1;1;0;0;0;0;0;0
-Boston Bruins;Zdeno Chara;D;68;7;16;0;0;0;0;0;0
-Boston Bruins;Austin Czarnik;C;10;0;4;0;0;0;0;0;0
-Boston Bruins;Jake Debrusk;AG;64;14;25;0;0;0;0;0;0
-Boston Bruins;Ryan Donato;C;3;2;2;0;0;0;0;0;0
-Boston Bruins;Brian Gionta;AD;12;2;4;0;0;0;0;0;0
-Boston Bruins;Matt Grzelcyk;D;53;3;11;0;0;0;0;0;0
-Boston Bruins;Danton Heinen;C;68;13;29;0;0;0;0;0;0
-Boston Bruins;Nick Holden;D;11;0;4;0;0;0;0;0;0
-Boston Bruins;David Krejci;C;55;17;22;0;0;0;0;0;0
-Boston Bruins;Torey Krug;D;67;13;39;0;0;0;0;0;0
-Boston Bruins;Sean Kuraly;C;73;6;8;0;0;0;0;0;0
-Boston Bruins;Brad Marchand;AG;59;32;46;0;0;0;0;0;0
-Boston Bruins;Charlie McAvoy;D;59;7;25;0;0;0;0;0;0
-Boston Bruins;Adam McQuaid;D;30;1;2;0;0;0;0;0;0
-Boston Bruins;Kevan Miller;D;59;1;13;0;0;0;0;0;0
-Boston Bruins;Rick Nash;AG;11;3;3;0;0;0;0;0;0
-Boston Bruins;Riley Nash;C;72;15;26;0;0;0;0;0;0
-Boston Bruins;Rob O'Gara;D;8;0;0;0;0;0;0;0;0
-Boston Bruins;David Pastrnak;AD;73;29;43;0;0;0;0;0;0
-Boston Bruins;Paul Postma;D;14;0;1;0;0;0;0;0;0
-Boston Bruins;Tim Schaller;C;73;11;9;0;0;0;0;0;0
-Boston Bruins;Ryan Spooner;C;39;9;16;0;0;0;0;0;0
-Boston Bruins;Jordan Szwarz;AD;12;0;3;0;0;0;0;0;0
-Boston Bruins;Frank Vatrano;C;25;2;0;0;0;0;0;0;0
-Boston Bruins;Tommy Wingels;AD;11;1;2;0;0;0;0;0;0
-Boston Bruins;Anton Khudobin;G;28;0;2;1594;66;15;6;792;95
-Boston Bruins;Tuukka Rask;G;48;0;2;2815;110;31;11;1332;94
-Buffalo Sabres;Victor Antipin;D;45;0;10;0;0;0;0;0;0
-Buffalo Sabres;Justin Bailey;AD;12;3;1;0;0;0;0;0;0
-Buffalo Sabres;Nicholas Baptiste;AD;25;4;1;0;0;0;0;0;0
-Buffalo Sabres;Nathan Beaulieu;D;54;1;8;0;0;0;0;0;0
-Buffalo Sabres;Zach Bogosian;D;18;0;1;0;0;0;0;0;0
-Buffalo Sabres;Kyle Criscuolo;C;9;0;0;0;0;0;0;0;0
-Buffalo Sabres;Jack Eichel;C;59;22;32;0;0;0;0;0;0
-Buffalo Sabres;Justin Falk;D;40;1;1;0;0;0;0;0;0
-Buffalo Sabres;Hudson Fasching;AD;5;0;0;0;0;0;0;0;0
-Buffalo Sabres;Taylor Fedun;D;7;0;1;0;0;0;0;0;0
-Buffalo Sabres;Zemgus Girgensons;C;66;7;5;0;0;0;0;0;0
-Buffalo Sabres;Josh Gorges;D;31;0;2;0;0;0;0;0;0
-Buffalo Sabres;Seth Griffith;C;21;2;1;0;0;0;0;0;0
-Buffalo Sabres;Brendan Guhle;D;11;0;1;0;0;0;0;0;0
-Buffalo Sabres;Jacob Josefson;C;39;2;2;0;0;0;0;0;0
-Buffalo Sabres;Evander Kane;AG;61;20;20;0;0;0;0;0;0
-Buffalo Sabres;Johan Larsson;C;72;4;11;0;0;0;0;0;0
-Buffalo Sabres;Jake McCabe;D;53;3;9;0;0;0;0;0;0
-Buffalo Sabres;Matt Moulson;AG;14;0;0;0;0;0;0;0;0
-Buffalo Sabres;Casey Nelson;D;29;2;5;0;0;0;0;0;0
-Buffalo Sabres;Jordan Nolan;AG;63;3;4;0;0;0;0;0;0
-Buffalo Sabres;Daniel O'Regan;C;2;0;0;0;0;0;0;0;0
-Buffalo Sabres;Ryan O'Reilly;C;73;20;32;0;0;0;0;0;0
-Buffalo Sabres;Kyle Okposo;AD;68;11;27;0;0;0;0;0;0
-Buffalo Sabres;Jason Pominville;AD;74;12;16;0;0;0;0;0;0
-Buffalo Sabres;Benoit Pouliot;AG;70;13;6;0;0;0;0;0;0
-Buffalo Sabres;Zach Redmond;D;3;0;0;0;0;0;0;0;0
-Buffalo Sabres;Sam Reinhart;C;74;19;23;0;0;0;0;0;0
-Buffalo Sabres;Rasmus Ristolainen;D;65;6;29;0;0;0;0;0;0
-Buffalo Sabres;Evan Rodrigues;AG;40;6;13;0;0;0;0;0;0
-Buffalo Sabres;Marco Scandella;D;74;5;15;0;0;0;0;0;0
-Buffalo Sabres;Matt Tennyson;D;14;0;0;0;0;0;0;0;0
-Buffalo Sabres;Scott Wilson;C;41;6;7;0;0;0;0;0;0
-Buffalo Sabres;Chad Johnson;G;29;0;0;1438;79;8;12;761;119
-Buffalo Sabres;Robin Lehner;G;51;0;0;2783;136;14;25;1528;102
-Buffalo Sabres;Linus Ullmark;G;4;0;0;209;7;1;2;112;
-Calgary Flames;Rasmus Andersson;D;3;0;0;0;0;0;0;0;0
-Calgary Flames;Mikael Backlund;C;75;13;28;0;0;0;0;0;0
-Calgary Flames;Matt Bartkowski;D;14;0;1;0;0;0;0;0;0
-Calgary Flames;Sam Bennett;C;75;11;15;0;0;0;0;0;0
-Calgary Flames;T.J. Brodie;D;73;4;28;0;0;0;0;0;0
-Calgary Flames;Troy Brouwer;AD;69;6;14;0;0;0;0;0;0
-Calgary Flames;Micheal Ferland;AG;70;21;18;0;0;0;0;0;0
-Calgary Flames;Michael Frolik;AD;63;10;13;0;0;0;0;0;0
-Calgary Flames;Johnny Gaudreau;AG;75;23;59;0;0;0;0;0;0
-Calgary Flames;Mark Giordano;D;75;13;24;0;0;0;0;0;0
-Calgary Flames;Tanner Glass;AG;10;0;0;0;0;0;0;0;0
-Calgary Flames;Dougie Hamilton;D;75;16;27;0;0;0;0;0;0
-Calgary Flames;Freddie Hamilton;C;8;0;1;0;0;0;0;0;0
-Calgary Flames;Travis Hamonic;D;71;1;10;0;0;0;0;0;0
-Calgary Flames;Garnet Hathaway;AD;52;2;9;0;0;0;0;0;0
-Calgary Flames;Marek Hrivik;AG;3;0;0;0;0;0;0;0;0
-Calgary Flames;Jaromir Jagr;AD;22;1;6;0;0;0;0;0;0
-Calgary Flames;Mark Jankowski;C;65;13;8;0;0;0;0;0;0
-Calgary Flames;Morgan Klimchuk;AG;1;0;0;0;0;0;0;0;0
-Calgary Flames;Brett Kulak;D;64;2;6;0;0;0;0;0;0
-Calgary Flames;Curtis Lazar;AD;58;2;7;0;0;0;0;0;0
-Calgary Flames;Ryan Lomberg;AG;7;0;1;0;0;0;0;0;0
-Calgary Flames;Andrew Mangiapane;AG;10;0;0;0;0;0;0;0;0
-Calgary Flames;Sean Monahan;C;74;31;33;0;0;0;0;0;0
-Calgary Flames;Nick Shore;C;2;0;0;0;0;0;0;0;0
-Calgary Flames;Matt Stajan;C;65;4;7;0;0;0;0;0;0
-Calgary Flames;Chris Stewart;AD;4;0;1;0;0;0;0;0;0
-Calgary Flames;Michael Stone;D;75;2;4;0;0;0;0;0;0
-Calgary Flames;Matthew Tkachuk;AG;68;24;25;0;0;0;0;0;0
-Calgary Flames;Kris Versteeg;AD;24;3;5;0;0;0;0;0;0
-Calgary Flames;Jon Gillies;G;7;0;0;366;17;2;2;178;
-Calgary Flames;Eddie Lack;G;4;0;0;136;12;1;2;64;
-Calgary Flames;David Rittich;G;20;0;0;948;44;8;5;479;105
-Calgary Flames;Mike Smith;G;53;0;2;3071;136;24;21;1621;96
-Carolina Hurricanes;Sebastian Aho;AD;70;26;35;0;0;0;0;0;0
-Carolina Hurricanes;Trevor Carrick;D;1;0;0;0;0;0;0;0;0
-Carolina Hurricanes;Klas Dahlbeck;D;25;0;1;0;0;0;0;0;0
-Carolina Hurricanes;Phillip Di Giuseppe;AG;41;3;4;0;0;0;0;0;0
-Carolina Hurricanes;Justin Faulk;D;74;7;23;0;0;0;0;0;0
-Carolina Hurricanes;Haydn Fleury;D;59;0;6;0;0;0;0;0;0
-Carolina Hurricanes;Noah Hanifin;D;71;8;21;0;0;0;0;0;0
-Carolina Hurricanes;Josh Jooris;AD;31;3;3;0;0;0;0;0;0
-Carolina Hurricanes;Marcus Kruger;C;48;1;5;0;0;0;0;0;0
-Carolina Hurricanes;Janne Kuokkanen;C;4;0;0;0;0;0;0;0;0
-Carolina Hurricanes;Elias Lindholm;C;73;15;26;0;0;0;0;0;0
-Carolina Hurricanes;Brock McGinn;AG;73;13;13;0;0;0;0;0;0
-Carolina Hurricanes;Roland McKeown;D;4;0;2;0;0;0;0;0;0
-Carolina Hurricanes;Martin Necas;C;1;0;0;0;0;0;0;0;0
-Carolina Hurricanes;Joakim Nordstrom;AG;68;2;4;0;0;0;0;0;0
-Carolina Hurricanes;Brett Pesce;D;65;3;16;0;0;0;0;0;0
-Carolina Hurricanes;Victor Rask;C;71;14;17;0;0;0;0;0;0
-Carolina Hurricanes;Derek Ryan;C;72;13;17;0;0;0;0;0;0
-Carolina Hurricanes;Jeff Skinner;AG;74;22;22;0;0;0;0;0;0
-Carolina Hurricanes;Jaccob Slavin;D;74;8;20;0;0;0;0;0;0
-Carolina Hurricanes;Jordan Staal;C;71;16;24;0;0;0;0;0;0
-Carolina Hurricanes;Lee Stempniak;AD;30;3;4;0;0;0;0;0;0
-Carolina Hurricanes;Teuvo Teravainen;AG;74;23;38;0;0;0;0;0;0
-Carolina Hurricanes;Trevor van Riemsdyk;D;71;2;11;0;0;0;0;0;0
-Carolina Hurricanes;Lucas Wallmark;C;11;1;0;0;0;0;0;0;0
-Carolina Hurricanes;Justin Williams;AD;74;15;30;0;0;0;0;0;0
-Carolina Hurricanes;Valentin Zykov;AG;2;2;0;0;0;0;0;0;0
-Carolina Hurricanes;Scott Darling;G;39;0;0;2241;119;12;18;1036;131
-Carolina Hurricanes;Cam Ward;G;39;0;0;2221;105;20;13;1077;112
-Chicago Blackhawks;Artem Anisimov;C;65;20;9;0;0;0;0;0;0
-Chicago Blackhawks;Lance Bouma;AG;53;3;6;0;0;0;0;0;0
-Chicago Blackhawks;Carl Dahlstrom;D;11;0;3;0;0;0;0;0;0
-Chicago Blackhawks;Alex DeBrincat;AD;75;25;21;0;0;0;0;0;0
-Chicago Blackhawks;Anthony Duclair;AG;23;2;6;0;0;0;0;0;0
-Chicago Blackhawks;Gustav Forsling;D;41;3;10;0;0;0;0;0;0
-Chicago Blackhawks;Cody Franson;D;23;1;6;0;0;0;0;0;0
-Chicago Blackhawks;Erik Gustafsson;D;28;3;8;0;0;0;0;0;0
-Chicago Blackhawks;Ryan Hartman;AG;57;8;17;0;0;0;0;0;0
-Chicago Blackhawks;John Hayden;AD;46;4;9;0;0;0;0;0;0
-Chicago Blackhawks;Matthew Highmore;AG;11;2;0;0;0;0;0;0;0
-Chicago Blackhawks;Vinnie Hinostroza;AG;43;7;17;0;0;0;0;0;0
-Chicago Blackhawks;Tomas Jurco;AG;24;4;4;0;0;0;0;0;0
-Chicago Blackhawks;David Kampf;C;39;4;7;0;0;0;0;0;0
-Chicago Blackhawks;Patrick Kane;AD;75;25;46;0;0;0;0;0;0
-Chicago Blackhawks;Duncan Keith;D;75;1;30;0;0;0;0;0;0
-Chicago Blackhawks;Michal Kempny;D;31;1;6;0;0;0;0;0;0
-Chicago Blackhawks;Tanner Kero;AD;8;1;2;0;0;0;0;0;0
-Chicago Blackhawks;Andreas Martinsen;AG;2;0;0;0;0;0;0;0;0
-Chicago Blackhawks;Connor Murphy;D;69;1;10;0;0;0;0;0;0
-Chicago Blackhawks;Jordan Oesterle;D;49;5;9;0;0;0;0;0;0
-Chicago Blackhawks;Richard Panik;AD;37;6;10;0;0;0;0;0;0
-Chicago Blackhawks;Jan Rutta;D;51;6;13;0;0;0;0;0;0
-Chicago Blackhawks;Brandon Saad;AG;75;16;16;0;0;0;0;0;0
-Chicago Blackhawks;Nick Schmaltz;AG;71;21;28;0;0;0;0;0;0
-Chicago Blackhawks;Brent Seabrook;D;74;5;18;0;0;0;0;0;0
-Chicago Blackhawks;Patrick Sharp;AG;63;9;10;0;0;0;0;0;0
-Chicago Blackhawks;Jonathan Toews;C;74;20;32;0;0;0;0;0;0
-Chicago Blackhawks;Tommy Wingels;AD;57;7;5;0;0;0;0;0;0
-Chicago Blackhawks;Jean-Francois Berube;G;11;0;0;549;36;2;5;330;125
-Chicago Blackhawks;Corey Crawford;G;28;0;0;1584;60;16;9;842;82
-Chicago Blackhawks;Anton Forsberg;G;33;0;1;1590;81;9;16;851;109
-Chicago Blackhawks;Jeff Glass;G;14;0;0;761;42;3;6;413;116
-Colorado Avalanche;Sven Andrighetto;AD;45;6;13;0;0;0;0;0;0
-Colorado Avalanche;Mark Barberio;D;44;3;10;0;0;0;0;0;0
-Colorado Avalanche;Tyson Barrie;D;60;12;40;0;0;0;0;0;0
-Colorado Avalanche;Chris Bigras;D;15;0;1;0;0;0;0;0;0
-Colorado Avalanche;Gabriel Bourque;AG;50;5;6;0;0;0;0;0;0
-Colorado Avalanche;Blake Comeau;AG;71;12;19;0;0;0;0;0;0
-Colorado Avalanche;J.T. Compher;AG;61;13;9;0;0;0;0;0;0
-Colorado Avalanche;Matt Duchene;C;14;4;6;0;0;0;0;0;0
-Colorado Avalanche;Samuel Girard;D;60;2;16;0;0;0;0;0;0
-Colorado Avalanche;A.J. Greer;AG;17;0;3;0;0;0;0;0;0
-Colorado Avalanche;Rocco Grimaldi;C;6;1;2;0;0;0;0;0;0
-Colorado Avalanche;Erik Johnson;D;59;8;15;0;0;0;0;0;0
-Colorado Avalanche;Tyson Jost;C;57;9;10;0;0;0;0;0;0
-Colorado Avalanche;Vladislav Kamenev;AG;3;0;0;0;0;0;0;0;0
-Colorado Avalanche;Alexander Kerfoot;C;71;17;21;0;0;0;0;0;0
-Colorado Avalanche;Gabriel Landeskog;AG;70;24;33;0;0;0;0;0;0
-Colorado Avalanche;Anton Lindholm;D;47;0;4;0;0;0;0;0;0
-Colorado Avalanche;Nathan MacKinnon;C;66;38;54;0;0;0;0;0;0
-Colorado Avalanche;Andrei Mironov;D;10;1;2;0;0;0;0;0;0
-Colorado Avalanche;Patrik Nemeth;D;60;3;12;0;0;0;0;0;0
-Colorado Avalanche;Matthew Nieto;AG;66;13;9;0;0;0;0;0;0
-Colorado Avalanche;Mikko Rantanen;AD;73;27;53;0;0;0;0;0;0
-Colorado Avalanche;Duncan Siemens;D;15;1;1;0;0;0;0;0;0
-Colorado Avalanche;Carl Soderberg;C;69;15;19;0;0;0;0;0;0
-Colorado Avalanche;Dominic Toninato;C;34;0;1;0;0;0;0;0;0
-Colorado Avalanche;David Warsofsky;D;12;0;4;0;0;0;0;0;0
-Colorado Avalanche;Colin Wilson;C;53;6;11;0;0;0;0;0;0
-Colorado Avalanche;Nail Yakupov;AD;55;9;7;0;0;0;0;0;0
-Colorado Avalanche;Nikita Zadorov;D;69;7;13;0;0;0;0;0;0
-Colorado Avalanche;Jonathan Bernier;G;32;0;1;1757;83;18;11;953;100
-Colorado Avalanche;Semyon Varlamov;G;48;0;0;2685;124;22;15;1496;95
-Columbus Blue Jackets;Josh Anderson;AD;61;18;11;0;0;0;0;0;0
-Columbus Blue Jackets;Cam Atkinson;AD;59;18;19;0;0;0;0;0;0
-Columbus Blue Jackets;Oliver Bjorkstrand;AD;75;11;26;0;0;0;0;0;0
-Columbus Blue Jackets;Matt Calvert;AG;62;8;14;0;0;0;0;0;0
-Columbus Blue Jackets;Gabriel Carlsson;D;14;0;2;0;0;0;0;0;0
-Columbus Blue Jackets;Ian Cole;D;13;2;4;0;0;0;0;0;0
-Columbus Blue Jackets;Zac Dalpe;C;12;0;0;0;0;0;0;0;0
-Columbus Blue Jackets;Brandon Dubinsky;C;55;5;10;0;0;0;0;0;0
-Columbus Blue Jackets;Pierre-Luc Dubois;AG;75;15;24;0;0;0;0;0;0
-Columbus Blue Jackets;Nick Foligno;AG;71;15;18;0;0;0;0;0;0
-Columbus Blue Jackets;Nathan Gerbe;AG;2;0;0;0;0;0;0;0;0
-Columbus Blue Jackets;Markus Hannikainen;AG;29;2;2;0;0;0;0;0;0
-Columbus Blue Jackets;Scott Harrington;D;31;2;2;0;0;0;0;0;0
-Columbus Blue Jackets;Boone Jenner;C;68;11;17;0;0;0;0;0;0
-Columbus Blue Jackets;Jack Johnson;D;74;3;7;0;0;0;0;0;0
-Columbus Blue Jackets;Jussi Jokinen;AG;14;0;1;0;0;0;0;0;0
-Columbus Blue Jackets;Seth Jones;D;72;15;35;0;0;0;0;0;0
-Columbus Blue Jackets;Dean Kukan;D;10;0;4;0;0;0;0;0;0
-Columbus Blue Jackets;Mark Letestu;C;13;1;1;0;0;0;0;0;0
-Columbus Blue Jackets;Sonny Milano;AG;48;13;6;0;0;0;0;0;0
-Columbus Blue Jackets;Tyler Motte;AG;31;3;2;0;0;0;0;0;0
-Columbus Blue Jackets;Ryan Murray;D;38;1;8;0;0;0;0;0;0
-Columbus Blue Jackets;Markus Nutivaara;D;57;5;16;0;0;0;0;0;0
-Columbus Blue Jackets;Artemi Panarin;AG;75;25;44;0;0;0;0;0;0
-Columbus Blue Jackets;David Savard;D;74;4;11;0;0;0;0;0;0
-Columbus Blue Jackets;Jordan Schroeder;AG;21;1;1;0;0;0;0;0;0
-Columbus Blue Jackets;Lukas Sedlak;AG;53;4;4;0;0;0;0;0;0
-Columbus Blue Jackets;Thomas Vanek;AG;12;4;5;0;0;0;0;0;0
-Columbus Blue Jackets;Alexander Wennberg;C;60;8;25;0;0;0;0;0;0
-Columbus Blue Jackets;Zach Werenski;D;71;14;19;0;0;0;0;0;0
-Columbus Blue Jackets;Sergei Bobrovsky;G;60;0;2;3609;143;34;21;1832;89
-Columbus Blue Jackets;Joonas Korpisalo;G;16;0;0;929;50;8;7;509;112
-Dallas Stars;Jamie Benn;AG;75;28;41;0;0;0;0;0;0
-Dallas Stars;Adam Cracknell;AD;1;0;0;0;0;0;0;0;0
-Dallas Stars;Jason Dickinson;C;25;0;2;0;0;0;0;0;0
-Dallas Stars;Remi Elie;AG;67;6;8;0;0;0;0;0;0
-Dallas Stars;Radek Faksa;C;72;14;16;0;0;0;0;0;0
-Dallas Stars;Dan Hamhuis;D;73;3;19;0;0;0;0;0;0
-Dallas Stars;Martin Hanzal;C;38;5;5;0;0;0;0;0;0
-Dallas Stars;Dillon Heatherington;D;5;0;1;0;0;0;0;0;0
-Dallas Stars;Julius Honka;D;37;1;3;0;0;0;0;0;0
-Dallas Stars;Mattias Janmark;C;74;18;15;0;0;0;0;0;0
-Dallas Stars;Stephen Johns;D;72;8;7;0;0;0;0;0;0
-Dallas Stars;John Klingberg;D;75;7;54;0;0;0;0;0;0
-Dallas Stars;Esa Lindell;D;73;7;19;0;0;0;0;0;0
-Dallas Stars;Curtis McKenzie;AG;6;0;2;0;0;0;0;0;0
-Dallas Stars;Marc Methot;D;29;0;1;0;0;0;0;0;0
-Dallas Stars;Jamie Oleksiak;D;21;1;2;0;0;0;0;0;0
-Dallas Stars;Greg Pateryn;D;66;1;11;0;0;0;0;0;0
-Dallas Stars;Tyler Pitlick;C;73;14;11;0;0;0;0;0;0
-Dallas Stars;Alexander Radulov;AD;75;26;39;0;0;0;0;0;0
-Dallas Stars;Brett Ritchie;AD;64;6;7;0;0;0;0;0;0
-Dallas Stars;Antoine Roussel;AG;66;5;11;0;0;0;0;0;0
-Dallas Stars;Tyler Seguin;C;75;39;32;0;0;0;0;0;0
-Dallas Stars;Devin Shore;C;75;9;19;0;0;0;0;0;0
-Dallas Stars;Gemel Smith;C;41;5;5;0;0;0;0;0;0
-Dallas Stars;Jason Spezza;C;72;7;18;0;0;0;0;0;0
-Dallas Stars;Ben Bishop;G;53;0;1;2887;120;26;17;1437;96
-Dallas Stars;Kari Lehtonen;G;31;0;0;1633;69;12;12;782;101
-Detroit Red Wings;Justin Abdelkader;AG;67;12;20;0;0;0;0;0;0
-Detroit Red Wings;Andreas Athanasiou;AG;63;14;17;0;0;0;0;0;0
-Detroit Red Wings;Tyler Bertuzzi;AG;40;2;16;0;0;0;0;0;0
-Detroit Red Wings;David Booth;AG;26;4;1;0;0;0;0;0;0
-Detroit Red Wings;Trevor Daley;D;69;9;6;0;0;0;0;0;0
-Detroit Red Wings;Danny DeKeyser;D;57;5;4;0;0;0;0;0;0
-Detroit Red Wings;Jonathan Ericsson;D;73;3;9;0;0;0;0;0;0
-Detroit Red Wings;Martin Frk;AD;60;11;12;0;0;0;0;0;0
-Detroit Red Wings;Luke Glendening;AD;62;9;8;0;0;0;0;0;0
-Detroit Red Wings;Mike Green;D;66;8;25;0;0;0;0;0;0
-Detroit Red Wings;Darren Helm;AG;67;9;16;0;0;0;0;0;0
-Detroit Red Wings;Joe Hicketts;D;1;0;0;0;0;0;0;0;0
-Detroit Red Wings;Nick Jensen;D;73;0;13;0;0;0;0;0;0
-Detroit Red Wings;Niklas Kronwall;D;71;3;17;0;0;0;0;0;0
-Detroit Red Wings;Dylan Larkin;C;74;11;42;0;0;0;0;0;0
-Detroit Red Wings;Brian Lashoff;D;1;0;0;0;0;0;0;0;0
-Detroit Red Wings;Anthony Mantha;AD;72;23;19;0;0;0;0;0;0
-Detroit Red Wings;Frans Nielsen;C;71;14;15;0;0;0;0;0;0
-Detroit Red Wings;Gustav Nyquist;AD;74;19;15;0;0;0;0;0;0
-Detroit Red Wings;Xavier Ouellet;D;42;0;5;0;0;0;0;0;0
-Detroit Red Wings;Riley Sheahan;C;8;0;0;0;0;0;0;0;0
-Detroit Red Wings;Evgeny Svechnikov;AD;8;1;0;0;0;0;0;0;0
-Detroit Red Wings;Tomas Tatar;AG;62;16;12;0;0;0;0;0;0
-Detroit Red Wings;Dominic Turgeon;C;5;0;0;0;0;0;0;0;0
-Detroit Red Wings;Scott Wilson;AG;17;0;0;0;0;0;0;0;0
-Detroit Red Wings;Luke Witkowski;AD;29;1;1;0;0;0;0;0;0
-Detroit Red Wings;Henrik Zetterberg;AG;74;10;37;0;0;0;0;0;0
-Detroit Red Wings;Jared Coreau;G;4;0;0;201;15;0;3;104;
-Detroit Red Wings;Jimmy Howard;G;55;0;1;3067;146;19;26;1613;104
-Detroit Red Wings;Petr Mrazek;G;22;0;0;1184;57;8;7;630;104
-Edmonton Oilers;Pontus Aberg;AG;10;1;6;0;0;0;0;0;0
-Edmonton Oilers;Yohann Auvitu;D;30;3;6;0;0;0;0;0;0
-Edmonton Oilers;Ethan Bear;D;11;0;2;0;0;0;0;0;0
-Edmonton Oilers;Matt Benning;D;67;5;13;0;0;0;0;0;0
-Edmonton Oilers;Drake Caggiula;AG;59;12;6;0;0;0;0;0;0
-Edmonton Oilers;Mike Cammalleri;AG;47;2;18;0;0;0;0;0;0
-Edmonton Oilers;Brandon Davidson;D;23;3;1;0;0;0;0;0;0
-Edmonton Oilers;Leon Draisaitl;C;70;23;43;0;0;0;0;0;0
-Edmonton Oilers;Eric Gryba;D;21;0;2;0;0;0;0;0;0
-Edmonton Oilers;Jussi Jokinen;AG;14;0;1;0;0;0;0;0;0
-Edmonton Oilers;Zack Kassian;AD;68;7;10;0;0;0;0;0;0
-Edmonton Oilers;Jujhar Khaira;AG;61;11;9;0;0;0;0;0;0
-Edmonton Oilers;Oscar Klefbom;D;66;5;16;0;0;0;0;0;0
-Edmonton Oilers;Adam Larsson;D;55;4;7;0;0;0;0;0;0
-Edmonton Oilers;Mark Letestu;C;60;8;11;0;0;0;0;0;0
-Edmonton Oilers;Milan Lucic;AG;74;10;24;0;0;0;0;0;0
-Edmonton Oilers;Brad Malone;C;7;0;0;0;0;0;0;0;0
-Edmonton Oilers;Patrick Maroon;AG;57;14;16;0;0;0;0;0;0
-Edmonton Oilers;Connor McDavid;C;74;36;58;0;0;0;0;0;0
-Edmonton Oilers;Ryan Nugent-Hopkins;C;56;21;21;0;0;0;0;0;0
-Edmonton Oilers;Darnell Nurse;D;74;6;19;0;0;0;0;0;0
-Edmonton Oilers;Iiro Pakarinen;AD;37;2;1;0;0;0;0;0;0
-Edmonton Oilers;Jesse Puljujarvi;AD;57;12;8;0;0;0;0;0;0
-Edmonton Oilers;Ty Rattie;AD;6;3;2;0;0;0;0;0;0
-Edmonton Oilers;Kris Russell;D;70;4;17;0;0;0;0;0;0
-Edmonton Oilers;Andrej Sekera;D;30;0;4;0;0;0;0;0;0
-Edmonton Oilers;Anton Slepyshev;AG;43;5;5;0;0;0;0;0;0
-Edmonton Oilers;Ryan Strome;AD;74;13;20;0;0;0;0;0;0
-Edmonton Oilers;Nathan Walker;AG;2;0;0;0;0;0;0;0;0
-Edmonton Oilers;Kailer Yamamoto;AD;9;0;3;0;0;0;0;0;0
-Edmonton Oilers;Laurent Brossoit;G;13;0;1;707;38;3;7;334;130
-Edmonton Oilers;Al Montoya;G;8;0;1;426;23;2;2;231;
-Edmonton Oilers;Cam Talbot;G;59;0;1;3324;164;28;27;1804;104
-Florida Panthers;Chase Balisy;C;8;0;0;0;0;0;0;0;0
-Florida Panthers;Aleksander Barkov;C;71;26;47;0;0;0;0;0;0
-Florida Panthers;Nick Bjugstad;C;72;17;28;0;0;0;0;0;0
-Florida Panthers;Connor Brickley;AG;43;4;8;0;0;0;0;0;0
-Florida Panthers;Evgeni Dadonov;AD;64;23;33;0;0;0;0;0;0
-Florida Panthers;Aaron Ekblad;D;72;15;17;0;0;0;0;0;0
-Florida Panthers;Henrik Haapala;AG;5;0;1;0;0;0;0;0;0
-Florida Panthers;Micheal Haley;AG;69;3;6;0;0;0;0;0;0
-Florida Panthers;Jonathan Huberdeau;AG;72;23;41;0;0;0;0;0;0
-Florida Panthers;Dryden Hunt;AG;11;0;1;0;0;0;0;0;0
-Florida Panthers;Derek MacKenzie;C;67;3;11;0;0;0;0;0;0
-Florida Panthers;Denis Malgin;C;45;10;8;0;0;0;0;0;0
-Florida Panthers;Maxim Mamin;AG;18;2;0;0;0;0;0;0;0
-Florida Panthers;Mike Matheson;D;71;10;16;0;0;0;0;0;0
-Florida Panthers;Jared McCann;C;59;8;15;0;0;0;0;0;0
-Florida Panthers;Ian McCoshen;D;37;3;1;0;0;0;0;0;0
-Florida Panthers;Jamie McGinn;AG;66;11;11;0;0;0;0;0;0
-Florida Panthers;Alexander Petrovic;D;58;1;10;0;0;0;0;0;0
-Florida Panthers;Mark Pysyk;D;72;3;11;0;0;0;0;0;0
-Florida Panthers;Colton Sceviour;AD;66;9;9;0;0;0;0;0;0
-Florida Panthers;Owen Tippett;AD;7;1;0;0;0;0;0;0;0
-Florida Panthers;Vincent Trocheck;C;72;28;38;0;0;0;0;0;0
-Florida Panthers;Curtis Valk;AG;1;0;0;0;0;0;0;0;0
-Florida Panthers;Frank Vatrano;C;7;3;1;0;0;0;0;0;0
-Florida Panthers;Radim Vrbata;AD;41;5;9;0;0;0;0;0;0
-Florida Panthers;MacKenzie Weegar;D;50;1;5;0;0;0;0;0;0
-Florida Panthers;Keith Yandle;D;72;7;42;0;0;0;0;0;0
-Florida Panthers;Roberto Luongo;G;29;0;2;1696;72;15;10;988;83
-Florida Panthers;Antti Niemi;G;2;0;0;59;5;0;1;39;
-Florida Panthers;James Reimer;G;38;0;0;2078;105;18;13;1183;102
-Florida Panthers;Harri Sateri;G;9;0;0;493;24;4;4;271;
-Los Angeles Kings;Michael Amadio;C;32;4;3;0;0;0;0;0;0
-Los Angeles Kings;Andy Andreoff;AG;44;3;6;0;0;0;0;0;0
-Los Angeles Kings;Justin Auger;AD;2;0;0;0;0;0;0;0;0
-Los Angeles Kings;Jonny Brodzinski;C;34;4;2;0;0;0;0;0;0
-Los Angeles Kings;Dustin Brown;AD;74;23;30;0;0;0;0;0;0
-Los Angeles Kings;Mike Cammalleri;AG;15;3;4;0;0;0;0;0;0
-Los Angeles Kings;Jeff Carter;C;20;8;6;0;0;0;0;0;0
-Los Angeles Kings;Kyle Clifford;AG;43;5;3;0;0;0;0;0;0
-Los Angeles Kings;Andrew Crescenzi;C;2;0;0;0;0;0;0;0;0
-Los Angeles Kings;Drew Doughty;D;75;9;46;0;0;0;0;0;0
-Los Angeles Kings;Nic Dowd;C;16;0;1;0;0;0;0;0;0
-Los Angeles Kings;Oscar Fantenberg;D;26;2;7;0;0;0;0;0;0
-Los Angeles Kings;Christian Folin;D;58;3;8;0;0;0;0;0;0
-Los Angeles Kings;Derek Forbort;D;73;1;16;0;0;0;0;0;0
-Los Angeles Kings;Marian Gaborik;AD;30;7;7;0;0;0;0;0;0
-Los Angeles Kings;Kevin Gravel;D;14;0;3;0;0;0;0;0;0
-Los Angeles Kings;Alex Iafallo;C;72;9;16;0;0;0;0;0;0
-Los Angeles Kings;Jussi Jokinen;AG;18;1;4;0;0;0;0;0;0
-Los Angeles Kings;Adrian Kempe;AG;74;16;19;0;0;0;0;0;0
-Los Angeles Kings;Anze Kopitar;C;75;33;53;0;0;0;0;0;0
-Los Angeles Kings;Paul Ladue;D;9;3;1;0;0;0;0;0;0
-Los Angeles Kings;Brooks Laich;C;12;0;1;0;0;0;0;0;0
-Los Angeles Kings;Trevor Lewis;C;61;14;11;0;0;0;0;0;0
-Los Angeles Kings;Kurtis MacDermid;D;34;1;3;0;0;0;0;0;0
-Los Angeles Kings;Alec Martinez;D;70;7;14;0;0;0;0;0;0
-Los Angeles Kings;Torrey Mitchell;C;45;5;5;0;0;0;0;0;0
-Los Angeles Kings;Jake Muzzin;D;72;7;34;0;0;0;0;0;0
-Los Angeles Kings;Tanner Pearson;AG;75;15;21;0;0;0;0;0;0
-Los Angeles Kings;Dion Phaneuf;D;19;3;4;0;0;0;0;0;0
-Los Angeles Kings;Tobias Rieder;AD;13;3;0;0;0;0;0;0;0
-Los Angeles Kings;Nick Shore;C;49;4;11;0;0;0;0;0;0
-Los Angeles Kings;Nate Thompson;C;19;1;4;0;0;0;0;0;0
-Los Angeles Kings;Tyler Toffoli;C;75;23;20;0;0;0;0;0;0
-Los Angeles Kings;Jack Campbell;G;4;0;0;207;9;1;0;123;
-Los Angeles Kings;Darcy Kuemper;G;19;0;1;999;35;10;1;516;78
-Los Angeles Kings;Jonathan Quick;G;58;0;4;3316;133;30;26;1711;89
-Minnesota Wild;Christoph Bertschy;C;1;0;0;0;0;0;0;0;0
-Minnesota Wild;Jonas Brodin;D;64;5;12;0;0;0;0;0;0
-Minnesota Wild;Charlie Coyle;C;57;11;24;0;0;0;0;0;0
-Minnesota Wild;Matt Cullen;C;71;10;11;0;0;0;0;0;0
-Minnesota Wild;Mathew Dumba;D;73;11;30;0;0;0;0;0;0
-Minnesota Wild;Tyler Ennis;AG;69;8;12;0;0;0;0;0;0
-Minnesota Wild;Joel Eriksson Ek;AG;66;4;10;0;0;0;0;0;0
-Minnesota Wild;Landon Ferraro;C;2;1;0;0;0;0;0;0;0
-Minnesota Wild;Marcus Foligno;AG;68;8;14;0;0;0;0;0;0
-Minnesota Wild;Mikael Granlund;AD;68;19;39;0;0;0;0;0;0
-Minnesota Wild;Justin Kloos;C;1;0;0;0;0;0;0;0;0
-Minnesota Wild;Mikko Koivu;C;73;13;27;0;0;0;0;0;0
-Minnesota Wild;Luke Kunin;C;19;2;2;0;0;0;0;0;0
-Minnesota Wild;Zack Mitchell;AD;22;3;2;0;0;0;0;0;0
-Minnesota Wild;Ryan Murphy;D;12;1;2;0;0;0;0;0;0
-Minnesota Wild;Nino Niederreiter;AD;54;17;12;0;0;0;0;0;0
-Minnesota Wild;Cal O'Reilly;C;1;0;0;0;0;0;0;0;0
-Minnesota Wild;Gustav Olofsson;D;40;0;8;0;0;0;0;0;0
-Minnesota Wild;Zach Parise;AG;34;9;7;0;0;0;0;0;0
-Minnesota Wild;Nate Prosser;D;47;2;6;0;0;0;0;0;0
-Minnesota Wild;Kyle Quincey;D;18;0;3;0;0;0;0;0;0
-Minnesota Wild;Kyle Rau;C;3;0;1;0;0;0;0;0;0
-Minnesota Wild;Mike Reilly;D;38;2;8;0;0;0;0;0;0
-Minnesota Wild;Nick Seeler;D;14;0;2;0;0;0;0;0;0
-Minnesota Wild;Jared Spurgeon;D;61;9;28;0;0;0;0;0;0
-Minnesota Wild;Eric Staal;C;73;39;32;0;0;0;0;0;0
-Minnesota Wild;Chris Stewart;AD;47;9;4;0;0;0;0;0;0
-Minnesota Wild;Ryan Suter;D;73;6;43;0;0;0;0;0;0
-Minnesota Wild;Daniel Winnik;AG;72;6;14;0;0;0;0;0;0
-Minnesota Wild;Jason Zucker;AG;73;29;28;0;0;0;0;0;0
-Minnesota Wild;Devan Dubnyk;G;53;0;3;3027;133;31;14;1573;97
-Minnesota Wild;Alex Stalock;G;26;0;0;1375;64;10;10;731;100
-Montreal Canadiens;Karl Alzner;D;75;1;9;0;0;0;0;0;0
-Montreal Canadiens;Jordie Benn;D;72;4;10;0;0;0;0;0;0
-Montreal Canadiens;Paul Byron;AG;75;18;14;0;0;0;0;0;0
-Montreal Canadiens;Daniel Carr;AG;32;4;10;0;0;0;0;0;0
-Montreal Canadiens;Phillip Danault;AG;52;8;17;0;0;0;0;0;0
-Montreal Canadiens;Brandon Davidson;D;13;0;1;0;0;0;0;0;0
-Montreal Canadiens;Jacob de La Rose;AG;48;4;7;0;0;0;0;0;0
-Montreal Canadiens;Nicolas Deslauriers;AG;51;8;4;0;0;0;0;0;0
-Montreal Canadiens;Jonathan Drouin;AG;70;12;27;0;0;0;0;0;0
-Montreal Canadiens;Byron Froese;C;46;3;8;0;0;0;0;0;0
-Montreal Canadiens;Alex Galchenyuk;AG;75;16;29;0;0;0;0;0;0
-Montreal Canadiens;Brendan Gallagher;AD;75;27;19;0;0;0;0;0;0
-Montreal Canadiens;Ales Hemsky;AD;7;0;0;0;0;0;0;0;0
-Montreal Canadiens;Charles Hudon;AG;68;8;20;0;0;0;0;0;0
-Montreal Canadiens;Jakub Jerabek;D;25;1;3;0;0;0;0;0;0
-Montreal Canadiens;Noah Juulsen;D;16;1;0;0;0;0;0;0;0
-Montreal Canadiens;Artturi Lehkonen;AG;59;10;8;0;0;0;0;0;0
-Montreal Canadiens;Brett Lernout;D;11;0;1;0;0;0;0;0;0
-Montreal Canadiens;Michael McCarron;AD;11;0;0;0;0;0;0;0;0
-Montreal Canadiens;Victor Mete;D;49;0;7;0;0;0;0;0;0
-Montreal Canadiens;Torrey Mitchell;C;11;0;0;0;0;0;0;0;0
-Montreal Canadiens;Joseph Morrow;D;38;5;6;0;0;0;0;0;0
-Montreal Canadiens;Max Pacioretty;AG;64;17;20;0;0;0;0;0;0
-Montreal Canadiens;Jeff Petry;D;75;10;25;0;0;0;0;0;0
-Montreal Canadiens;Tomas Plekanec;C;60;6;18;0;0;0;0;0;0
-Montreal Canadiens;Mike Reilly;D;13;0;5;0;0;0;0;0;0
-Montreal Canadiens;Nikita Scherbak;AD;21;4;2;0;0;0;0;0;0
-Montreal Canadiens;David Schlemko;D;34;1;3;0;0;0;0;0;0
-Montreal Canadiens;Andrew Shaw;AD;51;10;10;0;0;0;0;0;0
-Montreal Canadiens;Logan Shaw;AD;23;2;1;0;0;0;0;0;0
-Montreal Canadiens;Mark Streit;D;2;0;0;0;0;0;0;0;0
-Montreal Canadiens;Rinat Valiev;D;2;0;0;0;0;0;0;0;0
-Montreal Canadiens;Shea Weber;D;26;6;10;0;0;0;0;0;0
-Montreal Canadiens;Charlie Lindgren;G;14;0;0;833;42;4;8;457;105
-Montreal Canadiens;Al Montoya;G;4;0;1;223;14;2;1;102;
-Montreal Canadiens;Antti Niemi;G;17;0;0;906;34;6;4;533;73
-Montreal Canadiens;Carey Price;G;44;0;0;2557;129;15;23;1335;111
-Nashville Predators;Pontus Aberg;AG;37;2;6;0;0;0;0;0;0
-Nashville Predators;Viktor Arvidsson;AG;71;27;29;0;0;0;0;0;0
-Nashville Predators;Anthony Bitetto;D;28;1;2;0;0;0;0;0;0
-Nashville Predators;Nick Bonino;C;62;10;12;0;0;0;0;0;0
-Nashville Predators;Mattias Ekholm;D;72;10;21;0;0;0;0;0;0
-Nashville Predators;Ryan Ellis;D;35;7;17;0;0;0;0;0;0
-Nashville Predators;Alexei Emelin;D;70;1;8;0;0;0;0;0;0
-Nashville Predators;Kevin Fiala;AG;71;23;22;0;0;0;0;0;0
-Nashville Predators;Mike Fisher;C;8;2;1;0;0;0;0;0;0
-Nashville Predators;Filip Forsberg;AG;59;21;32;0;0;0;0;0;0
-Nashville Predators;Frederick Gaudreau;C;20;0;3;0;0;0;0;0;0
-Nashville Predators;Samuel Girard;D;5;1;2;0;0;0;0;0;0
-Nashville Predators;Ryan Hartman;AD;12;3;3;0;0;0;0;0;0
-Nashville Predators;Scott Hartnell;AG;56;13;10;0;0;0;0;0;0
-Nashville Predators;Matt Irwin;D;43;2;6;0;0;0;0;0;0
-Nashville Predators;Calle Jarnkrok;C;68;16;19;0;0;0;0;0;0
-Nashville Predators;Ryan Johansen;C;70;12;34;0;0;0;0;0;0
-Nashville Predators;Roman Josi;D;66;10;37;0;0;0;0;0;0
-Nashville Predators;Cody McLeod;AG;23;1;1;0;0;0;0;0;0
-Nashville Predators;Miikka Salomaki;AD;51;2;6;0;0;0;0;0;0
-Nashville Predators;Colton Sissons;C;72;9;18;0;0;0;0;0;0
-Nashville Predators;Craig Smith;AD;70;21;23;0;0;0;0;0;0
-Nashville Predators;P.K. Subban;D;73;15;37;0;0;0;0;0;0
-Nashville Predators;Kyle Turris;C;56;10;24;0;0;0;0;0;0
-Nashville Predators;Austin Watson;AG;70;12;4;0;0;0;0;0;0
-Nashville Predators;Yannick Weber;D;46;2;3;0;0;0;0;0;0
-Nashville Predators;Pekka Rinne;G;54;0;1;3213;121;40;10;1703;81
-Nashville Predators;Juuse Saros;G;20;0;2;1215;48;8;5;644;85
-New Jersey Devils;Brian Boyle;C;61;13;10;0;0;0;0;0;0
-New Jersey Devils;Jesper Bratt;AG;70;13;22;0;0;0;0;0;0
-New Jersey Devils;Will Butcher;D;73;3;33;0;0;0;0;0;0
-New Jersey Devils;Blake Coleman;C;71;11;10;0;0;0;0;0;0
-New Jersey Devils;Brian Gibbons;AG;52;12;14;0;0;0;0;0;0
-New Jersey Devils;Michael Grabner;AD;13;2;1;0;0;0;0;0;0
-New Jersey Devils;Andy Greene;D;73;3;9;0;0;0;0;0;0
-New Jersey Devils;Taylor Hall;AG;69;33;48;0;0;0;0;0;0
-New Jersey Devils;Jimmy Hayes;AD;32;3;6;0;0;0;0;0;0
-New Jersey Devils;Adam Henrique;C;24;4;10;0;0;0;0;0;0
-New Jersey Devils;Nico Hischier;C;74;17;31;0;0;0;0;0;0
-New Jersey Devils;Marcus Johansson;AG;29;5;9;0;0;0;0;0;0
-New Jersey Devils;Nick Lappin;AD;6;1;0;0;0;0;0;0;0
-New Jersey Devils;Ben Lovejoy;D;53;2;6;0;0;0;0;0;0
-New Jersey Devils;Patrick Maroon;AG;10;2;6;0;0;0;0;0;0
-New Jersey Devils;John Moore;D;73;7;11;0;0;0;0;0;0
-New Jersey Devils;Mirco Mueller;D;20;0;2;0;0;0;0;0;0
-New Jersey Devils;Stefan Noesen;AD;64;11;13;0;0;0;0;0;0
-New Jersey Devils;Kyle Palmieri;AD;55;20;16;0;0;0;0;0;0
-New Jersey Devils;Blake Pietila;AG;2;0;0;0;0;0;0;0;0
-New Jersey Devils;Dalton Prout;D;4;0;0;0;0;0;0;0;0
-New Jersey Devils;John Quenneville;C;2;0;0;0;0;0;0;0;0
-New Jersey Devils;Kevin Rooney;C;1;0;0;0;0;0;0;0;0
-New Jersey Devils;Steven Santini;D;36;2;8;0;0;0;0;0;0
-New Jersey Devils;Damon Severson;D;71;9;14;0;0;0;0;0;0
-New Jersey Devils;Drew Stafford;AD;58;8;7;0;0;0;0;0;0
-New Jersey Devils;Sami Vatanen;D;50;3;24;0;0;0;0;0;0
-New Jersey Devils;Miles Wood;AG;69;17;12;0;0;0;0;0;0
-New Jersey Devils;Pavel Zacha;C;61;6;14;0;0;0;0;0;0
-New Jersey Devils;Travis Zajac;C;56;11;11;0;0;0;0;0;0
-New Jersey Devils;Ken Appleby;G;3;0;0;124;3;0;1;55;
-New Jersey Devils;Keith Kinkaid;G;34;0;2;1878;91;20;10;997;104
-New Jersey Devils;Eddie Lack;G;4;0;0;207;11;1;2;113;
-New Jersey Devils;Cory Schneider;G;39;0;0;2272;109;17;15;1202;104
-New York Islanders;Sebastian Aho;D;22;1;3;0;0;0;0;0;0
-New York Islanders;Josh Bailey;AD;70;18;51;0;0;0;0;0;0
-New York Islanders;Mathew Barzal;C;74;20;56;0;0;0;0;0;0
-New York Islanders;Anthony Beauvillier;AG;63;16;12;0;0;0;0;0;0
-New York Islanders;Steve Bernier;AD;4;0;0;0;0;0;0;0;0
-New York Islanders;Johnny Boychuk;D;53;5;11;0;0;0;0;0;0
-New York Islanders;Jason Chimera;AG;58;2;9;0;0;0;0;0;0
-New York Islanders;Casey Cizikas;C;63;7;10;0;0;0;0;0;0
-New York Islanders;Cal Clutterbuck;AD;68;8;9;0;0;0;0;0;0
-New York Islanders;Michael Dal Colle;AG;4;0;0;0;0;0;0;0;0
-New York Islanders;Brandon Davidson;D;8;1;0;0;0;0;0;0;0
-New York Islanders;Calvin de Haan;D;33;1;11;0;0;0;0;0;0
-New York Islanders;Jordan Eberle;AD;73;25;29;0;0;0;0;0;0
-New York Islanders;Tanner Fritz;C;27;2;3;0;0;0;0;0;0
-New York Islanders;Thomas Hickey;D;61;4;16;0;0;0;0;0;0
-New York Islanders;Joshua Ho-Sang;AD;22;2;10;0;0;0;0;0;0
-New York Islanders;Ross Johnston;AG;17;3;3;0;0;0;0;0;0
-New York Islanders;Nikolai Kulemin;AG;13;1;2;0;0;0;0;0;0
-New York Islanders;Andrew Ladd;AG;65;10;14;0;0;0;0;0;0
-New York Islanders;Nick Leddy;D;74;10;31;0;0;0;0;0;0
-New York Islanders;Anders Lee;AG;74;38;20;0;0;0;0;0;0
-New York Islanders;Scott Mayfield;D;43;2;10;0;0;0;0;0;0
-New York Islanders;Brock Nelson;AG;74;17;13;0;0;0;0;0;0
-New York Islanders;Adam Pelech;D;70;3;12;0;0;0;0;0;0
-New York Islanders;Shane Prince;AG;12;1;1;0;0;0;0;0;0
-New York Islanders;Ryan Pulock;D;60;9;20;0;0;0;0;0;0
-New York Islanders;Alan Quine;C;21;0;3;0;0;0;0;0;0
-New York Islanders;Dennis Seidenberg;D;24;0;5;0;0;0;0;0;0
-New York Islanders;John Tavares;C;74;32;45;0;0;0;0;0;0
-New York Islanders;Chris Wagner;AD;8;0;0;0;0;0;0;0;0
-New York Islanders;Christopher Gibson;G;6;0;0;310;18;2;1;211;
-New York Islanders;Thomas Greiss;G;24;0;0;1312;84;11;7;774;124
-New York Islanders;Jaroslav Halak;G;51;0;0;2845;155;18;25;1649;108
-New York Rangers;Pavel Buchnevich;AD;66;14;28;0;0;0;0;0;0
-New York Rangers;Paul Carey;C;56;7;6;0;0;0;0;0;0
-New York Rangers;Daniel Catenacci;C;1;0;0;0;0;0;0;0;0
-New York Rangers;Filip Chytil;C;2;0;0;0;0;0;0;0;0
-New York Rangers;Adam Cracknell;AD;4;0;0;0;0;0;0;0;0
-New York Rangers;Anthony DeAngelo;D;32;0;8;0;0;0;0;0;0
-New York Rangers;David Desharnais;C;69;6;21;0;0;0;0;0;0
-New York Rangers;Jesper Fast;AD;66;13;17;0;0;0;0;0;0
-New York Rangers;John Gilmour;D;20;2;3;0;0;0;0;0;0
-New York Rangers;Michael Grabner;AD;59;25;6;0;0;0;0;0;0
-New York Rangers;Kevin Hayes;AD;68;21;16;0;0;0;0;0;0
-New York Rangers;Nick Holden;D;55;3;9;0;0;0;0;0;0
-New York Rangers;Peter Holland;C;20;1;3;0;0;0;0;0;0
-New York Rangers;Steven Kampfer;D;22;0;1;0;0;0;0;0;0
-New York Rangers;Chris Kreider;AG;50;14;20;0;0;0;0;0;0
-New York Rangers;Vinni Lettieri;C;19;1;4;0;0;0;0;0;0
-New York Rangers;Ryan McDonagh;D;49;2;24;0;0;0;0;0;0
-New York Rangers;Cody McLeod;AG;22;0;2;0;0;0;0;0;0
-New York Rangers;J.T. Miller;AG;63;13;27;0;0;0;0;0;0
-New York Rangers;Vladislav Namestnikov;C;11;2;1;0;0;0;0;0;0
-New York Rangers;Rick Nash;AD;60;18;10;0;0;0;0;0;0
-New York Rangers;Boo Nieves;C;28;1;8;0;0;0;0;0;0
-New York Rangers;Rob O'Gara;D;14;0;2;0;0;0;0;0;0
-New York Rangers;Neal Pionk;D;20;0;12;0;0;0;0;0;0
-New York Rangers;Kevin Shattenkirk;D;46;5;18;0;0;0;0;0;0
-New York Rangers;Brady Skjei;D;74;3;18;0;0;0;0;0;0
-New York Rangers;Brendan Smith;D;44;1;7;0;0;0;0;0;0
-New York Rangers;Ryan Spooner;C;12;2;11;0;0;0;0;0;0
-New York Rangers;Ryan Sproul;D;8;0;4;0;0;0;0;0;0
-New York Rangers;Marc Staal;D;64;1;7;0;0;0;0;0;0
-New York Rangers;Jimmy Vesey;AG;71;15;7;0;0;0;0;0;0
-New York Rangers;Mika Zibanejad;C;64;26;18;0;0;0;0;0;0
-New York Rangers;Mats Zuccarello;AD;73;15;34;0;0;0;0;0;0
-New York Rangers;Alexandar Georgiev;G;8;0;0;446;23;3;3;281;
-New York Rangers;Brandon Halverson;G;1;0;0;13;1;0;0;6;
-New York Rangers;Henrik Lundqvist;G;59;0;1;3262;160;25;24;1878;97
-New York Rangers;Ondrej Pavelec;G;16;0;0;737;37;4;7;412;103
-Ottawa Senators;Mike Blunden;AD;1;0;0;0;0;0;0;0;0
-Ottawa Senators;Mark Borowiecki;D;43;3;7;0;0;0;0;0;0
-Ottawa Senators;Derick Brassard;C;58;18;20;0;0;0;0;0;0
-Ottawa Senators;Logan Brown;C;4;0;1;0;0;0;0;0;0
-Ottawa Senators;Erik Burgdoerfer;D;2;0;1;0;0;0;0;0;0
-Ottawa Senators;Alexandre Burrows;AD;62;5;7;0;0;0;0;0;0
-Ottawa Senators;Cody Ceci;D;73;5;14;0;0;0;0;0;0
-Ottawa Senators;Thomas Chabot;D;54;6;15;0;0;0;0;0;0
-Ottawa Senators;Filip Chlapik;C;12;1;2;0;0;0;0;0;0
-Ottawa Senators;Fredrik Claesson;D;55;1;6;0;0;0;0;0;0
-Ottawa Senators;Christopher Didomenico;AG;24;6;4;0;0;0;0;0;0
-Ottawa Senators;Matt Duchene;C;59;19;21;0;0;0;0;0;0
-Ottawa Senators;Gabriel Dumont;C;23;1;1;0;0;0;0;0;0
-Ottawa Senators;Ryan Dzingel;AG;70;20;13;0;0;0;0;0;0
-Ottawa Senators;Alex Formenton;AG;1;0;0;0;0;0;0;0;0
-Ottawa Senators;Marian Gaborik;AD;16;4;3;0;0;0;0;0;0
-Ottawa Senators;Ben Harpur;D;36;0;1;0;0;0;0;0;0
-Ottawa Senators;Mike Hoffman;AG;73;22;29;0;0;0;0;0;0
-Ottawa Senators;Christian Jaros;D;2;0;0;0;0;0;0;0;0
-Ottawa Senators;Erik Karlsson;D;66;8;48;0;0;0;0;0;0
-Ottawa Senators;Max McCormick;AG;21;2;2;0;0;0;0;0;0
-Ottawa Senators;Jim O'Brien;C;10;0;1;0;0;0;0;0;0
-Ottawa Senators;Johnny Oduya;D;51;4;4;0;0;0;0;0;0
-Ottawa Senators;Magnus Paajarvi;AG;26;5;1;0;0;0;0;0;0
-Ottawa Senators;Jean-Gabriel Pageau;C;69;12;14;0;0;0;0;0;0
-Ottawa Senators;Nick Paul;AG;11;1;0;0;0;0;0;0;0
-Ottawa Senators;Dion Phaneuf;D;53;3;13;0;0;0;0;0;0
-Ottawa Senators;Tom Pyatt;AG;72;7;14;0;0;0;0;0;0
-Ottawa Senators;Jack Rodewald;AD;4;0;0;0;0;0;0;0;0
-Ottawa Senators;Bobby Ryan;AD;53;8;20;0;0;0;0;0;0
-Ottawa Senators;Nick Shore;C;6;0;1;0;0;0;0;0;0
-Ottawa Senators;Patrick Sieloff;D;1;1;0;0;0;0;0;0;0
-Ottawa Senators;Zack Smith;AG;59;5;13;0;0;0;0;0;0
-Ottawa Senators;Mark Stone;AD;58;20;42;0;0;0;0;0;0
-Ottawa Senators;Nate Thompson;C;43;4;7;0;0;0;0;0;0
-Ottawa Senators;Kyle Turris;C;11;3;6;0;0;0;0;0;0
-Ottawa Senators;Colin White;C;15;2;1;0;0;0;0;0;0
-Ottawa Senators;Chris Wideman;D;16;3;5;0;0;0;0;0;0
-Ottawa Senators;Christian Wolanin;D;1;0;0;0;0;0;0;0;0
-Ottawa Senators;Craig Anderson;G;53;0;0;2947;163;21;22;1616;115
-Ottawa Senators;Mike Condon;G;28;0;2;1450;78;5;14;817;109
-Philadelphia Flyers;Mark Alt;D;8;0;0;0;0;0;0;0;0
-Philadelphia Flyers;Sean Couturier;C;75;30;40;0;0;0;0;0;0
-Philadelphia Flyers;Valtteri Filppula;C;75;11;21;0;0;0;0;0;0
-Philadelphia Flyers;Claude Giroux;C;75;26;64;0;0;0;0;0;0
-Philadelphia Flyers;Shayne Gostisbehere;D;71;13;42;0;0;0;0;0;0
-Philadelphia Flyers;Tyrell Goulbourne;AG;9;0;0;0;0;0;0;0;0
-Philadelphia Flyers;Radko Gudas;D;63;2;12;0;0;0;0;0;0
-Philadelphia Flyers;Robert Hagg;D;70;3;6;0;0;0;0;0;0
-Philadelphia Flyers;Travis Konecny;C;74;22;22;0;0;0;0;0;0
-Philadelphia Flyers;Scott Laughton;C;75;10;10;0;0;0;0;0;0
-Philadelphia Flyers;Jori Lehtera;C;55;3;5;0;0;0;0;0;0
-Philadelphia Flyers;Taylor Leier;AG;39;1;4;0;0;0;0;0;0
-Philadelphia Flyers;Oskar Lindblom;AG;16;2;1;0;0;0;0;0;0
-Philadelphia Flyers;Andrew MacDonald;D;59;6;13;0;0;0;0;0;0
-Philadelphia Flyers;Brandon Manning;D;58;6;10;0;0;0;0;0;0
-Philadelphia Flyers;Danick Martel;AG;4;0;0;0;0;0;0;0;0
-Philadelphia Flyers;Samuel Morin;D;2;0;0;0;0;0;0;0;0
-Philadelphia Flyers;Will O'Neill;D;1;0;0;0;0;0;0;0;0
-Philadelphia Flyers;Johnny Oduya;D;1;0;0;0;0;0;0;0;0
-Philadelphia Flyers;Nolan Patrick;C;66;10;15;0;0;0;0;0;0
-Philadelphia Flyers;Ivan Provorov;D;75;13;21;0;0;0;0;0;0
-Philadelphia Flyers;Michael Raffl;AG;73;11;8;0;0;0;0;0;0
-Philadelphia Flyers;Matt Read;AD;12;1;0;0;0;0;0;0;0
-Philadelphia Flyers;Travis Sanheim;D;42;1;7;0;0;0;0;0;0
-Philadelphia Flyers;Wayne Simmonds;AD;68;23;20;0;0;0;0;0;0
-Philadelphia Flyers;Jakub Voracek;AD;75;19;61;0;0;0;0;0;0
-Philadelphia Flyers;Jordan Weal;C;64;7;10;0;0;0;0;0;0
-Philadelphia Flyers;Dale Weise;AD;45;4;4;0;0;0;0;0;0
-Philadelphia Flyers;Brian Elliott;G;41;0;1;2403;109;21;11;1189;105
-Philadelphia Flyers;Alex Lyon;G;10;0;0;457;19;4;2;221;
-Philadelphia Flyers;Petr Mrazek;G;12;0;0;661;36;5;5;313;132
-Philadelphia Flyers;Michal Neuvirth;G;21;0;1;1011;44;7;7;519;97
-Pittsburgh Penguins;Josh Archibald;AD;3;0;0;0;0;0;0;0;0
-Pittsburgh Penguins;Zach Aston-Reese;C;10;4;2;0;0;0;0;0;0
-Pittsburgh Penguins;Derick Brassard;C;12;2;5;0;0;0;0;0;0
-Pittsburgh Penguins;Ian Cole;D;47;3;10;0;0;0;0;0;0
-Pittsburgh Penguins;Frank Corrado;D;5;0;0;0;0;0;0;0;0
-Pittsburgh Penguins;Sidney Crosby;C;75;25;56;0;0;0;0;0;0
-Pittsburgh Penguins;Jean-Sebastien Dea;C;5;1;0;0;0;0;0;0;0
-Pittsburgh Penguins;Brian Dumoulin;D;73;5;10;0;0;0;0;0;0
-Pittsburgh Penguins;Jake Guentzel;C;75;21;24;0;0;0;0;0;0
-Pittsburgh Penguins;Carl Hagelin;AG;74;9;19;0;0;0;0;0;0
-Pittsburgh Penguins;Patric Hornqvist;AD;63;23;17;0;0;0;0;0;0
-Pittsburgh Penguins;Matt Hunwick;D;39;4;5;0;0;0;0;0;0
-Pittsburgh Penguins;Josh Jooris;AD;4;0;0;0;0;0;0;0;0
-Pittsburgh Penguins;Phil Kessel;AD;75;30;53;0;0;0;0;0;0
-Pittsburgh Penguins;Tom Kuhnhackl;AD;62;2;6;0;0;0;0;0;0
-Pittsburgh Penguins;Kris Letang;D;72;6;38;0;0;0;0;0;0
-Pittsburgh Penguins;Olli Maatta;D;75;7;20;0;0;0;0;0;0
-Pittsburgh Penguins;Evgeni Malkin;C;71;41;50;0;0;0;0;0;0
-Pittsburgh Penguins;Greg McKegg;C;26;2;2;0;0;0;0;0;0
-Pittsburgh Penguins;Jamie Oleksiak;D;40;4;8;0;0;0;0;0;0
-Pittsburgh Penguins;Ryan Reaves;AD;58;4;4;0;0;0;0;0;0
-Pittsburgh Penguins;Carter Rowney;AD;44;2;3;0;0;0;0;0;0
-Pittsburgh Penguins;Chad Ruhwedel;D;40;2;3;0;0;0;0;0;0
-Pittsburgh Penguins;Bryan Rust;AD;62;12;25;0;0;0;0;0;0
-Pittsburgh Penguins;Justin Schultz;D;56;4;16;0;0;0;0;0;0
-Pittsburgh Penguins;Riley Sheahan;C;66;10;18;0;0;0;0;0;0
-Pittsburgh Penguins;Conor Sheary;AG;72;15;11;0;0;0;0;0;0
-Pittsburgh Penguins;Dominik Simon;C;32;4;8;0;0;0;0;0;0
-Pittsburgh Penguins;Daniel Sprong;AD;8;2;1;0;0;0;0;0;0
-Pittsburgh Penguins;Zach Trotman;D;3;0;0;0;0;0;0;0;0
-Pittsburgh Penguins;Scott Wilson;AG;3;0;0;0;0;0;0;0;0
-Pittsburgh Penguins;Casey DeSmith;G;13;0;0;640;28;5;4;321;100
-Pittsburgh Penguins;Tristan Jarry;G;26;0;2;1364;63;14;6;687;105
-Pittsburgh Penguins;Matt Murray;G;43;0;1;2374;113;23;14;1232;105
-Pittsburgh Penguins;Antti Niemi;G;3;0;1;128;16;0;3;79;
-San Jose Sharks;Mikkel Boedker;AG;66;14;18;0;0;0;0;0;0
-San Jose Sharks;Justin Braun;D;73;3;27;0;0;0;0;0;0
-San Jose Sharks;Brent Burns;D;74;11;48;0;0;0;0;0;0
-San Jose Sharks;Ryan Carpenter;C;16;0;1;0;0;0;0;0;0
-San Jose Sharks;Logan Couture;C;70;31;25;0;0;0;0;0;0
-San Jose Sharks;Dylan DeMelo;D;55;0;18;0;0;0;0;0;0
-San Jose Sharks;Brenden Dillon;D;73;3;15;0;0;0;0;0;0
-San Jose Sharks;Joonas Donskoi;AD;62;13;17;0;0;0;0;0;0
-San Jose Sharks;Eric Fehr;C;13;3;1;0;0;0;0;0;0
-San Jose Sharks;Barclay Goodrow;AD;44;7;5;0;0;0;0;0;0
-San Jose Sharks;Jannik Hansen;AD;41;1;10;0;0;0;0;0;0
-San Jose Sharks;Tim Heed;D;29;3;8;0;0;0;0;0;0
-San Jose Sharks;Tomas Hertl;C;71;20;23;0;0;0;0;0;0
-San Jose Sharks;Evander Kane;AG;11;5;5;0;0;0;0;0;0
-San Jose Sharks;Melker Karlsson;C;65;8;9;0;0;0;0;0;0
-San Jose Sharks;Kevin Labanc;AD;69;11;28;0;0;0;0;0;0
-San Jose Sharks;Paul Martin;D;6;0;2;0;0;0;0;0;0
-San Jose Sharks;Timo Meier;AD;73;19;12;0;0;0;0;0;0
-San Jose Sharks;Daniel O'Regan;C;19;0;4;0;0;0;0;0;0
-San Jose Sharks;Joe Pavelski;C;74;19;40;0;0;0;0;0;0
-San Jose Sharks;Joakim Ryan;D;62;3;9;0;0;0;0;0;0
-San Jose Sharks;Marcus Sorensen;AG;26;4;1;0;0;0;0;0;0
-San Jose Sharks;Joe Thornton;C;47;13;23;0;0;0;0;0;0
-San Jose Sharks;Chris Tierney;C;74;17;20;0;0;0;0;0;0
-San Jose Sharks;Marc-Edouard Vlasic;D;73;10;21;0;0;0;0;0;0
-San Jose Sharks;Joel Ward;AD;46;5;6;0;0;0;0;0;0
-San Jose Sharks;Aaron Dell;G;27;0;1;1443;64;15;5;739;99
-San Jose Sharks;Martin Jones;G;53;0;0;3015;124;27;18;1495;95
-St. Louis Blues;Ivan Barbashev;C;45;7;6;0;0;0;0;0;0
-St. Louis Blues;Beau Bennett;AD;6;0;0;0;0;0;0;0;0
-St. Louis Blues;Patrik Berglund;C;49;12;7;0;0;0;0;0;0
-St. Louis Blues;Samuel Blais;AG;11;1;2;0;0;0;0;0;0
-St. Louis Blues;Robert Bortuzzo;D;64;3;7;0;0;0;0;0;0
-St. Louis Blues;Jay Bouwmeester;D;35;2;5;0;0;0;0;0;0
-St. Louis Blues;Kyle Brodziak;C;73;10;16;0;0;0;0;0;0
-St. Louis Blues;Chris Butler;D;2;0;0;0;0;0;0;0;0
-St. Louis Blues;Vince Dunn;D;67;5;17;0;0;0;0;0;0
-St. Louis Blues;Joel Edmundson;D;61;7;9;0;0;0;0;0;0
-St. Louis Blues;Carl Gunnarsson;D;63;5;4;0;0;0;0;0;0
-St. Louis Blues;Dmitrij Jaskin;AD;68;6;11;0;0;0;0;0;0
-St. Louis Blues;Wade Megan;C;1;0;0;0;0;0;0;0;0
-St. Louis Blues;Magnus Paajarvi;AG;44;2;2;0;0;0;0;0;0
-St. Louis Blues;Colton Parayko;D;74;6;28;0;0;0;0;0;0
-St. Louis Blues;Alex Pietrangelo;D;70;15;36;0;0;0;0;0;0
-St. Louis Blues;Nate Prosser;D;1;0;0;0;0;0;0;0;0
-St. Louis Blues;Brayden Schenn;C;74;25;37;0;0;0;0;0;0
-St. Louis Blues;Jordan Schmaltz;D;10;0;1;0;0;0;0;0;0
-St. Louis Blues;Jaden Schwartz;AG;54;22;32;0;0;0;0;0;0
-St. Louis Blues;Vladimir Sobotka;AG;73;11;19;0;0;0;0;0;0
-St. Louis Blues;Nikita Soshnikov;AD;10;1;1;0;0;0;0;0;0
-St. Louis Blues;Paul Stastny;C;63;12;28;0;0;0;0;0;0
-St. Louis Blues;Alex Steen;AG;68;14;30;0;0;0;0;0;0
-St. Louis Blues;Oskar Sundqvist;C;35;0;3;0;0;0;0;0;0
-St. Louis Blues;Vladimir Tarasenko;AD;72;28;31;0;0;0;0;0;0
-St. Louis Blues;Tage Thompson;C;36;3;6;0;0;0;0;0;0
-St. Louis Blues;Chris Thorburn;AD;42;0;6;0;0;0;0;0;0
-St. Louis Blues;Scottie Upshall;AD;61;7;11;0;0;0;0;0;0
-St. Louis Blues;Jake Allen;G;52;0;1;2936;133;25;21;1420;107
-St. Louis Blues;Carter Hutton;G;30;0;0;1513;51;16;7;771;76
-Tampa Bay Lightning;Michael Bournival;AG;5;0;0;0;0;0;0;0;0
-Tampa Bay Lightning;J.T. Brown;AD;24;1;3;0;0;0;0;0;0
-Tampa Bay Lightning;Ryan Callahan;AD;63;4;11;0;0;0;0;0;0
-Tampa Bay Lightning;Anthony Cirelli;C;10;3;5;0;0;0;0;0;0
-Tampa Bay Lightning;Braydon Coburn;D;64;1;12;0;0;0;0;0;0
-Tampa Bay Lightning;Cory Conacher;AG;32;8;3;0;0;0;0;0;0
-Tampa Bay Lightning;Jake Dotchin;D;48;3;8;0;0;0;0;0;0
-Tampa Bay Lightning;Gabriel Dumont;C;7;0;0;0;0;0;0;0;0
-Tampa Bay Lightning;Adam Erne;AG;21;3;1;0;0;0;0;0;0
-Tampa Bay Lightning;Dan Girardi;D;69;4;10;0;0;0;0;0;0
-Tampa Bay Lightning;Yanni Gourde;C;74;24;34;0;0;0;0;0;0
-Tampa Bay Lightning;Victor Hedman;D;69;14;41;0;0;0;0;0;0
-Tampa Bay Lightning;Tyler Johnson;C;73;21;28;0;0;0;0;0;0
-Tampa Bay Lightning;Alex Killorn;AG;74;14;28;0;0;0;0;0;0
-Tampa Bay Lightning;Slater Koekkoek;D;33;4;4;0;0;0;0;0;0
-Tampa Bay Lightning;Nikita Kucherov;AD;72;37;58;0;0;0;0;0;0
-Tampa Bay Lightning;Chris Kunitz;AG;74;12;13;0;0;0;0;0;0
-Tampa Bay Lightning;Ryan McDonagh;D;6;2;1;0;0;0;0;0;0
-Tampa Bay Lightning;J.T. Miller;AG;11;7;5;0;0;0;0;0;0
-Tampa Bay Lightning;Vladislav Namestnikov;C;62;20;24;0;0;0;0;0;0
-Tampa Bay Lightning;Ondrej Palat;AG;48;8;23;0;0;0;0;0;0
-Tampa Bay Lightning;Cedric Paquette;C;49;3;3;0;0;0;0;0;0
-Tampa Bay Lightning;Matthew Peca;C;10;2;3;0;0;0;0;0;0
-Tampa Bay Lightning;Brayden Point;C;74;28;33;0;0;0;0;0;0
-Tampa Bay Lightning;Mikhail Sergachev;D;72;9;28;0;0;0;0;0;0
-Tampa Bay Lightning;Steven Stamkos;C;74;27;59;0;0;0;0;0;0
-Tampa Bay Lightning;Anton Stralman;D;72;4;13;0;0;0;0;0;0
-Tampa Bay Lightning;Andrej Sustr;D;42;2;5;0;0;0;0;0;0
-Tampa Bay Lightning;Peter Budaj;G;8;0;0;430;27;3;3;217;
-Tampa Bay Lightning;Louis Domingue;G;9;0;0;507;24;6;2;277;
-Tampa Bay Lightning;Andrei Vasilevskiy;G;60;0;1;3530;153;42;14;1925;91
-Toronto Maple Leafs;Pontus Aberg;AG;47;3;12;0;0;0;0;0;0
-Toronto Maple Leafs;Josh Archibald;AD;36;5;5;0;0;0;0;0;0
-Toronto Maple Leafs;Andreas Borgman;D;48;3;8;0;0;0;0;0;0
-Toronto Maple Leafs;Tyler Bozak;C;73;11;29;0;0;0;0;0;0
-Toronto Maple Leafs;Derick Brassard;C;70;20;25;0;0;0;0;0;0
-Toronto Maple Leafs;Connor Brown;AD;74;13;13;0;0;0;0;0;0
-Toronto Maple Leafs;J.T. Brown;AD;43;2;5;0;0;0;0;0;0
-Toronto Maple Leafs;Mike Cammalleri;AG;62;5;22;0;0;0;0;0;0
-Toronto Maple Leafs;Ryan Carpenter;C;44;9;5;0;0;0;0;0;0
-Toronto Maple Leafs;Connor Carrick;D;44;4;8;0;0;0;0;0;0
-Toronto Maple Leafs;Jason Chimera;AG;68;3;10;0;0;0;0;0;0
-Toronto Maple Leafs;Ian Cole;D;60;5;14;0;0;0;0;0;0
-Toronto Maple Leafs;Adam Cracknell;AD;5;0;0;0;0;0;0;0;0
-Toronto Maple Leafs;Brandon Davidson;D;44;4;2;0;0;0;0;0;0
-Toronto Maple Leafs;Travis Dermott;D;31;1;11;0;0;0;0;0;0
-Toronto Maple Leafs;Nic Dowd;C;53;2;1;0;0;0;0;0;0
-Toronto Maple Leafs;Matt Duchene;C;73;23;27;0;0;0;0;0;0
-Toronto Maple Leafs;Anthony Duclair;AG;56;11;12;0;0;0;0;0;0
-Toronto Maple Leafs;Gabriel Dumont;C;30;1;1;0;0;0;0;0;0
-Toronto Maple Leafs;Eric Fehr;C;17;3;1;0;0;0;0;0;0
-Toronto Maple Leafs;Eric Fehr;C;4;0;0;0;0;0;0;0;0
-Toronto Maple Leafs;Marian Gaborik;AD;46;11;10;0;0;0;0;0;0
-Toronto Maple Leafs;Jake Gardiner;D;74;5;39;0;0;0;0;0;0
-Toronto Maple Leafs;Frederik Gauthier;C;9;1;0;0;0;0;0;0;0
-Toronto Maple Leafs;Samuel Girard;D;65;3;18;0;0;0;0;0;0
-Toronto Maple Leafs;Michael Grabner;AD;72;27;7;0;0;0;0;0;0
-Toronto Maple Leafs;Ron Hainsey;D;72;4;18;0;0;0;0;0;0
-Toronto Maple Leafs;Freddie Hamilton;C;16;0;1;0;0;0;0;0;0
-Toronto Maple Leafs;Ryan Hartman;AD;69;11;20;0;0;0;0;0;0
-Toronto Maple Leafs;Adam Henrique;C;74;20;23;0;0;0;0;0;0
-Toronto Maple Leafs;Nick Holden;D;66;3;13;0;0;0;0;0;0
-Toronto Maple Leafs;Justin Holl;D;2;2;0;0;0;0;0;0;0
-Toronto Maple Leafs;Zach Hyman;C;74;14;23;0;0;0;0;0;0
-Toronto Maple Leafs;Jakub Jerabek;D;31;1;4;0;0;0;0;0;0
-Toronto Maple Leafs;Andreas Johnsson;AG;4;1;0;0;0;0;0;0;0
-Toronto Maple Leafs;Jussi Jokinen;AG;53;3;6;0;0;0;0;0;0
-Toronto Maple Leafs;Josh Jooris;AD;35;3;3;0;0;0;0;0;0
-Toronto Maple Leafs;Nazem Kadri;C;72;28;22;0;0;0;0;0;0
-Toronto Maple Leafs;Evander Kane;AG;72;25;25;0;0;0;0;0;0
-Toronto Maple Leafs;Kasperi Kapanen;AD;31;6;2;0;0;0;0;0;0
-Toronto Maple Leafs;Michal Kempny;D;45;1;6;0;0;0;0;0;0
-Toronto Maple Leafs;Leo Komarov;C;71;7;12;0;0;0;0;0;0
-Toronto Maple Leafs;Brendan Leipsic;AG;55;4;16;0;0;0;0;0;0
-Toronto Maple Leafs;Josh Leivo;AG;16;1;3;0;0;0;0;0;0
-Toronto Maple Leafs;Mark Letestu;C;73;9;12;0;0;0;0;0;0
-Toronto Maple Leafs;Martin Marincin;D;2;0;0;0;0;0;0;0;0
-Toronto Maple Leafs;Patrick Marleau;AG;74;23;17;0;0;0;0;0;0
-Toronto Maple Leafs;Mitch Marner;C;74;20;43;0;0;0;0;0;0
-Toronto Maple Leafs;Patrick Maroon;AG;67;16;22;0;0;0;0;0;0
-Toronto Maple Leafs;Matt Martin;AG;49;3;9;0;0;0;0;0;0
-Toronto Maple Leafs;Auston Matthews;C;54;29;22;0;0;0;0;0;0
-Toronto Maple Leafs;Ryan McDonagh;D;55;4;25;0;0;0;0;0;0
-Toronto Maple Leafs;Cody McLeod;AG;45;1;3;0;0;0;0;0;0
-Toronto Maple Leafs;J.T. Miller;AG;74;20;32;0;0;0;0;0;0
-Toronto Maple Leafs;Torrey Mitchell;C;56;5;5;0;0;0;0;0;0
-Toronto Maple Leafs;Dominic Moore;C;49;6;6;0;0;0;0;0;0
-Toronto Maple Leafs;Joseph Morrow;D;48;5;8;0;0;0;0;0;0
-Toronto Maple Leafs;Tyler Motte;AG;41;3;2;0;0;0;0;0;0
-Toronto Maple Leafs;Vladislav Namestnikov;C;73;22;25;0;0;0;0;0;0
-Toronto Maple Leafs;Rick Nash;AG;71;21;13;0;0;0;0;0;0
-Toronto Maple Leafs;William Nylander;C;74;16;37;0;0;0;0;0;0
-Toronto Maple Leafs;Rob O'Gara;D;22;0;2;0;0;0;0;0;0
-Toronto Maple Leafs;Daniel O'Regan;C;21;0;4;0;0;0;0;0;0
-Toronto Maple Leafs;Johnny Oduya;D;52;4;4;0;0;0;0;0;0
-Toronto Maple Leafs;Jamie Oleksiak;D;61;5;10;0;0;0;0;0;0
-Toronto Maple Leafs;Magnus Paajarvi;AG;70;7;3;0;0;0;0;0;0
-Toronto Maple Leafs;Richard Panik;AD;64;10;17;0;0;0;0;0;0
-Toronto Maple Leafs;Dion Phaneuf;D;72;6;17;0;0;0;0;0;0
-Toronto Maple Leafs;Tomas Plekanec;C;70;6;18;0;0;0;0;0;0
-Toronto Maple Leafs;Tomas Plekanec;C;10;0;0;0;0;0;0;0;0
-Toronto Maple Leafs;Roman Polak;D;47;2;9;0;0;0;0;0;0
-Toronto Maple Leafs;Nate Prosser;D;48;2;6;0;0;0;0;0;0
-Toronto Maple Leafs;Ryan Reaves;AD;71;4;6;0;0;0;0;0;0
-Toronto Maple Leafs;Mike Reilly;D;51;2;13;0;0;0;0;0;0
-Toronto Maple Leafs;Tobias Rieder;AD;71;11;11;0;0;0;0;0;0
-Toronto Maple Leafs;Morgan Rielly;D;68;6;41;0;0;0;0;0;0
-Toronto Maple Leafs;Calle Rosen;D;4;0;1;0;0;0;0;0;0
-Toronto Maple Leafs;Logan Shaw;AD;65;4;7;0;0;0;0;0;0
-Toronto Maple Leafs;Riley Sheahan;C;74;10;18;0;0;0;0;0;0
-Toronto Maple Leafs;Nick Shore;C;57;4;12;0;0;0;0;0;0
-Toronto Maple Leafs;Nikita Soshnikov;AD;13;1;1;0;0;0;0;0;0
-Toronto Maple Leafs;Nikita Soshnikov;AD;3;0;0;0;0;0;0;0;0
-Toronto Maple Leafs;Ryan Spooner;C;51;11;27;0;0;0;0;0;0
-Toronto Maple Leafs;Paul Stastny;C;74;15;35;0;0;0;0;0;0
-Toronto Maple Leafs;Chris Stewart;AD;51;9;5;0;0;0;0;0;0
-Toronto Maple Leafs;Tomas Tatar;AG;74;19;13;0;0;0;0;0;0
-Toronto Maple Leafs;Nate Thompson;C;62;5;11;0;0;0;0;0;0
-Toronto Maple Leafs;Kyle Turris;C;67;13;30;0;0;0;0;0;0
-Toronto Maple Leafs;James van Riemsdyk;AG;73;34;17;0;0;0;0;0;0
-Toronto Maple Leafs;Thomas Vanek;AG;73;21;29;0;0;0;0;0;0
-Toronto Maple Leafs;Sami Vatanen;D;65;4;27;0;0;0;0;0;0
-Toronto Maple Leafs;Frank Vatrano;C;32;5;1;0;0;0;0;0;0
-Toronto Maple Leafs;Chris Wagner;C;72;6;9;0;0;0;0;0;0
-Toronto Maple Leafs;Nathan Walker;AG;9;1;0;0;0;0;0;0;0
-Toronto Maple Leafs;Scott Wilson;C;61;6;7;0;0;0;0;0;0
-Toronto Maple Leafs;Tommy Wingels;AD;68;8;7;0;0;0;0;0;0
-Toronto Maple Leafs;Nikita Zaitsev;D;52;4;8;0;0;0;0;0;0
-Toronto Maple Leafs;Frederik Andersen;G;60;0;1;3534;165;34;19;2005;94
-Toronto Maple Leafs;Louis Domingue;G;16;0;0;895;52;6;8;471;126
-Toronto Maple Leafs;Darcy Kuemper;G;26;0;1;1415;57;12;5;713;91
-Toronto Maple Leafs;Eddie Lack;G;8;0;0;343;23;2;4;177;
-Toronto Maple Leafs;Curtis McElhinney;G;16;0;1;861;30;10;4;465;74
-Toronto Maple Leafs;Al Montoya;G;12;0;2;649;37;4;3;333;127
-Toronto Maple Leafs;Petr Mrazek;G;34;0;0;1845;93;13;12;943;113
-Toronto Maple Leafs;Antti Niemi;G;22;0;1;1093;55;6;8;651;97
-Toronto Maple Leafs;Calvin Pickard;G;1;0;0;63;4;0;0;28;
-Vancouver Canucks;Darren Archibald;AD;21;3;3;0;0;0;0;0;0
-Vancouver Canucks;Sven Baertschi;AG;53;14;15;0;0;0;0;0;0
-Vancouver Canucks;Alex Biega;D;37;0;7;0;0;0;0;0;0
-Vancouver Canucks;Brock Boeser;AD;62;29;26;0;0;0;0;0;0
-Vancouver Canucks;Reid Boucher;C;16;2;1;0;0;0;0;0;0
-Vancouver Canucks;Alexander Burmistrov;C;24;2;4;0;0;0;0;0;0
-Vancouver Canucks;Michael Chaput;C;9;0;0;0;0;0;0;0;0
-Vancouver Canucks;Michael Del Zotto;D;75;6;14;0;0;0;0;0;0
-Vancouver Canucks;Derek Dorsett;AD;20;7;2;0;0;0;0;0;0
-Vancouver Canucks;Nic Dowd;C;37;2;0;0;0;0;0;0;0
-Vancouver Canucks;Alexander Edler;D;63;5;25;0;0;0;0;0;0
-Vancouver Canucks;Loui Eriksson;AG;50;10;13;0;0;0;0;0;0
-Vancouver Canucks;Sam Gagner;C;67;8;21;0;0;0;0;0;0
-Vancouver Canucks;Brendan Gaunce;AG;34;4;1;0;0;0;0;0;0
-Vancouver Canucks;Nikolay Goldobin;AD;31;5;5;0;0;0;0;0;0
-Vancouver Canucks;Markus Granlund;C;53;8;4;0;0;0;0;0;0
-Vancouver Canucks;Erik Gudbranson;D;52;2;3;0;0;0;0;0;0
-Vancouver Canucks;Philip Holm;D;1;0;0;0;0;0;0;0;0
-Vancouver Canucks;Bo Horvat;C;57;20;20;0;0;0;0;0;0
-Vancouver Canucks;Ben Hutton;D;59;0;6;0;0;0;0;0;0
-Vancouver Canucks;Jussi Jokinen;AG;7;2;0;0;0;0;0;0;0
-Vancouver Canucks;Brendan Leipsic;AG;11;2;5;0;0;0;0;0;0
-Vancouver Canucks;Jayson Megna;C;1;0;0;0;0;0;0;0;0
-Vancouver Canucks;Tyler Motte;AG;10;0;0;0;0;0;0;0;0
-Vancouver Canucks;Derrick Pouliot;D;64;2;17;0;0;0;0;0;0
-Vancouver Canucks;Daniel Sedin;AG;74;21;29;0;0;0;0;0;0
-Vancouver Canucks;Henrik Sedin;C;75;3;43;0;0;0;0;0;0
-Vancouver Canucks;Troy Stecher;D;61;1;9;0;0;0;0;0;0
-Vancouver Canucks;Brandon Sutter;C;54;8;11;0;0;0;0;0;0
-Vancouver Canucks;Chris Tanev;D;42;2;9;0;0;0;0;0;0
-Vancouver Canucks;Thomas Vanek;AG;61;17;24;0;0;0;0;0;0
-Vancouver Canucks;Jake Virtanen;AD;69;8;9;0;0;0;0;0;0
-Vancouver Canucks;Jacob Markstrom;G;55;0;3;3107;144;19;26;1596;103
-Vancouver Canucks;Anders Nilsson;G;26;0;1;1399;82;7;14;817;115
-Vegas Golden Knights;Pierre-Edouard Bellemare;AG;65;6;9;0;0;0;0;0;0
-Vegas Golden Knights;Ryan Carpenter;C;28;9;4;0;0;0;0;0;0
-Vegas Golden Knights;William Carrier;AG;34;1;2;0;0;0;0;0;0
-Vegas Golden Knights;Cody Eakin;C;73;10;15;0;0;0;0;0;0
-Vegas Golden Knights;Deryk Engelland;D;73;5;17;0;0;0;0;0;0
-Vegas Golden Knights;Jason Garrison;D;8;0;1;0;0;0;0;0;0
-Vegas Golden Knights;Erik Haula;AG;69;28;24;0;0;0;0;0;0
-Vegas Golden Knights;Brad Hunt;D;40;3;15;0;0;0;0;0;0
-Vegas Golden Knights;Tomas Hyka;AD;10;1;2;0;0;0;0;0;0
-Vegas Golden Knights;William Karlsson;C;74;39;27;0;0;0;0;0;0
-Vegas Golden Knights;Brendan Leipsic;AG;44;2;11;0;0;0;0;0;0
-Vegas Golden Knights;Oscar Lindberg;C;57;7;2;0;0;0;0;0;0
-Vegas Golden Knights;Jon Marchessault;C;71;23;45;0;0;0;0;0;0
-Vegas Golden Knights;Stefan Matteau;C;8;0;1;0;0;0;0;0;0
-Vegas Golden Knights;Brayden McNabb;D;68;4;10;0;0;0;0;0;0
-Vegas Golden Knights;Jonathon Merrill;D;28;1;2;0;0;0;0;0;0
-Vegas Golden Knights;Colin Miller;D;74;10;29;0;0;0;0;0;0
-Vegas Golden Knights;James Neal;AG;63;24;17;0;0;0;0;0;0
-Vegas Golden Knights;Tomas Nosek;AG;60;7;8;0;0;0;0;0;0
-Vegas Golden Knights;David Perron;AG;68;16;50;0;0;0;0;0;0
-Vegas Golden Knights;Ryan Reaves;AD;13;0;2;0;0;0;0;0;0
-Vegas Golden Knights;Luca Sbisa;D;30;2;12;0;0;0;0;0;0
-Vegas Golden Knights;Nate Schmidt;D;70;5;30;0;0;0;0;0;0
-Vegas Golden Knights;Vadim Shipachyov;AG;3;1;0;0;0;0;0;0;0
-Vegas Golden Knights;Reilly Smith;AD;66;22;38;0;0;0;0;0;0
-Vegas Golden Knights;Tomas Tatar;AG;12;3;1;0;0;0;0;0;0
-Vegas Golden Knights;Shea Theodore;D;53;4;18;0;0;0;0;0;0
-Vegas Golden Knights;Alex Tuch;AD;70;13;18;0;0;0;0;0;0
-Vegas Golden Knights;Oscar Dansk;G;4;0;0;169;5;3;0;93;
-Vegas Golden Knights;Dylan Ferguson;G;1;0;0;9;1;0;0;2;
-Vegas Golden Knights;Marc-Andre Fleury;G;41;0;1;2391;87;27;11;1236;81
-Vegas Golden Knights;Maxime Lagace;G;16;0;0;874;57;6;7;430;152
-Vegas Golden Knights;Malcolm Subban;G;18;0;0;1027;43;11;3;519;95
-Washington Capitals;Nicklas Backstrom;C;73;19;38;0;0;0;0;0;0
-Washington Capitals;Jay Beagle;AD;74;6;15;0;0;0;0;0;0
-Washington Capitals;Madison Bowey;D;51;0;12;0;0;0;0;0;0
-Washington Capitals;Travis Boyd;C;7;0;1;0;0;0;0;0;0
-Washington Capitals;Andre Burakovsky;AG;48;9;10;0;0;0;0;0;0
-Washington Capitals;John Carlson;D;74;15;46;0;0;0;0;0;0
-Washington Capitals;Alex Chiasson;AD;55;8;7;0;0;0;0;0;0
-Washington Capitals;Taylor Chorney;D;24;1;3;0;0;0;0;0;0
-Washington Capitals;Brett Connolly;AD;63;15;10;0;0;0;0;0;0
-Washington Capitals;Christian Djoos;D;60;3;11;0;0;0;0;0;0
-Washington Capitals;Lars Eller;C;73;17;20;0;0;0;0;0;0
-Washington Capitals;Tyler Graovac;C;5;0;0;0;0;0;0;0;0
-Washington Capitals;Jakub Jerabek;D;6;0;1;0;0;0;0;0;0
-Washington Capitals;Michal Kempny;D;14;0;0;0;0;0;0;0;0
-Washington Capitals;Evgeny Kuznetsov;C;71;21;50;0;0;0;0;0;0
-Washington Capitals;Aaron Ness;D;8;0;1;0;0;0;0;0;0
-Washington Capitals;Matt Niskanen;D;60;6;21;0;0;0;0;0;0
-Washington Capitals;Liam O'Brien;C;3;0;0;0;0;0;0;0;0
-Washington Capitals;Dmitry Orlov;D;74;9;20;0;0;0;0;0;0
-Washington Capitals;Brooks Orpik;D;73;0;9;0;0;0;0;0;0
-Washington Capitals;T.J. Oshie;AD;68;16;25;0;0;0;0;0;0
-Washington Capitals;Alex Ovechkin;AG;74;44;37;0;0;0;0;0;0
-Washington Capitals;Anthony Peluso;AD;2;0;0;0;0;0;0;0;0
-Washington Capitals;Devante Smith-Pelly;AD;69;7;9;0;0;0;0;0;0
-Washington Capitals;Chandler Stephenson;C;59;6;11;0;0;0;0;0;0
-Washington Capitals;Jakub Vrana;AG;67;13;14;0;0;0;0;0;0
-Washington Capitals;Nathan Walker;AG;7;1;0;0;0;0;0;0;0
-Washington Capitals;Tom Wilson;AD;70;11;20;0;0;0;0;0;0
-Washington Capitals;Philipp Grubauer;G;31;0;1;1628;62;12;9;836;85
-Washington Capitals;Braden Holtby;G;50;0;0;2829;143;31;15;1520;108
-Winnipeg Jets;Joel Armia;AD;71;12;15;0;0;0;0;0;0
-Winnipeg Jets;Dustin Byfuglien;D;62;5;34;0;0;0;0;0;0
-Winnipeg Jets;Ben Chiarot;D;49;2;10;0;0;0;0;0;0
-Winnipeg Jets;Kyle Connor;AG;68;28;19;0;0;0;0;0;0
-Winnipeg Jets;Andrew Copp;C;74;5;16;0;0;0;0;0;0
-Winnipeg Jets;Marko Dano;C;22;2;1;0;0;0;0;0;0
-Winnipeg Jets;Nikolaj Ehlers;AG;74;28;28;0;0;0;0;0;0
-Winnipeg Jets;Toby Enstrom;D;43;1;5;0;0;0;0;0;0
-Winnipeg Jets;Matt Hendricks;AG;60;5;8;0;0;0;0;0;0
-Winnipeg Jets;Dmitry Kulikov;D;62;3;8;0;0;0;0;0;0
-Winnipeg Jets;Patrik Laine;AD;74;43;25;0;0;0;0;0;0
-Winnipeg Jets;Brendan Lemieux;AG;9;1;0;0;0;0;0;0;0
-Winnipeg Jets;Bryan Little;C;74;14;26;0;0;0;0;0;0
-Winnipeg Jets;Adam Lowry;C;38;8;7;0;0;0;0;0;0
-Winnipeg Jets;Shawn Matthias;AG;26;1;2;0;0;0;0;0;0
-Winnipeg Jets;Josh Morrissey;D;74;5;19;0;0;0;0;0;0
-Winnipeg Jets;Joseph Morrow;D;10;0;2;0;0;0;0;0;0
-Winnipeg Jets;Tyler Myers;D;74;6;28;0;0;0;0;0;0
-Winnipeg Jets;Mathieu Perreault;C;62;16;21;0;0;0;0;0;0
-Winnipeg Jets;Nic Petan;AG;15;2;0;0;0;0;0;0;0
-Winnipeg Jets;Tucker Poolman;D;18;1;0;0;0;0;0;0;0
-Winnipeg Jets;Jack Roslovic;C;29;4;8;0;0;0;0;0;0
-Winnipeg Jets;Mark Scheifele;C;53;22;34;0;0;0;0;0;0
-Winnipeg Jets;Paul Stastny;C;11;3;7;0;0;0;0;0;0
-Winnipeg Jets;Brandon Tanev;AG;54;4;8;0;0;0;0;0;0
-Winnipeg Jets;Jacob Trouba;D;52;3;19;0;0;0;0;0;0
-Winnipeg Jets;Blake Wheeler;AD;74;19;64;0;0;0;0;0;0
-Winnipeg Jets;Eric Comrie;G;2;0;0;120;6;1;1;52;
-Winnipeg Jets;Connor Hellebuyck;G;61;0;2;3596;140;38;11;1851;87
-Winnipeg Jets;Michael Hutchinson;G;3;0;1;129;7;2;1;75;
-Winnipeg Jets;Steve Mason;G;12;0;1;622;33;4;6;352;107
+St. Louis Blues;Jake Allen;G;2936;0;1;25;21;1420;107
+Toronto Maple Leafs;Frederik Andersen;G;3534;0;1;34;19;2005;94
+Ottawa Senators;Craig Anderson;G;2947;0;0;21;22;1616;115
+New Jersey Devils;Ken Appleby;G;124;0;0;0;1;55;10
+Colorado Avalanche;Jonathan Bernier;G;1757;0;1;18;11;953;100
+Anaheim Ducks;Reto Berra;G;182;0;0;1;1;95;0
+Chicago Blackhawks;Jean-Francois Berube;G;549;0;0;2;5;330;125
+Dallas Stars;Ben Bishop;G;2887;0;1;26;17;1437;96
+Columbus Blue Jackets;Sergei Bobrovsky;G;3609;0;2;34;21;1832;89
+Edmonton Oilers;Laurent Brossoit;G;707;0;1;3;7;334;130
+Tampa Bay Lightning;Peter Budaj;G;430;0;0;3;3;217;0
+Los Angeles Kings;Jack Campbell;G;207;0;0;1;0;123;0
+Winnipeg Jets;Eric Comrie;G;120;0;0;1;1;52;0
+Ottawa Senators;Mike Condon;G;1450;0;2;5;14;817;109
+Detroit Red Wings;Jared Coreau;G;201;0;0;0;3;104;0
+Chicago Blackhawks;Corey Crawford;G;1584;0;0;16;9;842;82
+Vegas Golden Knights;Oscar Dansk;G;169;0;0;3;0;93;0
+Carolina Hurricanes;Scott Darling;G;2241;0;0;12;18;1036;131
+San Jose Sharks;Aaron Dell;G;1443;0;1;15;5;739;99
+Pittsburgh Penguins;Casey DeSmith;G;640;0;0;5;4;321;100
+Toronto Maple Leafs;Louis Domingue;G;895;0;0;6;8;471;126
+Tampa Bay Lightning;Louis Domingue;G;507;0;0;6;2;277;100
+Arizona Coyotes;Louis Domingue;G;388;0;0;0;6;194;50
+Minnesota Wild;Devan Dubnyk;G;3027;0;3;31;14;1573;97
+Philadelphia Flyers;Brian Elliott;G;2403;0;1;21;11;1189;105
+Vegas Golden Knights;Dylan Ferguson;G;9;0;0;0;0;2;0
+Vegas Golden Knights;Marc-Andre Fleury;G;2391;0;1;27;11;1236;81
+Chicago Blackhawks;Anton Forsberg;G;1590;0;1;9;16;851;109
+New York Rangers;Alexandar Georgiev;G;446;0;0;3;3;281;100
+New York Islanders;Christopher Gibson;G;310;0;0;2;1;211;100
+Anaheim Ducks;John Gibson;G;3225;0;1;29;17;1772;84
+Calgary Flames;Jon Gillies;G;366;0;0;2;2;178;65
+Chicago Blackhawks;Jeff Glass;G;761;0;0;3;6;413;116
+New York Islanders;Thomas Greiss;G;1312;0;0;11;7;774;124
+Washington Capitals;Philipp Grubauer;G;1628;0;1;12;9;836;85
+New York Islanders;Jaroslav Halak;G;2845;0;0;18;25;1649;108
+New York Rangers;Brandon Halverson;G;13;0;0;0;0;6;0
+Winnipeg Jets;Connor Hellebuyck;G;3596;0;2;38;11;1851;87
+Arizona Coyotes;Adin Hill;G;241;0;0;1;3;129;54
+Washington Capitals;Braden Holtby;G;2829;0;0;31;15;1520;108
+Detroit Red Wings;Jimmy Howard;G;3067;0;1;19;26;1613;104
+Winnipeg Jets;Michael Hutchinson;G;129;0;1;2;1;75;0
+St. Louis Blues;Carter Hutton;G;1513;0;0;16;7;771;76
+Pittsburgh Penguins;Tristan Jarry;G;1364;0;2;14;6;687;105
+Buffalo Sabres;Chad Johnson;G;1438;0;0;8;12;761;119
+San Jose Sharks;Martin Jones;G;3015;0;0;27;18;1495;95
+Boston Bruins;Anton Khudobin;G;1594;0;2;15;6;792;95
+New Jersey Devils;Keith Kinkaid;G;1878;0;2;20;10;997;104
+Columbus Blue Jackets;Joonas Korpisalo;G;929;0;0;8;7;509;112
+Toronto Maple Leafs;Darcy Kuemper;G;1415;0;1;12;5;713;91
+Los Angeles Kings;Darcy Kuemper;G;999;0;1;10;1;516;78
+Arizona Coyotes;Darcy Kuemper;G;416;0;0;2;4;197;0
+Toronto Maple Leafs;Eddie Lack;G;343;0;0;2;4;177;0
+New Jersey Devils;Eddie Lack;G;207;0;0;1;2;113;0
+Calgary Flames;Eddie Lack;G;136;0;0;1;2;64;0
+Vegas Golden Knights;Maxime Lagace;G;874;0;0;6;7;430;152
+Arizona Coyotes;Marek Langhamer;G;29;0;0;0;0;10;0
+Buffalo Sabres;Robin Lehner;G;2783;0;0;14;25;1528;102
+Dallas Stars;Kari Lehtonen;G;1633;0;0;12;12;782;101
+Montreal Canadiens;Charlie Lindgren;G;833;0;0;4;8;457;105
+New York Rangers;Henrik Lundqvist;G;3262;0;1;25;24;1878;97
+Florida Panthers;Roberto Luongo;G;1696;0;2;15;10;988;83
+Philadelphia Flyers;Alex Lyon;G;457;0;0;4;2;221;0
+Vancouver Canucks;Jacob Markstrom;G;3107;0;3;19;26;1596;103
+Winnipeg Jets;Steve Mason;G;622;0;1;4;6;352;107
+Toronto Maple Leafs;Curtis McElhinney;G;861;0;1;10;4;465;74
+Anaheim Ducks;Ryan Miller;G;1132;0;0;8;6;634;85
+Toronto Maple Leafs;Al Montoya;G;649;0;2;4;3;333;127
+Edmonton Oilers;Al Montoya;G;426;0;1;2;2;231;0
+Montreal Canadiens;Al Montoya;G;223;0;1;2;1;102;0
+Toronto Maple Leafs;Petr Mrazek;G;1845;0;0;13;12;943;113
+Detroit Red Wings;Petr Mrazek;G;1184;0;0;8;7;630;104
+Philadelphia Flyers;Petr Mrazek;G;661;0;0;5;5;313;132
+Pittsburgh Penguins;Matt Murray;G;2374;0;1;23;14;1232;105
+Philadelphia Flyers;Michal Neuvirth;G;1011;0;1;7;7;519;97
+Toronto Maple Leafs;Antti Niemi;G;1093;0;1;6;8;651;97
+Montreal Canadiens;Antti Niemi;G;906;0;0;6;4;533;73
+Pittsburgh Penguins;Antti Niemi;G;128;0;1;0;3;79;0
+Florida Panthers;Antti Niemi;G;59;0;0;0;1;39;0
+Vancouver Canucks;Anders Nilsson;G;1399;0;1;7;14;817;115
+New York Rangers;Ondrej Pavelec;G;737;0;0;4;7;412;103
+Toronto Maple Leafs;Calvin Pickard;G;63;0;0;0;0;28;0
+Montreal Canadiens;Carey Price;G;2557;0;0;15;23;1335;111
+Los Angeles Kings;Jonathan Quick;G;3316;0;4;30;26;1711;89
+Arizona Coyotes;Antti Raanta;G;2302;0;0;17;16;1236;84
+Boston Bruins;Tuukka Rask;G;2815;0;2;31;11;1332;94
+Florida Panthers;James Reimer;G;2078;0;0;18;13;1183;102
+Nashville Predators;Pekka Rinne;G;3213;0;1;40;10;1703;81
+Calgary Flames;David Rittich;G;948;0;0;8;5;479;105
+Nashville Predators;Juuse Saros;G;1215;0;2;8;5;644;85
+Florida Panthers;Harri Sateri;G;493;0;0;4;4;271;0
+New Jersey Devils;Cory Schneider;G;2272;0;0;17;15;1202;104
+Calgary Flames;Mike Smith;G;3071;0;2;24;21;1621;96
+Minnesota Wild;Alex Stalock;G;1375;0;0;10;10;731;100
+Vegas Golden Knights;Malcolm Subban;G;1027;0;0;11;3;519;95
+Edmonton Oilers;Cam Talbot;G;3324;0;1;28;27;1804;104
+Buffalo Sabres;Linus Ullmark;G;209;0;0;1;2;112;0
+Colorado Avalanche;Semyon Varlamov;G;2685;0;0;22;15;1496;95
+Tampa Bay Lightning;Andrei Vasilevskiy;G;3530;0;1;42;14;1925;91
+Carolina Hurricanes;Cam Ward;G;2221;0;0;20;13;1077;112
+Arizona Coyotes;Scott Wedgewood;G;1097;0;0;5;9;587;123
+Detroit Red Wings;Justin Abdelkader;AG;67;12;20
+Toronto Maple Leafs;Pontus Aberg;AG;47;3;12
+Nashville Predators;Pontus Aberg;AG;37;2;6
+Edmonton Oilers;Pontus Aberg;AG;10;1;6
+Boston Bruins;Noel Acciari;C;51;8;1
+Boston Bruins;Kenny Agostino;AG;5;0;1
+Carolina Hurricanes;Sebastian Aho;AD;70;26;35
+New York Islanders;Sebastian Aho;D;22;1;3
+Philadelphia Flyers;Mark Alt;D;8;0;0
+Montreal Canadiens;Karl Alzner;D;75;1;9
+Los Angeles Kings;Michael Amadio;C;32;4;3
+Columbus Blue Jackets;Josh Anderson;AD;61;18;11
+Calgary Flames;Rasmus Andersson;D;3;0;0
+Los Angeles Kings;Andy Andreoff;AG;44;3;6
+Colorado Avalanche;Sven Andrighetto;AD;45;6;13
+Chicago Blackhawks;Artem Anisimov;C;65;20;9
+Buffalo Sabres;Victor Antipin;D;45;0;10
+Vancouver Canucks;Darren Archibald;AD;21;3;3
+Toronto Maple Leafs;Josh Archibald;AD;36;5;5
+Arizona Coyotes;Josh Archibald;AD;33;5;5
+Pittsburgh Penguins;Josh Archibald;AD;3;0;0
+Winnipeg Jets;Joel Armia;AD;71;12;15
+Nashville Predators;Viktor Arvidsson;AG;71;27;29
+Pittsburgh Penguins;Zach Aston-Reese;C;10;4;2
+Detroit Red Wings;Andreas Athanasiou;AG;63;14;17
+Columbus Blue Jackets;Cam Atkinson;AD;59;18;19
+Los Angeles Kings;Justin Auger;AD;2;0;0
+Edmonton Oilers;Yohann Auvitu;D;30;3;6
+Boston Bruins;David Backes;AD;50;12;16
+Calgary Flames;Mikael Backlund;C;75;13;28
+Washington Capitals;Nicklas Backstrom;C;73;19;38
+Vancouver Canucks;Sven Baertschi;AG;53;14;15
+New York Islanders;Josh Bailey;AD;70;18;51
+Buffalo Sabres;Justin Bailey;AD;12;3;1
+Florida Panthers;Chase Balisy;C;8;0;0
+Buffalo Sabres;Nicholas Baptiste;AD;25;4;1
+St. Louis Blues;Ivan Barbashev;C;45;7;6
+Colorado Avalanche;Mark Barberio;D;44;3;10
+Florida Panthers;Aleksander Barkov;C;71;26;47
+Colorado Avalanche;Tyson Barrie;D;60;12;40
+Calgary Flames;Matt Bartkowski;D;14;0;1
+New York Islanders;Mathew Barzal;C;74;20;56
+Washington Capitals;Jay Beagle;AD;74;6;15
+Edmonton Oilers;Ethan Bear;D;11;0;2
+Anaheim Ducks;Francois Beauchemin;D;60;3;10
+Buffalo Sabres;Nathan Beaulieu;D;54;1;8
+New York Islanders;Anthony Beauvillier;AG;63;16;12
+Boston Bruins;Matt Beleskey;AG;14;0;0
+Vegas Golden Knights;Pierre-Edouard Bellemare;AG;65;6;9
+Dallas Stars;Jamie Benn;AG;75;28;41
+Montreal Canadiens;Jordie Benn;D;72;4;10
+St. Louis Blues;Beau Bennett;AD;6;0;0
+Calgary Flames;Sam Bennett;C;75;11;15
+Edmonton Oilers;Matt Benning;D;67;5;13
+Boston Bruins;Patrice Bergeron;C;55;27;27
+St. Louis Blues;Patrik Berglund;C;49;12;7
+New York Islanders;Steve Bernier;AD;4;0;0
+Minnesota Wild;Christoph Bertschy;C;1;0;0
+Detroit Red Wings;Tyler Bertuzzi;AG;40;2;16
+Vancouver Canucks;Alex Biega;D;37;0;7
+Anaheim Ducks;Kevin Bieksa;D;59;0;8
+Colorado Avalanche;Chris Bigras;D;15;0;1
+Nashville Predators;Anthony Bitetto;D;28;1;2
+Boston Bruins;Anders Bjork;AG;30;4;8
+Columbus Blue Jackets;Oliver Bjorkstrand;AD;75;11;26
+Florida Panthers;Nick Bjugstad;C;72;17;28
+St. Louis Blues;Samuel Blais;AG;11;1;2
+Anaheim Ducks;Joseph Blandisi;AG;3;0;0
+Boston Bruins;Anton Blidh;AG;1;0;0
+Ottawa Senators;Mike Blunden;AD;1;0;0
+San Jose Sharks;Mikkel Boedker;AG;66;14;18
+Vancouver Canucks;Brock Boeser;AD;62;29;26
+Buffalo Sabres;Zach Bogosian;D;18;0;1
+Anaheim Ducks;Jared Boll;AD;10;1;0
+Nashville Predators;Nick Bonino;C;62;10;12
+Detroit Red Wings;David Booth;AG;26;4;1
+Toronto Maple Leafs;Andreas Borgman;D;48;3;8
+Ottawa Senators;Mark Borowiecki;D;43;3;7
+St. Louis Blues;Robert Bortuzzo;D;64;3;7
+Vancouver Canucks;Reid Boucher;C;16;2;1
+Chicago Blackhawks;Lance Bouma;AG;53;3;6
+Tampa Bay Lightning;Michael Bournival;AG;5;0;0
+Colorado Avalanche;Gabriel Bourque;AG;50;5;6
+St. Louis Blues;Jay Bouwmeester;D;35;2;5
+Washington Capitals;Madison Bowey;D;51;0;12
+New York Islanders;Johnny Boychuk;D;53;5;11
+Washington Capitals;Travis Boyd;C;7;0;1
+New Jersey Devils;Brian Boyle;C;61;13;10
+Toronto Maple Leafs;Tyler Bozak;C;73;11;29
+Toronto Maple Leafs;Derick Brassard;C;70;20;25
+Ottawa Senators;Derick Brassard;C;58;18;20
+Pittsburgh Penguins;Derick Brassard;C;12;2;5
+New Jersey Devils;Jesper Bratt;AG;70;13;22
+San Jose Sharks;Justin Braun;D;73;3;27
+Florida Panthers;Connor Brickley;AG;43;4;8
+Calgary Flames;T.J. Brodie;D;73;4;28
+Minnesota Wild;Jonas Brodin;D;64;5;12
+St. Louis Blues;Kyle Brodziak;C;73;10;16
+Los Angeles Kings;Jonny Brodzinski;C;34;4;2
+Calgary Flames;Troy Brouwer;AD;69;6;14
+Toronto Maple Leafs;Connor Brown;AD;74;13;13
+Los Angeles Kings;Dustin Brown;AD;74;23;30
+Toronto Maple Leafs;J.T. Brown;AD;43;2;5
+Tampa Bay Lightning;J.T. Brown;AD;24;1;3
+Anaheim Ducks;J.T. Brown;AD;19;1;2
+Ottawa Senators;Logan Brown;C;4;0;1
+New York Rangers;Pavel Buchnevich;AD;66;14;28
+Washington Capitals;Andre Burakovsky;AG;48;9;10
+Ottawa Senators;Erik Burgdoerfer;D;2;0;1
+Vancouver Canucks;Alexander Burmistrov;C;24;2;4
+San Jose Sharks;Brent Burns;D;74;11;48
+Ottawa Senators;Alexandre Burrows;AD;62;5;7
+New Jersey Devils;Will Butcher;D;73;3;33
+St. Louis Blues;Chris Butler;D;2;0;0
+Winnipeg Jets;Dustin Byfuglien;D;62;5;34
+Montreal Canadiens;Paul Byron;AG;75;18;14
+Edmonton Oilers;Drake Caggiula;AG;59;12;6
+Tampa Bay Lightning;Ryan Callahan;AD;63;4;11
+Columbus Blue Jackets;Matt Calvert;AG;62;8;14
+Toronto Maple Leafs;Mike Cammalleri;AG;62;5;22
+Edmonton Oilers;Mike Cammalleri;AG;47;2;18
+Los Angeles Kings;Mike Cammalleri;AG;15;3;4
+Arizona Coyotes;Kyle Capobianco;D;1;0;0
+New York Rangers;Paul Carey;C;56;7;6
+Boston Bruins;Brandon Carlo;D;72;0;6
+Washington Capitals;John Carlson;D;74;15;46
+Columbus Blue Jackets;Gabriel Carlsson;D;14;0;2
+Toronto Maple Leafs;Ryan Carpenter;C;44;9;5
+Vegas Golden Knights;Ryan Carpenter;C;28;9;4
+San Jose Sharks;Ryan Carpenter;C;16;0;1
+Montreal Canadiens;Daniel Carr;AG;32;4;10
+Toronto Maple Leafs;Connor Carrick;D;44;4;8
+Carolina Hurricanes;Trevor Carrick;D;1;0;0
+Vegas Golden Knights;William Carrier;AG;34;1;2
+Los Angeles Kings;Jeff Carter;C;20;8;6
+New York Rangers;Daniel Catenacci;C;1;0;0
+Boston Bruins;Colby Cave;C;1;0;0
+Ottawa Senators;Cody Ceci;D;73;5;14
+Boston Bruins;Peter Cehlarik;AG;6;1;1
+Ottawa Senators;Thomas Chabot;D;54;6;15
+Vancouver Canucks;Michael Chaput;C;9;0;0
+Boston Bruins;Zdeno Chara;D;68;7;16
+Winnipeg Jets;Ben Chiarot;D;49;2;10
+Washington Capitals;Alex Chiasson;AD;55;8;7
+Toronto Maple Leafs;Jason Chimera;AG;68;3;10
+New York Islanders;Jason Chimera;AG;58;2;9
+Anaheim Ducks;Jason Chimera;AG;10;1;1
+Ottawa Senators;Filip Chlapik;C;12;1;2
+Washington Capitals;Taylor Chorney;D;24;1;3
+Arizona Coyotes;Jakob Chychrun;D;44;2;10
+New York Rangers;Filip Chytil;C;2;0;0
+Tampa Bay Lightning;Anthony Cirelli;C;10;3;5
+New York Islanders;Casey Cizikas;C;63;7;10
+Ottawa Senators;Fredrik Claesson;D;55;1;6
+Arizona Coyotes;Adam Clendening;D;5;0;2
+Los Angeles Kings;Kyle Clifford;AG;43;5;3
+New York Islanders;Cal Clutterbuck;AD;68;8;9
+Tampa Bay Lightning;Braydon Coburn;D;64;1;12
+Anaheim Ducks;Andrew Cogliano;AG;73;8;20
+Toronto Maple Leafs;Ian Cole;D;60;5;14
+Pittsburgh Penguins;Ian Cole;D;47;3;10
+Columbus Blue Jackets;Ian Cole;D;13;2;4
+New Jersey Devils;Blake Coleman;C;71;11;10
+Colorado Avalanche;Blake Comeau;AG;71;12;19
+Colorado Avalanche;J.T. Compher;AG;61;13;9
+Tampa Bay Lightning;Cory Conacher;AG;32;8;3
+Arizona Coyotes;Kevin Connauton;D;66;7;8
+Washington Capitals;Brett Connolly;AD;63;15;10
+Winnipeg Jets;Kyle Connor;AG;68;28;19
+Winnipeg Jets;Andrew Copp;C;74;5;16
+Pittsburgh Penguins;Frank Corrado;D;5;0;0
+Arizona Coyotes;Nick Cousins;C;63;12;6
+San Jose Sharks;Logan Couture;C;70;31;25
+Philadelphia Flyers;Sean Couturier;C;75;30;40
+Minnesota Wild;Charlie Coyle;C;57;11;24
+Toronto Maple Leafs;Adam Cracknell;AD;5;0;0
+New York Rangers;Adam Cracknell;AD;4;0;0
+Dallas Stars;Adam Cracknell;AD;1;0;0
+Los Angeles Kings;Andrew Crescenzi;C;2;0;0
+Buffalo Sabres;Kyle Criscuolo;C;9;0;0
+Pittsburgh Penguins;Sidney Crosby;C;75;25;56
+Arizona Coyotes;Lawson Crouse;AG;11;1;0
+Minnesota Wild;Matt Cullen;C;71;10;11
+Boston Bruins;Austin Czarnik;C;10;0;4
+Florida Panthers;Evgeni Dadonov;AD;64;23;33
+Carolina Hurricanes;Klas Dahlbeck;D;25;0;1
+Chicago Blackhawks;Carl Dahlstrom;D;11;0;3
+New York Islanders;Michael Dal Colle;AG;4;0;0
+Detroit Red Wings;Trevor Daley;D;69;9;6
+Columbus Blue Jackets;Zac Dalpe;C;12;0;0
+Montreal Canadiens;Phillip Danault;AG;52;8;17
+Winnipeg Jets;Marko Dano;C;22;2;1
+Arizona Coyotes;Laurent Dauphin;C;2;0;0
+Toronto Maple Leafs;Brandon Davidson;D;44;4;2
+Edmonton Oilers;Brandon Davidson;D;23;3;1
+Montreal Canadiens;Brandon Davidson;D;13;0;1
+New York Islanders;Brandon Davidson;D;8;1;0
+New York Islanders;Calvin de Haan;D;33;1;11
+Montreal Canadiens;Jacob de La Rose;AG;48;4;7
+Pittsburgh Penguins;Jean-Sebastien Dea;C;5;1;0
+New York Rangers;Anthony DeAngelo;D;32;0;8
+Chicago Blackhawks;Alex DeBrincat;AD;75;25;21
+Boston Bruins;Jake Debrusk;AG;64;14;25
+Detroit Red Wings;Danny DeKeyser;D;57;5;4
+Vancouver Canucks;Michael Del Zotto;D;75;6;14
+San Jose Sharks;Dylan DeMelo;D;55;0;18
+Arizona Coyotes;Jason Demers;D;69;6;14
+Toronto Maple Leafs;Travis Dermott;D;31;1;11
+New York Rangers;David Desharnais;C;69;6;21
+Montreal Canadiens;Nicolas Deslauriers;AG;51;8;4
+Carolina Hurricanes;Phillip Di Giuseppe;AG;41;3;4
+Dallas Stars;Jason Dickinson;C;25;0;2
+Ottawa Senators;Christopher Didomenico;AG;24;6;4
+San Jose Sharks;Brenden Dillon;D;73;3;15
+Washington Capitals;Christian Djoos;D;60;3;11
+Arizona Coyotes;Max Domi;AG;74;8;29
+Boston Bruins;Ryan Donato;C;3;2;2
+San Jose Sharks;Joonas Donskoi;AD;62;13;17
+Vancouver Canucks;Derek Dorsett;AD;20;7;2
+Tampa Bay Lightning;Jake Dotchin;D;48;3;8
+Los Angeles Kings;Drew Doughty;D;75;9;46
+Toronto Maple Leafs;Nic Dowd;C;53;2;1
+Vancouver Canucks;Nic Dowd;C;37;2;0
+Los Angeles Kings;Nic Dowd;C;16;0;1
+Edmonton Oilers;Leon Draisaitl;C;70;23;43
+Montreal Canadiens;Jonathan Drouin;AG;70;12;27
+Columbus Blue Jackets;Brandon Dubinsky;C;55;5;10
+Columbus Blue Jackets;Pierre-Luc Dubois;AG;75;15;24
+Toronto Maple Leafs;Matt Duchene;C;73;23;27
+Ottawa Senators;Matt Duchene;C;59;19;21
+Colorado Avalanche;Matt Duchene;C;14;4;6
+Toronto Maple Leafs;Anthony Duclair;AG;56;11;12
+Arizona Coyotes;Anthony Duclair;AG;33;9;6
+Chicago Blackhawks;Anthony Duclair;AG;23;2;6
+Minnesota Wild;Mathew Dumba;D;73;11;30
+Toronto Maple Leafs;Gabriel Dumont;C;30;1;1
+Ottawa Senators;Gabriel Dumont;C;23;1;1
+Tampa Bay Lightning;Gabriel Dumont;C;7;0;0
+Pittsburgh Penguins;Brian Dumoulin;D;73;5;10
+St. Louis Blues;Vince Dunn;D;67;5;17
+Arizona Coyotes;Christian Dvorak;C;74;15;20
+Ottawa Senators;Ryan Dzingel;AG;70;20;13
+Vegas Golden Knights;Cody Eakin;C;73;10;15
+Anaheim Ducks;Patrick Eaves;AD;2;1;0
+New York Islanders;Jordan Eberle;AD;73;25;29
+Vancouver Canucks;Alexander Edler;D;63;5;25
+St. Louis Blues;Joel Edmundson;D;61;7;9
+Winnipeg Jets;Nikolaj Ehlers;AG;74;28;28
+Buffalo Sabres;Jack Eichel;C;59;22;32
+Florida Panthers;Aaron Ekblad;D;72;15;17
+Nashville Predators;Mattias Ekholm;D;72;10;21
+Arizona Coyotes;Oliver Ekman-Larsson;D;74;13;26
+Dallas Stars;Remi Elie;AG;67;6;8
+Washington Capitals;Lars Eller;C;73;17;20
+Nashville Predators;Ryan Ellis;D;35;7;17
+Nashville Predators;Alexei Emelin;D;70;1;8
+Vegas Golden Knights;Deryk Engelland;D;73;5;17
+Minnesota Wild;Tyler Ennis;AG;69;8;12
+Winnipeg Jets;Toby Enstrom;D;43;1;5
+Detroit Red Wings;Jonathan Ericsson;D;73;3;9
+Vancouver Canucks;Loui Eriksson;AG;50;10;13
+Minnesota Wild;Joel Eriksson Ek;AG;66;4;10
+Tampa Bay Lightning;Adam Erne;AG;21;3;1
+Dallas Stars;Radek Faksa;C;72;14;16
+Buffalo Sabres;Justin Falk;D;40;1;1
+Los Angeles Kings;Oscar Fantenberg;D;26;2;7
+Buffalo Sabres;Hudson Fasching;AD;5;0;0
+New York Rangers;Jesper Fast;AD;66;13;17
+Carolina Hurricanes;Justin Faulk;D;74;7;23
+Buffalo Sabres;Taylor Fedun;D;7;0;1
+Toronto Maple Leafs;Eric Fehr;C;17;3;1
+San Jose Sharks;Eric Fehr;C;13;3;1
+Toronto Maple Leafs;Eric Fehr;C;4;0;0
+Calgary Flames;Micheal Ferland;AG;70;21;18
+Minnesota Wild;Landon Ferraro;C;2;1;0
+Nashville Predators;Kevin Fiala;AG;71;23;22
+Philadelphia Flyers;Valtteri Filppula;C;75;11;21
+Anaheim Ducks;Giovanni Fiore;AG;1;0;0
+Arizona Coyotes;Christian Fischer;AD;71;13;18
+Nashville Predators;Mike Fisher;C;8;2;1
+Carolina Hurricanes;Haydn Fleury;D;59;0;6
+Minnesota Wild;Marcus Foligno;AG;68;8;14
+Columbus Blue Jackets;Nick Foligno;AG;71;15;18
+Los Angeles Kings;Christian Folin;D;58;3;8
+Los Angeles Kings;Derek Forbort;D;73;1;16
+Ottawa Senators;Alex Formenton;AG;1;0;0
+Nashville Predators;Filip Forsberg;AG;59;21;32
+Chicago Blackhawks;Gustav Forsling;D;41;3;10
+Anaheim Ducks;Cam Fowler;D;63;8;22
+Chicago Blackhawks;Cody Franson;D;23;1;6
+New York Islanders;Tanner Fritz;C;27;2;3
+Detroit Red Wings;Martin Frk;AD;60;11;12
+Montreal Canadiens;Byron Froese;C;46;3;8
+Calgary Flames;Michael Frolik;AD;63;10;13
+Toronto Maple Leafs;Marian Gaborik;AD;46;11;10
+Los Angeles Kings;Marian Gaborik;AD;30;7;7
+Ottawa Senators;Marian Gaborik;AD;16;4;3
+Vancouver Canucks;Sam Gagner;C;67;8;21
+Montreal Canadiens;Alex Galchenyuk;AG;75;16;29
+Montreal Canadiens;Brendan Gallagher;AD;75;27;19
+Toronto Maple Leafs;Jake Gardiner;D;74;5;39
+Vegas Golden Knights;Jason Garrison;D;8;0;1
+Nashville Predators;Frederick Gaudreau;C;20;0;3
+Calgary Flames;Johnny Gaudreau;AG;75;23;59
+Vancouver Canucks;Brendan Gaunce;AG;34;4;1
+Toronto Maple Leafs;Frederik Gauthier;C;9;1;0
+Columbus Blue Jackets;Nathan Gerbe;AG;2;0;0
+Anaheim Ducks;Ryan Getzlaf;C;49;11;45
+New Jersey Devils;Brian Gibbons;AG;52;12;14
+New York Rangers;John Gilmour;D;20;2;3
+Boston Bruins;Brian Gionta;AD;12;2;4
+Calgary Flames;Mark Giordano;D;75;13;24
+Toronto Maple Leafs;Samuel Girard;D;65;3;18
+Colorado Avalanche;Samuel Girard;D;60;2;16
+Nashville Predators;Samuel Girard;D;5;1;2
+Tampa Bay Lightning;Dan Girardi;D;69;4;10
+Buffalo Sabres;Zemgus Girgensons;C;66;7;5
+Philadelphia Flyers;Claude Giroux;C;75;26;64
+Calgary Flames;Tanner Glass;AG;10;0;0
+Detroit Red Wings;Luke Glendening;AD;62;9;8
+Vancouver Canucks;Nikolay Goldobin;AD;31;5;5
+Arizona Coyotes;Alex Goligoski;D;70;11;22
+San Jose Sharks;Barclay Goodrow;AD;44;7;5
+Buffalo Sabres;Josh Gorges;D;31;0;2
+Philadelphia Flyers;Shayne Gostisbehere;D;71;13;42
+Philadelphia Flyers;Tyrell Goulbourne;AG;9;0;0
+Tampa Bay Lightning;Yanni Gourde;C;74;24;34
+Toronto Maple Leafs;Michael Grabner;AD;72;27;7
+New York Rangers;Michael Grabner;AD;59;25;6
+New Jersey Devils;Michael Grabner;AD;13;2;1
+Vancouver Canucks;Markus Granlund;C;53;8;4
+Minnesota Wild;Mikael Granlund;AD;68;19;39
+Anaheim Ducks;Derek Grant;C;59;11;12
+Washington Capitals;Tyler Graovac;C;5;0;0
+Los Angeles Kings;Kevin Gravel;D;14;0;3
+Detroit Red Wings;Mike Green;D;66;8;25
+New Jersey Devils;Andy Greene;D;73;3;9
+Colorado Avalanche;A.J. Greer;AG;17;0;3
+Buffalo Sabres;Seth Griffith;C;21;2;1
+Colorado Avalanche;Rocco Grimaldi;C;6;1;2
+Edmonton Oilers;Eric Gryba;D;21;0;2
+Boston Bruins;Matt Grzelcyk;D;53;3;11
+Philadelphia Flyers;Radko Gudas;D;63;2;12
+Vancouver Canucks;Erik Gudbranson;D;52;2;3
+Pittsburgh Penguins;Jake Guentzel;C;75;21;24
+Buffalo Sabres;Brendan Guhle;D;11;0;1
+St. Louis Blues;Carl Gunnarsson;D;63;5;4
+Chicago Blackhawks;Erik Gustafsson;D;28;3;8
+Florida Panthers;Henrik Haapala;AG;5;0;1
+Pittsburgh Penguins;Carl Hagelin;AG;74;9;19
+Philadelphia Flyers;Robert Hagg;D;70;3;6
+Toronto Maple Leafs;Ron Hainsey;D;72;4;18
+Florida Panthers;Micheal Haley;AG;69;3;6
+New Jersey Devils;Taylor Hall;AG;69;33;48
+Dallas Stars;Dan Hamhuis;D;73;3;19
+Calgary Flames;Dougie Hamilton;D;75;16;27
+Toronto Maple Leafs;Freddie Hamilton;C;16;0;1
+Arizona Coyotes;Freddie Hamilton;C;8;0;0
+Calgary Flames;Freddie Hamilton;C;8;0;1
+Calgary Flames;Travis Hamonic;D;71;1;10
+Carolina Hurricanes;Noah Hanifin;D;71;8;21
+Arizona Coyotes;Joel Hanley;D;4;0;0
+Columbus Blue Jackets;Markus Hannikainen;AG;29;2;2
+San Jose Sharks;Jannik Hansen;AD;41;1;10
+Dallas Stars;Martin Hanzal;C;38;5;5
+Ottawa Senators;Ben Harpur;D;36;0;1
+Columbus Blue Jackets;Scott Harrington;D;31;2;2
+Toronto Maple Leafs;Ryan Hartman;AD;69;11;20
+Chicago Blackhawks;Ryan Hartman;AG;57;8;17
+Nashville Predators;Ryan Hartman;AD;12;3;3
+Nashville Predators;Scott Hartnell;AG;56;13;10
+Calgary Flames;Garnet Hathaway;AD;52;2;9
+Vegas Golden Knights;Erik Haula;AG;69;28;24
+Chicago Blackhawks;John Hayden;AD;46;4;9
+New Jersey Devils;Jimmy Hayes;AD;32;3;6
+New York Rangers;Kevin Hayes;AD;68;21;16
+Dallas Stars;Dillon Heatherington;D;5;0;1
+Tampa Bay Lightning;Victor Hedman;D;69;14;41
+San Jose Sharks;Tim Heed;D;29;3;8
+Boston Bruins;Danton Heinen;C;68;13;29
+Detroit Red Wings;Darren Helm;AG;67;9;16
+Montreal Canadiens;Ales Hemsky;AD;7;0;0
+Winnipeg Jets;Matt Hendricks;AG;60;5;8
+Toronto Maple Leafs;Adam Henrique;C;74;20;23
+Anaheim Ducks;Adam Henrique;C;50;16;13
+New Jersey Devils;Adam Henrique;C;24;4;10
+San Jose Sharks;Tomas Hertl;C;71;20;23
+Detroit Red Wings;Joe Hicketts;D;1;0;0
+New York Islanders;Thomas Hickey;D;61;4;16
+Chicago Blackhawks;Matthew Highmore;AG;11;2;0
+Chicago Blackhawks;Vinnie Hinostroza;AG;43;7;17
+New Jersey Devils;Nico Hischier;C;74;17;31
+Arizona Coyotes;Niklas Hjalmarsson;D;48;1;8
+New York Islanders;Joshua Ho-Sang;AD;22;2;10
+Ottawa Senators;Mike Hoffman;AG;73;22;29
+Toronto Maple Leafs;Nick Holden;D;66;3;13
+New York Rangers;Nick Holden;D;55;3;9
+Boston Bruins;Nick Holden;D;11;0;4
+Toronto Maple Leafs;Justin Holl;D;2;2;0
+New York Rangers;Peter Holland;C;20;1;3
+Vancouver Canucks;Philip Holm;D;1;0;0
+Anaheim Ducks;Korbinian Holzer;D;16;0;0
+Dallas Stars;Julius Honka;D;37;1;3
+Pittsburgh Penguins;Patric Hornqvist;AD;63;23;17
+Vancouver Canucks;Bo Horvat;C;57;20;20
+Calgary Flames;Marek Hrivik;AG;3;0;0
+Florida Panthers;Jonathan Huberdeau;AG;72;23;41
+Montreal Canadiens;Charles Hudon;AG;68;8;20
+Vegas Golden Knights;Brad Hunt;D;40;3;15
+Florida Panthers;Dryden Hunt;AG;11;0;1
+Pittsburgh Penguins;Matt Hunwick;D;39;4;5
+Vancouver Canucks;Ben Hutton;D;59;0;6
+Vegas Golden Knights;Tomas Hyka;AD;10;1;2
+Toronto Maple Leafs;Zach Hyman;C;74;14;23
+Los Angeles Kings;Alex Iafallo;C;72;9;16
+Nashville Predators;Matt Irwin;D;43;2;6
+Calgary Flames;Jaromir Jagr;AD;22;1;6
+Calgary Flames;Mark Jankowski;C;65;13;8
+Dallas Stars;Mattias Janmark;C;74;18;15
+Nashville Predators;Calle Jarnkrok;C;68;16;19
+Ottawa Senators;Christian Jaros;D;2;0;0
+St. Louis Blues;Dmitrij Jaskin;AD;68;6;11
+Columbus Blue Jackets;Boone Jenner;C;68;11;17
+Detroit Red Wings;Nick Jensen;D;73;0;13
+Toronto Maple Leafs;Jakub Jerabek;D;31;1;4
+Montreal Canadiens;Jakub Jerabek;D;25;1;3
+Washington Capitals;Jakub Jerabek;D;6;0;1
+Nashville Predators;Ryan Johansen;C;70;12;34
+New Jersey Devils;Marcus Johansson;AG;29;5;9
+Dallas Stars;Stephen Johns;D;72;8;7
+Colorado Avalanche;Erik Johnson;D;59;8;15
+Columbus Blue Jackets;Jack Johnson;D;74;3;7
+Tampa Bay Lightning;Tyler Johnson;C;73;21;28
+Toronto Maple Leafs;Andreas Johnsson;AG;4;1;0
+New York Islanders;Ross Johnston;AG;17;3;3
+Toronto Maple Leafs;Jussi Jokinen;AG;53;3;6
+Los Angeles Kings;Jussi Jokinen;AG;18;1;4
+Edmonton Oilers;Jussi Jokinen;AG;14;0;1
+Columbus Blue Jackets;Jussi Jokinen;AG;14;0;1
+Vancouver Canucks;Jussi Jokinen;AG;7;2;0
+Columbus Blue Jackets;Seth Jones;D;72;15;35
+Toronto Maple Leafs;Josh Jooris;AD;35;3;3
+Carolina Hurricanes;Josh Jooris;AD;31;3;3
+Pittsburgh Penguins;Josh Jooris;AD;4;0;0
+Buffalo Sabres;Jacob Josefson;C;39;2;2
+Nashville Predators;Roman Josi;D;66;10;37
+Colorado Avalanche;Tyson Jost;C;57;9;10
+Chicago Blackhawks;Tomas Jurco;AG;24;4;4
+Montreal Canadiens;Noah Juulsen;D;16;1;0
+Toronto Maple Leafs;Nazem Kadri;C;72;28;22
+Colorado Avalanche;Vladislav Kamenev;AG;3;0;0
+Chicago Blackhawks;David Kampf;C;39;4;7
+New York Rangers;Steven Kampfer;D;22;0;1
+Toronto Maple Leafs;Evander Kane;AG;72;25;25
+Buffalo Sabres;Evander Kane;AG;61;20;20
+San Jose Sharks;Evander Kane;AG;11;5;5
+Chicago Blackhawks;Patrick Kane;AD;75;25;46
+Toronto Maple Leafs;Kasperi Kapanen;AD;31;6;2
+Ottawa Senators;Erik Karlsson;D;66;8;48
+San Jose Sharks;Melker Karlsson;C;65;8;9
+Vegas Golden Knights;William Karlsson;C;74;39;27
+Anaheim Ducks;Ondrej Kase;AD;59;18;16
+Edmonton Oilers;Zack Kassian;AD;68;7;10
+Chicago Blackhawks;Duncan Keith;D;75;1;30
+Arizona Coyotes;Clayton Keller;AG;74;21;36
+Anaheim Ducks;Chris Kelly;C;11;0;2
+Los Angeles Kings;Adrian Kempe;AG;74;16;19
+Arizona Coyotes;Mario Kempe;AD;18;2;2
+Toronto Maple Leafs;Michal Kempny;D;45;1;6
+Chicago Blackhawks;Michal Kempny;D;31;1;6
+Washington Capitals;Michal Kempny;D;14;0;0
+Anaheim Ducks;Nicolas Kerdiles;AG;2;0;0
+Colorado Avalanche;Alexander Kerfoot;C;71;17;21
+Chicago Blackhawks;Tanner Kero;AD;8;1;2
+Anaheim Ducks;Ryan Kesler;C;37;7;3
+Pittsburgh Penguins;Phil Kessel;AD;75;30;53
+Edmonton Oilers;Jujhar Khaira;AG;61;11;9
+Tampa Bay Lightning;Alex Killorn;AG;74;14;28
+Edmonton Oilers;Oscar Klefbom;D;66;5;16
+Calgary Flames;Morgan Klimchuk;AG;1;0;0
+Dallas Stars;John Klingberg;D;75;7;54
+Minnesota Wild;Justin Kloos;C;1;0;0
+Tampa Bay Lightning;Slater Koekkoek;D;33;4;4
+Minnesota Wild;Mikko Koivu;C;73;13;27
+Toronto Maple Leafs;Leo Komarov;C;71;7;12
+Philadelphia Flyers;Travis Konecny;C;74;22;22
+Los Angeles Kings;Anze Kopitar;C;75;33;53
+Anaheim Ducks;Kalle Kossila;AG;10;1;1
+New York Rangers;Chris Kreider;AG;50;14;20
+Boston Bruins;David Krejci;C;55;17;22
+Detroit Red Wings;Niklas Kronwall;D;71;3;17
+Boston Bruins;Torey Krug;D;67;13;39
+Carolina Hurricanes;Marcus Kruger;C;48;1;5
+Tampa Bay Lightning;Nikita Kucherov;AD;72;37;58
+Pittsburgh Penguins;Tom Kuhnhackl;AD;62;2;6
+Columbus Blue Jackets;Dean Kukan;D;10;0;4
+Calgary Flames;Brett Kulak;D;64;2;6
+New York Islanders;Nikolai Kulemin;AG;13;1;2
+Winnipeg Jets;Dmitry Kulikov;D;62;3;8
+Minnesota Wild;Luke Kunin;C;19;2;2
+Tampa Bay Lightning;Chris Kunitz;AG;74;12;13
+Carolina Hurricanes;Janne Kuokkanen;C;4;0;0
+Boston Bruins;Sean Kuraly;C;73;6;8
+Washington Capitals;Evgeny Kuznetsov;C;71;21;50
+San Jose Sharks;Kevin Labanc;AD;69;11;28
+New York Islanders;Andrew Ladd;AG;65;10;14
+Los Angeles Kings;Paul Ladue;D;9;3;1
+Los Angeles Kings;Brooks Laich;C;12;0;1
+Winnipeg Jets;Patrik Laine;AD;74;43;25
+Colorado Avalanche;Gabriel Landeskog;AG;70;24;33
+New Jersey Devils;Nick Lappin;AD;6;1;0
+Detroit Red Wings;Dylan Larkin;C;74;11;42
+Edmonton Oilers;Adam Larsson;D;55;4;7
+Buffalo Sabres;Johan Larsson;C;72;4;11
+Detroit Red Wings;Brian Lashoff;D;1;0;0
+Philadelphia Flyers;Scott Laughton;C;75;10;10
+Calgary Flames;Curtis Lazar;AD;58;2;7
+New York Islanders;Nick Leddy;D;74;10;31
+New York Islanders;Anders Lee;AG;74;38;20
+Montreal Canadiens;Artturi Lehkonen;AG;59;10;8
+Philadelphia Flyers;Jori Lehtera;C;55;3;5
+Philadelphia Flyers;Taylor Leier;AG;39;1;4
+Toronto Maple Leafs;Brendan Leipsic;AG;55;4;16
+Vegas Golden Knights;Brendan Leipsic;AG;44;2;11
+Vancouver Canucks;Brendan Leipsic;AG;11;2;5
+Toronto Maple Leafs;Josh Leivo;AG;16;1;3
+Winnipeg Jets;Brendan Lemieux;AG;9;1;0
+Montreal Canadiens;Brett Lernout;D;11;0;1
+Pittsburgh Penguins;Kris Letang;D;72;6;38
+Toronto Maple Leafs;Mark Letestu;C;73;9;12
+Edmonton Oilers;Mark Letestu;C;60;8;11
+Columbus Blue Jackets;Mark Letestu;C;13;1;1
+New York Rangers;Vinni Lettieri;C;19;1;4
+Los Angeles Kings;Trevor Lewis;C;61;14;11
+Anaheim Ducks;Mike Liambas;AG;7;0;1
+Vegas Golden Knights;Oscar Lindberg;C;57;7;2
+Philadelphia Flyers;Oskar Lindblom;AG;16;2;1
+Dallas Stars;Esa Lindell;D;73;7;19
+Colorado Avalanche;Anton Lindholm;D;47;0;4
+Carolina Hurricanes;Elias Lindholm;C;73;15;26
+Anaheim Ducks;Hampus Lindholm;D;62;11;17
+Winnipeg Jets;Bryan Little;C;74;14;26
+Calgary Flames;Ryan Lomberg;AG;7;0;1
+New Jersey Devils;Ben Lovejoy;D;53;2;6
+Winnipeg Jets;Adam Lowry;C;38;8;7
+Edmonton Oilers;Milan Lucic;AG;74;10;24
+Pittsburgh Penguins;Olli Maatta;D;75;7;20
+Los Angeles Kings;Kurtis MacDermid;D;34;1;3
+Philadelphia Flyers;Andrew MacDonald;D;59;6;13
+Florida Panthers;Derek MacKenzie;C;67;3;11
+Colorado Avalanche;Nathan MacKinnon;C;66;38;54
+Florida Panthers;Denis Malgin;C;45;10;8
+Pittsburgh Penguins;Evgeni Malkin;C;71;41;50
+Edmonton Oilers;Brad Malone;C;7;0;0
+Florida Panthers;Maxim Mamin;AG;18;2;0
+Calgary Flames;Andrew Mangiapane;AG;10;0;0
+Philadelphia Flyers;Brandon Manning;D;58;6;10
+Anaheim Ducks;Josh Manson;D;73;5;26
+Detroit Red Wings;Anthony Mantha;AD;72;23;19
+Boston Bruins;Brad Marchand;AG;59;32;46
+Vegas Golden Knights;Jon Marchessault;C;71;23;45
+Toronto Maple Leafs;Martin Marincin;D;2;0;0
+Toronto Maple Leafs;Patrick Marleau;AG;74;23;17
+Toronto Maple Leafs;Mitch Marner;C;74;20;43
+Toronto Maple Leafs;Patrick Maroon;AG;67;16;22
+Edmonton Oilers;Patrick Maroon;AG;57;14;16
+New Jersey Devils;Patrick Maroon;AG;10;2;6
+Philadelphia Flyers;Danick Martel;AG;4;0;0
+Toronto Maple Leafs;Matt Martin;AG;49;3;9
+San Jose Sharks;Paul Martin;D;6;0;2
+Los Angeles Kings;Alec Martinez;D;70;7;14
+Arizona Coyotes;Jordan Martinook;AG;73;6;8
+Chicago Blackhawks;Andreas Martinsen;AG;2;0;0
+Florida Panthers;Mike Matheson;D;71;10;16
+Vegas Golden Knights;Stefan Matteau;C;8;0;1
+Toronto Maple Leafs;Auston Matthews;C;54;29;22
+Winnipeg Jets;Shawn Matthias;AG;26;1;2
+New York Islanders;Scott Mayfield;D;43;2;10
+Boston Bruins;Charlie McAvoy;D;59;7;25
+Buffalo Sabres;Jake McCabe;D;53;3;9
+Florida Panthers;Jared McCann;C;59;8;15
+Montreal Canadiens;Michael McCarron;AD;11;0;0
+Ottawa Senators;Max McCormick;AG;21;2;2
+Florida Panthers;Ian McCoshen;D;37;3;1
+Edmonton Oilers;Connor McDavid;C;74;36;58
+Toronto Maple Leafs;Ryan McDonagh;D;55;4;25
+New York Rangers;Ryan McDonagh;D;49;2;24
+Tampa Bay Lightning;Ryan McDonagh;D;6;2;1
+Carolina Hurricanes;Brock McGinn;AG;73;13;13
+Florida Panthers;Jamie McGinn;AG;66;11;11
+Pittsburgh Penguins;Greg McKegg;C;26;2;2
+Dallas Stars;Curtis McKenzie;AG;6;0;2
+Carolina Hurricanes;Roland McKeown;D;4;0;2
+Toronto Maple Leafs;Cody McLeod;AG;45;1;3
+Nashville Predators;Cody McLeod;AG;23;1;1
+New York Rangers;Cody McLeod;AG;22;0;2
+Vegas Golden Knights;Brayden McNabb;D;68;4;10
+Boston Bruins;Adam McQuaid;D;30;1;2
+St. Louis Blues;Wade Megan;C;1;0;0
+Anaheim Ducks;Jaycob Megna;D;14;0;1
+Vancouver Canucks;Jayson Megna;C;1;0;0
+San Jose Sharks;Timo Meier;AD;73;19;12
+Arizona Coyotes;Nicholas Merkley;AD;1;0;0
+Arizona Coyotes;Dakota Mermis;D;7;0;0
+Vegas Golden Knights;Jonathon Merrill;D;28;1;2
+Montreal Canadiens;Victor Mete;D;49;0;7
+Dallas Stars;Marc Methot;D;29;0;1
+Columbus Blue Jackets;Sonny Milano;AG;48;13;6
+Vegas Golden Knights;Colin Miller;D;74;10;29
+Toronto Maple Leafs;J.T. Miller;AG;74;20;32
+New York Rangers;J.T. Miller;AG;63;13;27
+Tampa Bay Lightning;J.T. Miller;AG;11;7;5
+Boston Bruins;Kevan Miller;D;59;1;13
+Colorado Avalanche;Andrei Mironov;D;10;1;2
+Toronto Maple Leafs;Torrey Mitchell;C;56;5;5
+Los Angeles Kings;Torrey Mitchell;C;45;5;5
+Montreal Canadiens;Torrey Mitchell;C;11;0;0
+Minnesota Wild;Zack Mitchell;AD;22;3;2
+Calgary Flames;Sean Monahan;C;74;31;33
+Anaheim Ducks;Brandon Montour;D;73;9;20
+Toronto Maple Leafs;Dominic Moore;C;49;6;6
+New Jersey Devils;John Moore;D;73;7;11
+Philadelphia Flyers;Samuel Morin;D;2;0;0
+Winnipeg Jets;Josh Morrissey;D;74;5;19
+Toronto Maple Leafs;Joseph Morrow;D;48;5;8
+Montreal Canadiens;Joseph Morrow;D;38;5;6
+Winnipeg Jets;Joseph Morrow;D;10;0;2
+Toronto Maple Leafs;Tyler Motte;AG;41;3;2
+Columbus Blue Jackets;Tyler Motte;AG;31;3;2
+Vancouver Canucks;Tyler Motte;AG;10;0;0
+Buffalo Sabres;Matt Moulson;AG;14;0;0
+New Jersey Devils;Mirco Mueller;D;20;0;2
+Chicago Blackhawks;Connor Murphy;D;69;1;10
+Minnesota Wild;Ryan Murphy;D;12;1;2
+Columbus Blue Jackets;Ryan Murray;D;38;1;8
+Los Angeles Kings;Jake Muzzin;D;72;7;34
+Winnipeg Jets;Tyler Myers;D;74;6;28
+Toronto Maple Leafs;Vladislav Namestnikov;C;73;22;25
+Tampa Bay Lightning;Vladislav Namestnikov;C;62;20;24
+New York Rangers;Vladislav Namestnikov;C;11;2;1
+Toronto Maple Leafs;Rick Nash;AG;71;21;13
+New York Rangers;Rick Nash;AD;60;18;10
+Boston Bruins;Rick Nash;AG;11;3;3
+Boston Bruins;Riley Nash;C;72;15;26
+Vegas Golden Knights;James Neal;AG;63;24;17
+Carolina Hurricanes;Martin Necas;C;1;0;0
+New York Islanders;Brock Nelson;AG;74;17;13
+Buffalo Sabres;Casey Nelson;D;29;2;5
+Colorado Avalanche;Patrik Nemeth;D;60;3;12
+Washington Capitals;Aaron Ness;D;8;0;1
+Minnesota Wild;Nino Niederreiter;AD;54;17;12
+Detroit Red Wings;Frans Nielsen;C;71;14;15
+Colorado Avalanche;Matthew Nieto;AG;66;13;9
+New York Rangers;Boo Nieves;C;28;1;8
+Washington Capitals;Matt Niskanen;D;60;6;21
+New Jersey Devils;Stefan Noesen;AD;64;11;13
+Buffalo Sabres;Jordan Nolan;AG;63;3;4
+Carolina Hurricanes;Joakim Nordstrom;AG;68;2;4
+Vegas Golden Knights;Tomas Nosek;AG;60;7;8
+Edmonton Oilers;Ryan Nugent-Hopkins;C;56;21;21
+Edmonton Oilers;Darnell Nurse;D;74;6;19
+Columbus Blue Jackets;Markus Nutivaara;D;57;5;16
+Toronto Maple Leafs;William Nylander;C;74;16;37
+Detroit Red Wings;Gustav Nyquist;AD;74;19;15
+Ottawa Senators;Jim O'Brien;C;10;0;1
+Washington Capitals;Liam O'Brien;C;3;0;0
+Toronto Maple Leafs;Rob O'Gara;D;22;0;2
+New York Rangers;Rob O'Gara;D;14;0;2
+Boston Bruins;Rob O'Gara;D;8;0;0
+Philadelphia Flyers;Will O'Neill;D;1;0;0
+Toronto Maple Leafs;Daniel O'Regan;C;21;0;4
+San Jose Sharks;Daniel O'Regan;C;19;0;4
+Buffalo Sabres;Daniel O'Regan;C;2;0;0
+Minnesota Wild;Cal O'Reilly;C;1;0;0
+Buffalo Sabres;Ryan O'Reilly;C;73;20;32
+Toronto Maple Leafs;Johnny Oduya;D;52;4;4
+Ottawa Senators;Johnny Oduya;D;51;4;4
+Philadelphia Flyers;Johnny Oduya;D;1;0;0
+Chicago Blackhawks;Jordan Oesterle;D;49;5;9
+Buffalo Sabres;Kyle Okposo;AD;68;11;27
+Toronto Maple Leafs;Jamie Oleksiak;D;61;5;10
+Pittsburgh Penguins;Jamie Oleksiak;D;40;4;8
+Dallas Stars;Jamie Oleksiak;D;21;1;2
+Minnesota Wild;Gustav Olofsson;D;40;0;8
+Washington Capitals;Dmitry Orlov;D;74;9;20
+Washington Capitals;Brooks Orpik;D;73;0;9
+Washington Capitals;T.J. Oshie;AD;68;16;25
+Detroit Red Wings;Xavier Ouellet;D;42;0;5
+Washington Capitals;Alex Ovechkin;AG;74;44;37
+Toronto Maple Leafs;Magnus Paajarvi;AG;70;7;3
+St. Louis Blues;Magnus Paajarvi;AG;44;2;2
+Ottawa Senators;Magnus Paajarvi;AG;26;5;1
+Montreal Canadiens;Max Pacioretty;AG;64;17;20
+Ottawa Senators;Jean-Gabriel Pageau;C;69;12;14
+Edmonton Oilers;Iiro Pakarinen;AD;37;2;1
+Tampa Bay Lightning;Ondrej Palat;AG;48;8;23
+New Jersey Devils;Kyle Palmieri;AD;55;20;16
+Columbus Blue Jackets;Artemi Panarin;AG;75;25;44
+Toronto Maple Leafs;Richard Panik;AD;64;10;17
+Chicago Blackhawks;Richard Panik;AD;37;6;10
+Arizona Coyotes;Richard Panik;AD;27;4;7
+Tampa Bay Lightning;Cedric Paquette;C;49;3;3
+St. Louis Blues;Colton Parayko;D;74;6;28
+Minnesota Wild;Zach Parise;AG;34;9;7
+Boston Bruins;David Pastrnak;AD;73;29;43
+Dallas Stars;Greg Pateryn;D;66;1;11
+Philadelphia Flyers;Nolan Patrick;C;66;10;15
+Ottawa Senators;Nick Paul;AG;11;1;0
+San Jose Sharks;Joe Pavelski;C;74;19;40
+Los Angeles Kings;Tanner Pearson;AG;75;15;21
+Tampa Bay Lightning;Matthew Peca;C;10;2;3
+New York Islanders;Adam Pelech;D;70;3;12
+Washington Capitals;Anthony Peluso;AD;2;0;0
+Arizona Coyotes;Brendan Perlini;AG;66;16;12
+Winnipeg Jets;Mathieu Perreault;C;62;16;21
+Vegas Golden Knights;David Perron;AG;68;16;50
+Anaheim Ducks;Corey Perry;AD;64;16;28
+Carolina Hurricanes;Brett Pesce;D;65;3;16
+Winnipeg Jets;Nic Petan;AG;15;2;0
+Florida Panthers;Alexander Petrovic;D;58;1;10
+Montreal Canadiens;Jeff Petry;D;75;10;25
+Anaheim Ducks;Marcus Pettersson;D;15;1;2
+Toronto Maple Leafs;Dion Phaneuf;D;72;6;17
+Ottawa Senators;Dion Phaneuf;D;53;3;13
+Los Angeles Kings;Dion Phaneuf;D;19;3;4
+New Jersey Devils;Blake Pietila;AG;2;0;0
+St. Louis Blues;Alex Pietrangelo;D;70;15;36
+New York Rangers;Neal Pionk;D;20;0;12
+Dallas Stars;Tyler Pitlick;C;73;14;11
+Toronto Maple Leafs;Tomas Plekanec;C;70;6;18
+Montreal Canadiens;Tomas Plekanec;C;60;6;18
+Toronto Maple Leafs;Tomas Plekanec;C;10;0;0
+Tampa Bay Lightning;Brayden Point;C;74;28;33
+Toronto Maple Leafs;Roman Polak;D;47;2;9
+Buffalo Sabres;Jason Pominville;AD;74;12;16
+Winnipeg Jets;Tucker Poolman;D;18;1;0
+Boston Bruins;Paul Postma;D;14;0;1
+Buffalo Sabres;Benoit Pouliot;AG;70;13;6
+Vancouver Canucks;Derrick Pouliot;D;64;2;17
+New York Islanders;Shane Prince;AG;12;1;1
+Toronto Maple Leafs;Nate Prosser;D;48;2;6
+Minnesota Wild;Nate Prosser;D;47;2;6
+St. Louis Blues;Nate Prosser;D;1;0;0
+New Jersey Devils;Dalton Prout;D;4;0;0
+Philadelphia Flyers;Ivan Provorov;D;75;13;21
+Edmonton Oilers;Jesse Puljujarvi;AD;57;12;8
+New York Islanders;Ryan Pulock;D;60;9;20
+Ottawa Senators;Tom Pyatt;AG;72;7;14
+Florida Panthers;Mark Pysyk;D;72;3;11
+New Jersey Devils;John Quenneville;C;2;0;0
+Minnesota Wild;Kyle Quincey;D;18;0;3
+New York Islanders;Alan Quine;C;21;0;3
+Dallas Stars;Alexander Radulov;AD;75;26;39
+Philadelphia Flyers;Michael Raffl;AG;73;11;8
+Anaheim Ducks;Rickard Rakell;C;70;31;32
+Colorado Avalanche;Mikko Rantanen;AD;73;27;53
+Carolina Hurricanes;Victor Rask;C;71;14;17
+Anaheim Ducks;Dennis Rasmussen;C;27;1;3
+Edmonton Oilers;Ty Rattie;AD;6;3;2
+Minnesota Wild;Kyle Rau;C;3;0;1
+Philadelphia Flyers;Matt Read;AD;12;1;0
+Toronto Maple Leafs;Ryan Reaves;AD;71;4;6
+Pittsburgh Penguins;Ryan Reaves;AD;58;4;4
+Vegas Golden Knights;Ryan Reaves;AD;13;0;2
+Buffalo Sabres;Zach Redmond;D;3;0;0
+Toronto Maple Leafs;Mike Reilly;D;51;2;13
+Minnesota Wild;Mike Reilly;D;38;2;8
+Montreal Canadiens;Mike Reilly;D;13;0;5
+Buffalo Sabres;Sam Reinhart;C;74;19;23
+Arizona Coyotes;Brad Richardson;C;68;3;11
+Toronto Maple Leafs;Tobias Rieder;AD;71;11;11
+Arizona Coyotes;Tobias Rieder;AD;58;8;11
+Los Angeles Kings;Tobias Rieder;AD;13;3;0
+Toronto Maple Leafs;Morgan Rielly;D;68;6;41
+Arizona Coyotes;Zac Rinaldo;AG;47;4;2
+Buffalo Sabres;Rasmus Ristolainen;D;65;6;29
+Dallas Stars;Brett Ritchie;AD;64;6;7
+Anaheim Ducks;Nick Ritchie;AG;69;8;17
+Ottawa Senators;Jack Rodewald;AD;4;0;0
+Buffalo Sabres;Evan Rodrigues;AG;40;6;13
+New Jersey Devils;Kevin Rooney;C;1;0;0
+Toronto Maple Leafs;Calle Rosen;D;4;0;1
+Winnipeg Jets;Jack Roslovic;C;29;4;8
+Dallas Stars;Antoine Roussel;AG;66;5;11
+Pittsburgh Penguins;Carter Rowney;AD;44;2;3
+Anaheim Ducks;Kevin Roy;AG;25;6;1
+Pittsburgh Penguins;Chad Ruhwedel;D;40;2;3
+Edmonton Oilers;Kris Russell;D;70;4;17
+Pittsburgh Penguins;Bryan Rust;AD;62;12;25
+Chicago Blackhawks;Jan Rutta;D;51;6;13
+Ottawa Senators;Bobby Ryan;AD;53;8;20
+Carolina Hurricanes;Derek Ryan;C;72;13;17
+San Jose Sharks;Joakim Ryan;D;62;3;9
+Chicago Blackhawks;Brandon Saad;AG;75;16;16
+Nashville Predators;Miikka Salomaki;AD;51;2;6
+Philadelphia Flyers;Travis Sanheim;D;42;1;7
+New Jersey Devils;Steven Santini;D;36;2;8
+Columbus Blue Jackets;David Savard;D;74;4;11
+Vegas Golden Knights;Luca Sbisa;D;30;2;12
+Buffalo Sabres;Marco Scandella;D;74;5;15
+Florida Panthers;Colton Sceviour;AD;66;9;9
+Boston Bruins;Tim Schaller;C;73;11;9
+Winnipeg Jets;Mark Scheifele;C;53;22;34
+St. Louis Blues;Brayden Schenn;C;74;25;37
+Arizona Coyotes;Luke Schenn;D;56;0;5
+Montreal Canadiens;Nikita Scherbak;AD;21;4;2
+Montreal Canadiens;David Schlemko;D;34;1;3
+St. Louis Blues;Jordan Schmaltz;D;10;0;1
+Chicago Blackhawks;Nick Schmaltz;AG;71;21;28
+Vegas Golden Knights;Nate Schmidt;D;70;5;30
+Columbus Blue Jackets;Jordan Schroeder;AG;21;1;1
+Pittsburgh Penguins;Justin Schultz;D;56;4;16
+St. Louis Blues;Jaden Schwartz;AG;54;22;32
+Chicago Blackhawks;Brent Seabrook;D;74;5;18
+Vancouver Canucks;Daniel Sedin;AG;74;21;29
+Vancouver Canucks;Henrik Sedin;C;75;3;43
+Columbus Blue Jackets;Lukas Sedlak;AG;53;4;4
+Minnesota Wild;Nick Seeler;D;14;0;2
+Dallas Stars;Tyler Seguin;C;75;39;32
+New York Islanders;Dennis Seidenberg;D;24;0;5
+Edmonton Oilers;Andrej Sekera;D;30;0;4
+Tampa Bay Lightning;Mikhail Sergachev;D;72;9;28
+New Jersey Devils;Damon Severson;D;71;9;14
+Chicago Blackhawks;Patrick Sharp;AG;63;9;10
+New York Rangers;Kevin Shattenkirk;D;46;5;18
+Montreal Canadiens;Andrew Shaw;AD;51;10;10
+Toronto Maple Leafs;Logan Shaw;AD;65;4;7
+Anaheim Ducks;Logan Shaw;AD;42;2;6
+Montreal Canadiens;Logan Shaw;AD;23;2;1
+Toronto Maple Leafs;Riley Sheahan;C;74;10;18
+Pittsburgh Penguins;Riley Sheahan;C;66;10;18
+Detroit Red Wings;Riley Sheahan;C;8;0;0
+Pittsburgh Penguins;Conor Sheary;AG;72;15;11
+Vegas Golden Knights;Vadim Shipachyov;AG;3;1;0
+Dallas Stars;Devin Shore;C;75;9;19
+Toronto Maple Leafs;Nick Shore;C;57;4;12
+Los Angeles Kings;Nick Shore;C;49;4;11
+Ottawa Senators;Nick Shore;C;6;0;1
+Calgary Flames;Nick Shore;C;2;0;0
+Ottawa Senators;Patrick Sieloff;D;1;1;0
+Colorado Avalanche;Duncan Siemens;D;15;1;1
+Anaheim Ducks;Jakob Silfverberg;AD;70;16;18
+Philadelphia Flyers;Wayne Simmonds;AD;68;23;20
+Pittsburgh Penguins;Dominik Simon;C;32;4;8
+Nashville Predators;Colton Sissons;C;72;9;18
+Carolina Hurricanes;Jeff Skinner;AG;74;22;22
+New York Rangers;Brady Skjei;D;74;3;18
+Carolina Hurricanes;Jaccob Slavin;D;74;8;20
+Edmonton Oilers;Anton Slepyshev;AG;43;5;5
+New York Rangers;Brendan Smith;D;44;1;7
+Nashville Predators;Craig Smith;AD;70;21;23
+Dallas Stars;Gemel Smith;C;41;5;5
+Vegas Golden Knights;Reilly Smith;AD;66;22;38
+Ottawa Senators;Zack Smith;AG;59;5;13
+Washington Capitals;Devante Smith-Pelly;AD;69;7;9
+St. Louis Blues;Vladimir Sobotka;AG;73;11;19
+Colorado Avalanche;Carl Soderberg;C;69;15;19
+San Jose Sharks;Marcus Sorensen;AG;26;4;1
+Toronto Maple Leafs;Nikita Soshnikov;AD;13;1;1
+St. Louis Blues;Nikita Soshnikov;AD;10;1;1
+Toronto Maple Leafs;Nikita Soshnikov;AD;3;0;0
+Dallas Stars;Jason Spezza;C;72;7;18
+Toronto Maple Leafs;Ryan Spooner;C;51;11;27
+Boston Bruins;Ryan Spooner;C;39;9;16
+New York Rangers;Ryan Spooner;C;12;2;11
+Pittsburgh Penguins;Daniel Sprong;AD;8;2;1
+New York Rangers;Ryan Sproul;D;8;0;4
+Minnesota Wild;Jared Spurgeon;D;61;9;28
+Minnesota Wild;Eric Staal;C;73;39;32
+Carolina Hurricanes;Jordan Staal;C;71;16;24
+New York Rangers;Marc Staal;D;64;1;7
+New Jersey Devils;Drew Stafford;AD;58;8;7
+Calgary Flames;Matt Stajan;C;65;4;7
+Tampa Bay Lightning;Steven Stamkos;C;74;27;59
+Toronto Maple Leafs;Paul Stastny;C;74;15;35
+St. Louis Blues;Paul Stastny;C;63;12;28
+Winnipeg Jets;Paul Stastny;C;11;3;7
+Vancouver Canucks;Troy Stecher;D;61;1;9
+St. Louis Blues;Alex Steen;AG;68;14;30
+Carolina Hurricanes;Lee Stempniak;AD;30;3;4
+Arizona Coyotes;Derek Stepan;C;74;13;38
+Washington Capitals;Chandler Stephenson;C;59;6;11
+Toronto Maple Leafs;Chris Stewart;AD;51;9;5
+Minnesota Wild;Chris Stewart;AD;47;9;4
+Calgary Flames;Chris Stewart;AD;4;0;1
+Ottawa Senators;Mark Stone;AD;58;20;42
+Calgary Flames;Michael Stone;D;75;2;4
+Tampa Bay Lightning;Anton Stralman;D;72;4;13
+Montreal Canadiens;Mark Streit;D;2;0;0
+Arizona Coyotes;Dylan Strome;C;13;2;1
+Edmonton Oilers;Ryan Strome;AD;74;13;20
+Nashville Predators;P.K. Subban;D;73;15;37
+St. Louis Blues;Oskar Sundqvist;C;35;0;3
+Tampa Bay Lightning;Andrej Sustr;D;42;2;5
+Minnesota Wild;Ryan Suter;D;73;6;43
+Vancouver Canucks;Brandon Sutter;C;54;8;11
+Detroit Red Wings;Evgeny Svechnikov;AD;8;1;0
+Boston Bruins;Jordan Szwarz;AD;12;0;3
+Winnipeg Jets;Brandon Tanev;AG;54;4;8
+Vancouver Canucks;Chris Tanev;D;42;2;9
+St. Louis Blues;Vladimir Tarasenko;AD;72;28;31
+Toronto Maple Leafs;Tomas Tatar;AG;74;19;13
+Detroit Red Wings;Tomas Tatar;AG;62;16;12
+Vegas Golden Knights;Tomas Tatar;AG;12;3;1
+New York Islanders;John Tavares;C;74;32;45
+Buffalo Sabres;Matt Tennyson;D;14;0;0
+Carolina Hurricanes;Teuvo Teravainen;AG;74;23;38
+Vegas Golden Knights;Shea Theodore;D;53;4;18
+Toronto Maple Leafs;Nate Thompson;C;62;5;11
+Ottawa Senators;Nate Thompson;C;43;4;7
+Los Angeles Kings;Nate Thompson;C;19;1;4
+St. Louis Blues;Tage Thompson;C;36;3;6
+St. Louis Blues;Chris Thorburn;AD;42;0;6
+San Jose Sharks;Joe Thornton;C;47;13;23
+San Jose Sharks;Chris Tierney;C;74;17;20
+Florida Panthers;Owen Tippett;AD;7;1;0
+Calgary Flames;Matthew Tkachuk;AG;68;24;25
+Chicago Blackhawks;Jonathan Toews;C;74;20;32
+Los Angeles Kings;Tyler Toffoli;C;75;23;20
+Colorado Avalanche;Dominic Toninato;C;34;0;1
+Florida Panthers;Vincent Trocheck;C;72;28;38
+Pittsburgh Penguins;Zach Trotman;D;3;0;0
+Winnipeg Jets;Jacob Trouba;D;52;3;19
+Vegas Golden Knights;Alex Tuch;AD;70;13;18
+Detroit Red Wings;Dominic Turgeon;C;5;0;0
+Toronto Maple Leafs;Kyle Turris;C;67;13;30
+Nashville Predators;Kyle Turris;C;56;10;24
+Ottawa Senators;Kyle Turris;C;11;3;6
+St. Louis Blues;Scottie Upshall;AD;61;7;11
+Montreal Canadiens;Rinat Valiev;D;2;0;0
+Florida Panthers;Curtis Valk;AG;1;0;0
+Toronto Maple Leafs;James van Riemsdyk;AG;73;34;17
+Carolina Hurricanes;Trevor van Riemsdyk;D;71;2;11
+Toronto Maple Leafs;Thomas Vanek;AG;73;21;29
+Vancouver Canucks;Thomas Vanek;AG;61;17;24
+Columbus Blue Jackets;Thomas Vanek;AG;12;4;5
+Toronto Maple Leafs;Sami Vatanen;D;65;4;27
+New Jersey Devils;Sami Vatanen;D;50;3;24
+Anaheim Ducks;Sami Vatanen;D;15;1;3
+Toronto Maple Leafs;Frank Vatrano;C;32;5;1
+Boston Bruins;Frank Vatrano;C;25;2;0
+Florida Panthers;Frank Vatrano;C;7;3;1
+Anaheim Ducks;Antoine Vermette;C;63;8;8
+Calgary Flames;Kris Versteeg;AD;24;3;5
+New York Rangers;Jimmy Vesey;AG;71;15;7
+Vancouver Canucks;Jake Virtanen;AD;69;8;9
+San Jose Sharks;Marc-Edouard Vlasic;D;73;10;21
+Philadelphia Flyers;Jakub Voracek;AD;75;19;61
+Washington Capitals;Jakub Vrana;AG;67;13;14
+Florida Panthers;Radim Vrbata;AD;41;5;9
+Toronto Maple Leafs;Chris Wagner;C;72;6;9
+Anaheim Ducks;Chris Wagner;C;64;6;9
+New York Islanders;Chris Wagner;AD;8;0;0
+Toronto Maple Leafs;Nathan Walker;AG;9;1;0
+Washington Capitals;Nathan Walker;AG;7;1;0
+Edmonton Oilers;Nathan Walker;AG;2;0;0
+Carolina Hurricanes;Lucas Wallmark;C;11;1;0
+San Jose Sharks;Joel Ward;AD;46;5;6
+Colorado Avalanche;David Warsofsky;D;12;0;4
+Nashville Predators;Austin Watson;AG;70;12;4
+Philadelphia Flyers;Jordan Weal;C;64;7;10
+Montreal Canadiens;Shea Weber;D;26;6;10
+Nashville Predators;Yannick Weber;D;46;2;3
+Florida Panthers;MacKenzie Weegar;D;50;1;5
+Philadelphia Flyers;Dale Weise;AD;45;4;4
+Anaheim Ducks;Andy Welinski;D;4;0;2
+Columbus Blue Jackets;Alexander Wennberg;C;60;8;25
+Columbus Blue Jackets;Zach Werenski;D;71;14;19
+Winnipeg Jets;Blake Wheeler;AD;74;19;64
+Ottawa Senators;Colin White;C;15;2;1
+Ottawa Senators;Chris Wideman;D;16;3;5
+Carolina Hurricanes;Justin Williams;AD;74;15;30
+Colorado Avalanche;Colin Wilson;C;53;6;11
+Toronto Maple Leafs;Scott Wilson;C;61;6;7
+Buffalo Sabres;Scott Wilson;C;41;6;7
+Detroit Red Wings;Scott Wilson;AG;17;0;0
+Pittsburgh Penguins;Scott Wilson;AG;3;0;0
+Washington Capitals;Tom Wilson;AD;70;11;20
+Toronto Maple Leafs;Tommy Wingels;AD;68;8;7
+Chicago Blackhawks;Tommy Wingels;AD;57;7;5
+Boston Bruins;Tommy Wingels;AD;11;1;2
+Minnesota Wild;Daniel Winnik;AG;72;6;14
+Detroit Red Wings;Luke Witkowski;AD;29;1;1
+Ottawa Senators;Christian Wolanin;D;1;0;0
+New Jersey Devils;Miles Wood;AG;69;17;12
+Colorado Avalanche;Nail Yakupov;AD;55;9;7
+Edmonton Oilers;Kailer Yamamoto;AD;9;0;3
+Florida Panthers;Keith Yandle;D;72;7;42
+New Jersey Devils;Pavel Zacha;C;61;6;14
+Colorado Avalanche;Nikita Zadorov;D;69;7;13
+Toronto Maple Leafs;Nikita Zaitsev;D;52;4;8
+New Jersey Devils;Travis Zajac;C;56;11;11
+Detroit Red Wings;Henrik Zetterberg;AG;74;10;37
+New York Rangers;Mika Zibanejad;C;64;26;18
+New York Rangers;Mats Zuccarello;AD;73;15;34
+Minnesota Wild;Jason Zucker;AG;73;29;28
+Carolina Hurricanes;Valentin Zykov;AG;2;2;0

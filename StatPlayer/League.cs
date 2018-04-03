@@ -80,7 +80,7 @@ namespace StatPlayer
             this.ListJoueur = LectureJoueurStats(streamReader);
         }
         public List<Joueur> LectureJoueurStats(StreamReader streamReader)
-        { streamReader = new StreamReader("../../JoueursStats2.txt");
+        { streamReader = new StreamReader("../../JoueursStats.txt");
             String chaine;
             List<Joueur> listJoueur = new List<Joueur>(); 
             while (!streamReader.EndOfStream)
@@ -133,30 +133,50 @@ namespace StatPlayer
                 }
             }
         }
-        public List<Joueur> ProduirClassementJoueurParEquipe()
+        public String ProduirClassementJoueurParEquipe()
         {
-            List<Joueur> classementparEquip = new List<Joueur>();
+            String classementparEquip = "";
+            List<JoueurDeSurface> listJoueurAAfficher = new List<JoueurDeSurface>();
+            List<Gardien> listGardienAAfficher=new List<Gardien>();
             this.ListEquipe.Sort();
-             foreach (Equipe e in this.ListEquipe)
+            foreach (Equipe e in this.ListEquipe)
             {
-                List<JoueurDeSurface>ljs= e.GetListJoueurDeSurface();
-                ljs.Sort();
-                foreach (JoueurDeSurface j in ljs)
+                classementparEquip += "\n";
+                classementparEquip += "***********************************************************" +
+                                       "**********************************************************\n";
+                classementparEquip +="  "+ e + "\n";
+                classementparEquip += "***********************************************************" +
+                                       "**********************************************************\n";
+
+                List<JoueurDeSurface> listJoueurOrdonnee = e.GetListJoueurDeSurface();
+                listJoueurOrdonnee.Sort();                
+                foreach (JoueurDeSurface j in listJoueurOrdonnee)
                 {
-                    classementparEquip.Add(j);
+                    listJoueurAAfficher.Add(j);
                 }
-                List<Gardien> lg = e.GetListGardien();
-                lg.Sort();
-                foreach (Gardien j in lg)
+                classementparEquip += (listJoueurAAfficher.ToStringTable(
+                       new[] { "Nom", "Post-Nom", "Nom Equipe", "Position", "Match", "Buts", "Passes", "Total" },
+                       a => a.Nom, a => a.PostNom, a => a.NomEquipe, a => a.Position, a => a.NombreDeMatch,
+                       a => a.NombreDeBut, a => a.NombreDePasse, a => a.Rendement)+"\n");
+
+                List<Gardien> listGardienOrdonnee = e.GetListGardien();
+                listGardienOrdonnee.Sort();
+                foreach (Gardien j in listGardienOrdonnee)
                 {
-                    classementparEquip.Add(j);
+                    listGardienAAfficher.Add(j);
                 }
+                classementparEquip += (listGardienAAfficher.ToStringTable(
+                      new[] { "Nom", "Post-Nom", "Nom Equipe", "Position", "Match", "Buts", "Passes", "Total" },
+                      a => a.Nom, a => a.PostNom, a => a.NomEquipe, a => a.Position, a => a.NombreDeMinute,
+                      a => a.NombreDeBut, a => a.NombreDePasse, a => a.Rendement));
+                listJoueurAAfficher.Clear();
+                listGardienAAfficher.Clear();
             }
             return classementparEquip;
         }
-        public List<JoueurDeSurface> ProduirClassementGenJoueurDeSurface()
+        public List<Joueur> ProduirClassementGenJoueurDeSurface()
         {
-            List<JoueurDeSurface> classementJoueur = new List<JoueurDeSurface>();
+            List<Joueur> classementJoueur = new List<Joueur>();
             foreach (Equipe e in this.ListEquipe)
             {
                 List<JoueurDeSurface> ljs = e.GetListJoueurDeSurface();                
@@ -168,9 +188,9 @@ namespace StatPlayer
             classementJoueur.Sort();
             return classementJoueur;
         }
-        public List<Gardien> ProduirClassementGenGardien()
+        public List<Joueur> ProduirClassementGenGardien()
         {
-            List<Gardien> classementparGardien = new List<Gardien>();
+            List<Joueur> classementparGardien = new List<Joueur>();
             foreach (Equipe e in this.ListEquipe)
             {
                 List<Gardien> ljs = e.GetListGardien(); 
