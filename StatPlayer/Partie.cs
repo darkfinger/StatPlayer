@@ -213,6 +213,13 @@ namespace StatPlayer
                 throw new IndexOutOfRangeException("there is no JoueurDeSurface at this index that played the game");
             }
         }
+        public Partie(Equipe equipe1, int nombreButEq1, Equipe equipe2, int nombreButEq2, char typeDePartie)
+        {
+            this.Equipe1 = equipe1;
+            this.NombreButEq1 = nombreButEq1;
+            this.Equipe2 = equipe2;
+            this.NombreButEq2 = nombreButEq2;
+        }
         public String Winner
         {
             get

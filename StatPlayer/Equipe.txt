@@ -1,0 +1,31 @@
+Tampa Bay Lightning;Florida;Atlantic Division;Eastern Conference
+Boston Bruins;Boston;Atlantic Division;Eastern Conference
+Toronto Maple Leafs;Toronto;Atlantic Division;Eastern Conference
+Florida Panthers;Florida;Atlantic Division;Eastern Conference
+Montreal Canadiens;Montreal;Atlantic Division;Eastern Conference
+Detroit Red Wings;Detroit;Atlantic Division;Eastern Conference
+Ottawa Senators;Ottawa;Atlantic Division;Eastern Conference
+Buffalo Sabres;Buffalo;Atlantic Division;Eastern Conference
+Washington Capitals;Washington;Metropolitan Division;Eastern Conference
+Pittsburgh Penguins;Pittsburgs;Metropolitan Division;Eastern Conference
+Columbus Blue Jackets;Columbus;Metropolitan Division;Eastern Conference
+Philadelphia Flyers;Philadelphia;Metropolitan Division;Eastern Conference
+New Jersey Devils;New Jersey;Metropolitan Division;Eastern Conference
+Carolina Hurricanes;Carolina;Metropolitan Division;Eastern Conference
+New York Rangers;New York;Metropolitan Division;Eastern Conference
+New York Islanders;New York;Metropolitan Division;Eastern Conference
+Nashville Predators;Nashville;Central Division;Western Conference
+Winnipeg Jets;Winnipeg;Central Division;Western Conference
+Minnesota Wild;Minnesota;Central Division;Western Conference
+Colorado Avalanche;Colorado;Central Division;Western Conference
+St. Louis Blues;St. Louis;Central Division;Western Conference
+Dallas Stars;Dallas;Central Division;Western Conference
+Chicago Blackhawks;Chicago;Central Division;Western Conference
+Vegas Golden Knights;Las Vegas;Pacific Division;Western Conference
+San Jose Sharks;San Jose;Pacific Division;Western Conference
+Los Angeles Kings;Los Angeles;Pacific Division;Western Conference
+Anaheim Ducks;Anaheim;Pacific Division;Western Conference
+Calgary Flames;Calgary;Pacific Division;Western Conference
+Edmonton Oilers;Edmonton;Pacific Division;Western Conference
+Vancouver Canucks;Vancouver;Pacific Division;Western Conference
+Arizona Coyotes;Arizona;Pacific Division;Western Conference

@@ -2,7 +2,7 @@
 
 namespace StatPlayer
 {
-    class JoueurDeSurface:Joueur
+    class JoueurDeSurface:Joueur,IComparable
     {
         /// <summary>
         /// attribut declaration
@@ -34,7 +34,7 @@ namespace StatPlayer
         /// <summary>
         /// attribut that compute the total score of an player
         /// </summary>
-        public uint Total
+        public override float  Rendement
         {
             get
             {
@@ -95,18 +95,19 @@ namespace StatPlayer
         /// <param name="match"></param>
         /// <param name="but"></param>
         /// <param name="passe"></param>
-        public JoueurDeSurface(string nom, string position, uint match, uint but, uint passe) : base(nom, position, but, passe)
+        public JoueurDeSurface(String nomEquipe,string nom, string position, uint match, uint but, uint passe) : base(nomEquipe,nom, position, but, passe)
         {
-            if (position.ToUpper().Equals("G"))
+            if (IsJoueurDeSurface(this))
             {
-                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
+                this.NombreDeMatch = match;
+                if (this.NombreDeMatch == 0)
+                {
+                    this.NombreDeBut = 0;
+                    this.NombreDePasse = 0;
+                }
             }
-            this.NombreDeMatch = match;
-            if (this.NombreDeMatch == 0)
-            {
-                this.NombreDeBut = 0;
-                this.NombreDePasse = 0;
-            }
+            else { throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");}
+            
         }
         /// <summary>
         /// toString ovverride to print out stat of an individual player
@@ -115,9 +116,45 @@ namespace StatPlayer
         public override string ToString()
         {
             String details;
-            details = this.Nom + " " + this.PostNom + " " + this.Position + " "+this.NombreDeMatch 
-                        +" " + this.NombreDeBut + " " + this.NombreDePasse + " " +this.Total;
+            details = this.Nom + " " + this.PostNom +" "+this.NomEquipe+ " " + this.Position + " "+this.NombreDeMatch 
+                        +" |but: " + this.NombreDeBut + " |Passe: " + this.NombreDePasse + " |total:" +this.Rendement;
             return details;
+        }
+        public Boolean IsJoueurDeSurface(Joueur j)
+        {
+            if (!j.Position.ToUpper().Equals("G"))
+            {
+                return true;
+            }
+            else { return false; }
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (!(obj is JoueurDeSurface))
+            {
+                throw new ArgumentException("L'objet n'est pas de la classe Etudiant");
+            }
+            JoueurDeSurface autreJoueur = obj as JoueurDeSurface;
+            int comparaison = -(Rendement.CompareTo(autreJoueur.Rendement));
+            //Console.WriteLine(Rendement + " est sup que " + autreJoueur.Rendement + " comp==" + comparaison);
+            if (comparaison == 0)
+            {
+                comparaison = -(NombreDeBut.CompareTo(autreJoueur.NombreDeBut));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (NombreDeMatch.CompareTo(autreJoueur.NombreDeMatch));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (Nom.CompareTo(autreJoueur.Nom));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (PostNom.CompareTo(autreJoueur.PostNom));
+            }
+            return comparaison;
         }
     }
 }

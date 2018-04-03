@@ -11,7 +11,7 @@ namespace StatPlayer
         /// <summary>
         /// une static readonly array considered as a constant array
         /// </summary>
-        private static readonly String[]  POSITION = { "D", "G", "AG", "AD","C"};
+        private static readonly String[] POSITION = { "D", "G", "AG", "AD", "C" };
         /// <summary>
         /// attribut declaration
         /// </summary>
@@ -91,20 +91,20 @@ namespace StatPlayer
         {
             get
             {
-                String pos="";
-                foreach(char p in this.position_)
-                {pos += p.ToString();}
-                return pos.Replace(" ","");
+                String pos = "";
+                foreach (char p in this.position_)
+                { pos += p.ToString(); }
+                return pos.Replace(" ", "");
             }
             set
             {
-                foreach(String p in POSITION)
+                foreach (String p in POSITION)
                 {
                     //we cannot throw an Exception in an else, because we want to check that the value in every index of POSITION.
                     //if we throw it inside else, the program will stop after checking and not founding an accurate position at the first index 
                     if (value.ToUpper().Equals(p))
                     {
-                        this.position_=value.ToUpper().ToCharArray();
+                        this.position_ = value.ToUpper().ToCharArray();
                         break;//if we found one on the actual index, we break the if, we don't have to go all along.
                     }
                 }
@@ -161,6 +161,10 @@ namespace StatPlayer
                 }
             }
         }
+        public abstract float Rendement
+        {
+            get;
+        }
         /// <summary>
         /// Constructor
         /// </summary>
@@ -168,8 +172,9 @@ namespace StatPlayer
         /// <param name="position"></param>
         /// <param name="but"></param>
         /// <param name="passe"></param>
-        public Joueur(String nom, string position,uint but=0,uint passe=0)
+        public Joueur(String nomEquipe, String nom, string position,uint but=0,uint passe=0)
         {
+            this.NomEquipe = nomEquipe;
             String[] fullName = nom.Split(' ');
             if (fullName.Length == 1)
             {
@@ -194,6 +199,7 @@ namespace StatPlayer
         /// <param name="joueur"></param>
         public Joueur(Joueur joueur)
         {
+            this.NomEquipe = joueur.NomEquipe;
             this.Nom = joueur.Nom;
             this.PostNom = joueur.PostNom;
             this.Position = joueur.Position;
@@ -207,7 +213,7 @@ namespace StatPlayer
         public override string ToString()
         {
             String details;
-            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeBut + " " + this.NombreDePasse;
+            details =this.NomEquipe+" "+ this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeBut + " " + this.NombreDePasse;
             return details;
         }
     }

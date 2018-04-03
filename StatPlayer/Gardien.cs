@@ -2,7 +2,7 @@
 
 namespace StatPlayer
 {
-    class Gardien:Joueur
+    class Gardien:Joueur,IComparable
     {
         /// <summary>
         /// attribut declaration
@@ -126,7 +126,22 @@ namespace StatPlayer
                     throw new ApplicationException("invalid format for nombreButAlloue_");
                 }
             }
-        }                
+        }
+        public override float Rendement
+        {
+            get
+            {
+                if (this.NombreDeMinute == 0)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return this.NombreButAlloue/this.NombreDeMinute;
+                }
+                
+            }
+        }
         public Gardien(Joueur joueur) 
             : base(joueur)
         {
@@ -145,10 +160,6 @@ namespace StatPlayer
         public Gardien(Gardien gardien) 
             : base(gardien)
         {
-            if (!gardien.Position.ToUpper().Equals("G"))
-            {
-                throw new ApplicationException("only players with position G can be Gardien");
-            }
             this.NombreDeMinute = gardien.NombreDeMinute;
             this.NombreDeVictoire = gardien.NombreDeVictoire;
             this.NombreDefaite = gardien.NombreDefaite;
@@ -179,8 +190,8 @@ namespace StatPlayer
             }
             
         }
-        public Gardien(string nom, string position, uint minute, uint but, uint passe, uint nombreVictoire, uint nombreDefaite, uint nombreTotalDeTire, uint nombreButAlloue) 
-            : base(nom, position, but, passe)
+        public Gardien(String nomEquipe, string nom, string position, uint minute, uint but, uint passe, uint nombreVictoire, uint nombreDefaite, uint nombreTotalDeTire, uint nombreButAlloue) 
+            : base(nomEquipe, nom, position, but, passe)
         {
             if (!position.ToUpper().Equals("G"))
             {
@@ -211,10 +222,38 @@ namespace StatPlayer
         public override string ToString()
         {
             String details;
-            details = this.Nom + " " + this.PostNom + " " + this.Position + " " + this.NombreDeMinute
+            details =this.Nom + " " + this.PostNom + " " +this.NomEquipe+" "+  this.Position + " " + this.NombreDeMinute
                         + " " + this.NombreDeBut + " " + this.NombreDePasse + " " + this.NombreDeVictoire
                         + " " + this.NombreDefaite + " " + this.NombreTotalDeTire + " " + this.NombreButAlloue;
             return details;
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (!(obj is Gardien))
+            {
+                throw new ArgumentException("L'objet n'est pas de la classe Etudiant");
+            }
+            Gardien autreGardien = obj as Gardien;
+            int comparaison = -(Rendement.CompareTo(autreGardien.Rendement));
+            //Console.WriteLine(Rendement + " est sup que " + autreJoueur.Rendement + " comp==" + comparaison);
+            if (comparaison == 0)
+            {
+                comparaison = -(NombreDeBut.CompareTo(autreGardien.NombreDeBut));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (NombreDeMinute.CompareTo(autreGardien.NombreDeMinute));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (Nom.CompareTo(autreGardien.Nom));
+            }
+            if (comparaison == 0)
+            {
+                comparaison = (PostNom.CompareTo(autreGardien.PostNom));
+            }
+            return comparaison;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace StatPlayer
 {
-    class Equipe
+    class Equipe:IComparable
     {
         /// <summary>
         /// declaration de variable attribut
@@ -261,6 +261,24 @@ namespace StatPlayer
                 throw new ApplicationException("imcompatible type a affecter dans la list de joueur de l equie");
             }
             
+        }
+
+        public override string ToString()
+        {
+            String details;
+            details = "Nom Equipe : "+this.Nom + " -Vilee : " + this.Ville + " -Division : " + this.Division + " -Conference : " + this.Conference;
+            return details;
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (!(obj is Equipe))
+            {
+                throw new ArgumentException("L'objet n'est pas de la meme classe");
+            }
+            Equipe autre = obj as Equipe;
+            int comparaison = Nom.CompareTo(autre.Nom);          
+            return comparaison;
         }
     }
 }

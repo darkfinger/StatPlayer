@@ -219,3 +219,7 @@ StatPlayer/.vs/StatPlayer/v15/sqlite3/storage.ide
 *.ide
 *.suo
 *.cache
+*.ide
+StatPlayer/.vs/StatPlayer/v15/.suo
+*.ide
+*.cache
