@@ -11,7 +11,7 @@ namespace StatPlayer
         
         static void Main(string[] args)
         {
-            init();            
+            init();
             int chx=0;
             do
             {
@@ -54,9 +54,10 @@ namespace StatPlayer
         }
         private static void init()
         {
-            league = new League(35);
+            league = new League(31);
             league.AffectationJoueurDansEquipe();
         }
+        
         private static String AffichageBannerEtMenu()
         {
             string msg = "\n";

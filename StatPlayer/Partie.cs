@@ -218,6 +218,10 @@ namespace StatPlayer
             this.Equipe2 = equipe2;
             this.NombreButEq2 = nombreButEq2;
         }
+        public void AjouterJoueurDansLaListdeLaPartie(Joueur j)
+        {
+            this.listjoueurDeLaPartie_.Add(j);
+        }
         public String Winner
         {
             get

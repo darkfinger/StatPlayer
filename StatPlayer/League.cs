@@ -9,7 +9,8 @@ namespace StatPlayer
 {
     class League
     {
-        StreamReader streamReader;
+        const int MAX_NOMBRE_EQUIPE= 31;
+        StreamReader streamReader=null;
         enum TYPEPARTIE{R='R',P='P',F='F'};
         uint nombreEquipe_;
         List<Equipe> listEquipe_;
@@ -56,14 +57,15 @@ namespace StatPlayer
             set
             {
 
-                if (value > 0)//must be positive and less then 32 equipe
+                if ((value > 0)&&(value<=MAX_NOMBRE_EQUIPE))//must be positive and less than Max
                 {
                     //chack if the format is in the correct format
-                    try { this.nombreEquipe_ = value; } catch (FormatException) { throw new Exception(); }
+                    try { this.nombreEquipe_ = value; }
+                    catch (FormatException) { throw new ApplicationException("Mauvais format du Nombre d'equipe"); }
                 }
                 else
                 {
-                    throw new ApplicationException("Nombre d'equipe pas compatible");
+                    throw new ApplicationException("Nombre d'equipe superieur au max");
                 }
             }
         }       
@@ -116,10 +118,6 @@ namespace StatPlayer
                
             }
             return listEquipe;
-        }
-        public List<Equipe> GetEquipes()
-        {
-            return new List<Equipe>(this.ListEquipe);
         }
         public void AffectationJoueurDansEquipe()
         {
@@ -203,18 +201,25 @@ namespace StatPlayer
             classementparGardien.Sort();
             return classementparGardien;
         }
-        public void LectureResultat(StreamReader streamReader)
+        public void LectureResultat(StreamReader streamReader, string resultat)
         {
-            streamReader = new StreamReader("../../resultat.txt");
+            streamReader = new StreamReader("../../"+ resultat + ".txt");
             String chaine;
-            List<Joueur> listJoueur = new List<Joueur>();
+            int counter = 1, maxLine=0;
+            int nombreMinute=0;
+            Partie laPartie=null;
             while (!streamReader.EndOfStream)
             {
                 chaine = streamReader.ReadLine();
                 String[] part = chaine.Split(';');
-                string lastIndex = part[part.Length - 1].ToUpper() ;
-                if ((lastIndex.Equals(TYPEPARTIE.F))||(lastIndex.Equals(TYPEPARTIE.P))|| lastIndex.Equals(TYPEPARTIE.R))
+                if (counter == 1)
                 {
+                    if (part.Length == 6)
+                        nombreMinute = int.Parse(part[5]);
+                    if (part.Length == 5 && char.Parse(part[4].ToUpper()) == 'F')
+                        nombreMinute = 65;
+
+                    nombreMinute = 60;
                     Equipe equipe1 = null, equipe2 = null;
                     foreach(Equipe e in this.ListEquipe)
                     {
@@ -224,17 +229,99 @@ namespace StatPlayer
                         if (part[2] == e.Nom)
                             equipe2 = e;
                     }
-                    if(equipe1!=null && equipe2 != null)
-                    {
-                        Partie laPartie = new Partie(equipe1,int.Parse(part[1]),equipe2, int.Parse(part[3]),char.Parse(part[4])); 
-                    }
-                    
+                    laPartie = new Partie(equipe1, int.Parse(part[1]), equipe2, int.Parse(part[3]), char.Parse(part[4].ToUpper()));
+                    maxLine = int.Parse(part[1]) + int.Parse(part[3]) + 1;
+                    counter++;
                 }
-                if(int.TryParse(part[part.Length - 1], out num))
+                if (counter == 2)
                 {
+                    if(!(ListJoueur.Any(g => (g.Nom + g.PostNom).Equals(part[1]))))
+                    {
+                        JournalDesErreurs(part[1]);
+                    }
+                    if (!(ListJoueur.Any(g => (g.Nom+g.PostNom).Equals(part[4]))))
+                    {
+                        JournalDesErreurs(part[4]);
+                    }
+                        Gardien gardien1 = (Gardien)ListJoueur.Find(g => (g.Nom + g.PostNom).Equals(part[1]));
+                        Gardien gardien2 = (Gardien)ListJoueur.Find(g => (g.Nom + g.PostNom).Equals(part[4]));
+                        gardien1.NombreTotalDeTire += uint.Parse(part[2]);
+                        gardien1.NombreButAlloue += (uint)laPartie.NombreButEq2;
+                        gardien1.NombreDeMinute = (uint)nombreMinute;
+                        if (laPartie.Winner.Equals(laPartie.Equipe1.Nom))
+                        {
+                            gardien1.NombreDeVictoire += 1;
+                            gardien2.NombreDefaite += 1;
+                        }
+                        else { gardien2.NombreDeVictoire += 1; gardien1.NombreDefaite += 1; }
 
+                        gardien2.NombreTotalDeTire += uint.Parse(part[5]);
+                        gardien2.NombreButAlloue += (uint)laPartie.NombreButEq1;
+                        gardien2.NombreDeMinute = (uint)nombreMinute;
+
+                        laPartie.AjouterJoueurDansLaListdeLaPartie(gardien1);
+                        laPartie.AjouterJoueurDansLaListdeLaPartie(gardien2);
+                    
+                    counter++;
                 }
+                if (counter > 2)
+                {
+                    for(int i = 0; i <= part.Length; i++)
+                    {
+                        if (char.Parse(part[i].ToUpper()) == 'B')
+                        {
+                            if(ListJoueur.Any(j => (j.Nom+" "+j.PostNom).Equals(part[i - 1])))
+                            {
+                                var joueur = ListJoueur.Find(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1]));
+                                joueur.NombreDeBut++;
+                                if(!(laPartie.GetListJoueurDeSurface().Any(j=> (j.Nom + " " + j.PostNom).Equals(part[i - 1]))))
+                                {
+                                    laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                }                                
+                            }
+                            else
+                            {
+                                JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                            }
+                            
+                        }
+                        if (char.Parse(part[i].ToUpper()) == 'A')
+                        {
+                            if (ListJoueur.Any(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1])))
+                            {
+                                var joueur = ListJoueur.Find(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1]));
+                                joueur.NombreDePasse++;
+                                if (!(laPartie.GetListJoueurDeSurface().Any(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1]))))
+                                {
+                                    laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                }
+                            }
+                            else
+                            {
+                                JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                            }
+                        }
+                    }
+                    counter++;
+                    if (counter == maxLine)
+                    {
+                        foreach(JoueurDeSurface j in laPartie.GetListJoueurDeSurface())
+                        {
+                            j.NombreDeMatch++;
+                        }
+                        counter = 1;
+                    }
+                        
+                }
+
             }
+            streamReader.Close();
+        }
+        public static void JournalDesErreurs(String j)
+        {
+            StreamWriter writer = new StreamWriter("../../JournalDesErreurs.txt");
+            writer.WriteLine("Le joueur "+j+"n'est pas repertorier dans la list de la ligue");
+            writer.Close();
         }
     }
 }

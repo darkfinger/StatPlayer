@@ -178,14 +178,6 @@ namespace StatPlayer
                     throw new ApplicationException("Joueur n existe pas");
                 }
             }
-            private set
-            {
-                try { this.ListJoueurs.Add(value); }
-                catch (Exception)
-                {
-                    throw new ApplicationException("Incompatible type, only joueur, joueurdesurface and gardien can be added to a team");
-                }
-            }
         }
         /// <summary>
         /// Methode permettant de retourner une copie de joueur qui sont de gardien
@@ -279,6 +271,10 @@ namespace StatPlayer
             Equipe autre = obj as Equipe;
             int comparaison = Nom.CompareTo(autre.Nom);          
             return comparaison;
+        }
+        static bool EquipeDuNom(String nom)
+        {
+            return true; 
         }
     }
 }
