@@ -101,6 +101,7 @@ namespace StatPlayer
                     listJoueur.Add(joueurDeSurface);
                 }
             }
+            streamReader.Close();
             return listJoueur;
         }    
         public List<Equipe> LectureEquipe(StreamReader streamReader)
@@ -113,9 +114,9 @@ namespace StatPlayer
                 chaine = streamReader.ReadLine();
                 String[] part = chaine.Split(';');
                 Equipe equipe = new Equipe(part[0], part[1], part[2], part[3]);
-                listEquipe.Add(equipe);
-               
+                listEquipe.Add(equipe);               
             }
+            streamReader.Close();
             return listEquipe;
         }
         public void AffectationJoueurDansEquipe()
@@ -139,12 +140,15 @@ namespace StatPlayer
             this.ListEquipe.Sort();
             foreach (Equipe e in this.ListEquipe)
             {
-                classementparEquip += "\n";
+                classementparEquip += Environment.NewLine;
                 classementparEquip += "***********************************************************" +
-                                       "**********************************************************\n";
-                classementparEquip +="  "+ e + "\n";
+                                       "**********************************************************";
+                classementparEquip += Environment.NewLine;
+                classementparEquip +="  "+ e + " ";
+                classementparEquip += Environment.NewLine;
                 classementparEquip += "***********************************************************" +
-                                       "**********************************************************\n";
+                                       "**********************************************************";
+                classementparEquip += Environment.NewLine;
 
                 List<JoueurDeSurface> listJoueurOrdonnee = e.GetListJoueurDeSurface();
                 listJoueurOrdonnee.Sort();                
@@ -155,7 +159,8 @@ namespace StatPlayer
                 classementparEquip += (listJoueurAAfficher.ToStringTable(
                        new[] { "Nom", "Post-Nom", "Nom Equipe", "Position", "Match", "Buts", "Passes", "Total" },
                        a => a.Nom, a => a.PostNom, a => a.NomEquipe, a => a.Position, a => a.NombreDeMatch,
-                       a => a.NombreDeBut, a => a.NombreDePasse, a => a.Rendement)+"\n");
+                       a => a.NombreDeBut, a => a.NombreDePasse, a => a.Rendement));
+                classementparEquip += Environment.NewLine;
 
                 List<Gardien> listGardienOrdonnee = e.GetListGardien();
                 listGardienOrdonnee.Sort();
@@ -164,12 +169,14 @@ namespace StatPlayer
                     listGardienAAfficher.Add(j);
                 }
                 classementparEquip += (listGardienAAfficher.ToStringTable(
-                      new[] { "Nom", "Post-Nom", "Nom Equipe", "Position", "Match", "Buts", "Passes", "Total" },
-                      a => a.Nom, a => a.PostNom, a => a.NomEquipe, a => a.Position, a => a.NombreDeMinute,
-                      a => a.NombreDeBut, a => a.NombreDePasse, a => a.Rendement));
+                      new[] { "Nom", "Post-Nom", "Nom Equipe", "V", "D", "Min.", "B", "A", "Tire", "But Al.", "Effic.", "Rend." },
+                      a => a.Nom, a => a.PostNom, a => a.NomEquipe, a => a.NombreDeVictoire, a => a.NombreDefaite, a => a.NombreDeMinute,
+                      a => a.NombreDeBut, a => a.NombreDePasse, a => a.NombreTotalDeTire, a => a.NombreButAlloue, a => a.Efficacite, a => a.Rendement));
+
                 listJoueurAAfficher.Clear();
                 listGardienAAfficher.Clear();
             }
+            classementparEquip += Environment.NewLine;
             return classementparEquip;
         }
         public List<Joueur> ProduirClassementGenJoueurDeSurface()
@@ -202,7 +209,7 @@ namespace StatPlayer
         }
         public void LectureResultat(string resultat)
         {
-            StreamReader streamReader = new StreamReader("../../"+ resultat + ".txt");
+            StreamReader streamReader = new StreamReader(resultat);
             String chaine;
             int pointerLine = 1, maxLine=0;
             int nombreMinute=0;
