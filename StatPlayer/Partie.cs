@@ -126,14 +126,11 @@ namespace StatPlayer
                     if (value.Equals(type))
                     {
                         this.typeDePartie_ = value;
-                        break;//if we find one value that match on the TYPEPARTIE, we don't have to go all along.
                     }
-                }
-                //if the loop finds an accurate position then the attribut will be assigned, if it's still null 
-                //it means it didn't found an accurate value, therefore we throw an error
-                if (this.typeDePartie_ == '\0')
-                {
-                    throw new ApplicationException("Incompatible type de partie");
+                    else
+                    {
+                        this.typeDePartie_ = 'R';//match Regulier par default
+                    }
                 }
             }
         }
@@ -170,23 +167,7 @@ namespace StatPlayer
             return listGardien;
             }
         }
-        /// <summary>
-        /// properti that return a gardien of the game at the index, if index exist
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public Gardien GetGardienAt(int index)
-        {
-            try
-            {
-                List<Gardien> listGardien = this.ListjoueurDeLaPartie.OfType<Gardien>().ToList();
-                return listGardien[index];
-            }
-            catch (IndexOutOfRangeException)
-            {
-                throw new IndexOutOfRangeException("there is no Gardien at this index that played the game");
-            }
-        }
+    
         /// <summary>
         /// Properti that return the JoueurDeSurface list of the game
         /// </summary>
@@ -196,29 +177,32 @@ namespace StatPlayer
             List<JoueurDeSurface> listJoueurDeSurface = this.ListjoueurDeLaPartie.OfType<JoueurDeSurface>().ToList();
             return listJoueurDeSurface;
         }
-        /// <summary>
-        /// properti that return a JoueurDeSurface of the game at the index, if index exist
-        /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
-        public JoueurDeSurface GetJoueurDeSurfaceAt(int index)
+        public List<Joueur> GetListJoueurEnGeneral()
+        {
+            List<Joueur> listJoueurEnGeneral = this.ListjoueurDeLaPartie;
+            return listJoueurEnGeneral;
+        }
+
+        public Partie(Equipe equipe1, int nombreButEq1, Equipe equipe2, int nombreButEq2, char typeDePartie)
         {
             try
             {
-                List<JoueurDeSurface> listJoueurDeSurface = this.ListjoueurDeLaPartie.OfType<JoueurDeSurface>().ToList();
-                return listJoueurDeSurface[index];
-            }
-            catch (IndexOutOfRangeException)
-            {
-                throw new IndexOutOfRangeException("there is no JoueurDeSurface at this index that played the game");
-            }
-        }
-        public Partie(Equipe equipe1, int nombreButEq1, Equipe equipe2, int nombreButEq2, char typeDePartie)
-        {
             this.Equipe1 = equipe1;
             this.NombreButEq1 = nombreButEq1;
             this.Equipe2 = equipe2;
             this.NombreButEq2 = nombreButEq2;
+            this.TypeDePartie = typeDePartie;
+            this.listjoueurDeLaPartie_ = new List<Joueur>();
+            }
+            catch (Exception)
+            {
+                throw new ApplicationException("cant' creat a partie");
+            }
+            
+        }
+        public void AjouterJoueurDansLaListdeLaPartie(Joueur j)
+        {
+            this.listjoueurDeLaPartie_.Add(j);
         }
         public String Winner
         {

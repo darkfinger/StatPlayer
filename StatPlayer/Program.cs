@@ -14,7 +14,7 @@ namespace StatPlayer
         
         static void Main(string[] args)
         {
-            init();            
+            init();
             int chx=0;
             do
             {
@@ -27,7 +27,7 @@ namespace StatPlayer
                 }
                 if (chx == 1)
                 {
-
+                    league.LectureResultat("resultat");
                     Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
                     chx = Console.ReadKey().KeyChar;
                 }
@@ -57,9 +57,10 @@ namespace StatPlayer
         }
         private static void init()
         {
-            league = new League(35);
+            league = new League(31);
             league.AffectationJoueurDansEquipe();
         }
+        
         private static String AffichageBannerEtMenu()
         {
             string msg = "\n";

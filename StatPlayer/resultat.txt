@@ -1,0 +1,7 @@
+Anaheim Ducks;2;Boston Bruins;3;R
+Anaheim Ducks;John Gibson;27;Boston Bruins;Tuukka Rask;34
+Anaheim Ducks;Rickard Rakell;B;Ryan Getzlaf;A;Corey Perry;A
+Anaheim Ducks;Rickard Rakell;B;Ryan Getzlaf;A;Corey Perry;A
+Boston Bruins;Patrice Bergeron;B;David Pastrnak;A;Brad Marchand;A
+Boston Bruins;Brad Marchand;B;David Pastrnak;A;Patrice Bergeron;A
+Boston Bruins;Brad Marchand;B;David Pastrnak;A

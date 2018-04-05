@@ -9,8 +9,8 @@ namespace StatPlayer
 {
     class League
     {
-        StreamReader streamReader;
-        enum TYPEPARTIE{R='R',P='P',F='F'};
+        const int MAX_NOMBRE_EQUIPE= 31;
+        StreamReader streamReader=null;
         uint nombreEquipe_;
         List<Equipe> listEquipe_;
         List<Joueur> listJoueur_;
@@ -56,14 +56,15 @@ namespace StatPlayer
             set
             {
 
-                if (value > 0)//must be positive and less then 32 equipe
+                if ((value > 0)&&(value<=MAX_NOMBRE_EQUIPE))//must be positive and less than Max
                 {
                     //chack if the format is in the correct format
-                    try { this.nombreEquipe_ = value; } catch (FormatException) { throw new Exception(); }
+                    try { this.nombreEquipe_ = value; }
+                    catch (FormatException) { throw new ApplicationException("Mauvais format du Nombre d'equipe"); }
                 }
                 else
                 {
-                    throw new ApplicationException("Nombre d'equipe pas compatible");
+                    throw new ApplicationException("Nombre d'equipe superieur au max");
                 }
             }
         }       
@@ -116,10 +117,6 @@ namespace StatPlayer
                
             }
             return listEquipe;
-        }
-        public List<Equipe> GetEquipes()
-        {
-            return new List<Equipe>(this.ListEquipe);
         }
         public void AffectationJoueurDansEquipe()
         {
@@ -203,38 +200,161 @@ namespace StatPlayer
             classementparGardien.Sort();
             return classementparGardien;
         }
-        public void LectureResultat(StreamReader streamReader)
+        public void LectureResultat(string resultat)
         {
-            streamReader = new StreamReader("../../resultat.txt");
+            StreamReader streamReader = new StreamReader("../../"+ resultat + ".txt");
             String chaine;
-            List<Joueur> listJoueur = new List<Joueur>();
+            int pointerLine = 1, maxLine=0;
+            int nombreMinute=0;
+            Partie laPartie=null;
             while (!streamReader.EndOfStream)
             {
                 chaine = streamReader.ReadLine();
                 String[] part = chaine.Split(';');
-                string lastIndex = part[part.Length - 1].ToUpper() ;
-                if ((lastIndex.Equals(TYPEPARTIE.F))||(lastIndex.Equals(TYPEPARTIE.P))|| lastIndex.Equals(TYPEPARTIE.R))
-                {
-                    Equipe equipe1 = null, equipe2 = null;
-                    foreach(Equipe e in this.ListEquipe)
+                if (part.Length > 2)
+                {                
+                    if (pointerLine == 1)
                     {
-                        if (part[0] == e.Nom)
-                            equipe1 = e;
-
-                        if (part[2] == e.Nom)
-                            equipe2 = e;
-                    }
-                    if(equipe1!=null && equipe2 != null)
-                    {
-                        Partie laPartie = new Partie(equipe1,int.Parse(part[1]),equipe2, int.Parse(part[3]),char.Parse(part[4])); 
-                    }
+                        if (part.Length == 6)
+                        {
+                            nombreMinute = int.Parse(part[5]);
+                        }
+                        if (part.Length == 5 && char.Parse(part[4].ToUpper()) == 'F')
+                        {
+                            nombreMinute = 65;
+                        }
+                        else { nombreMinute = 60;}
                     
-                }
-                if(int.TryParse(part[part.Length - 1], out num))
-                {
+                        Equipe equipe1 = null, equipe2 = null;
+                        foreach(Equipe e in this.ListEquipe)
+                        {
+                            if (part[0] == e.Nom)
+                                equipe1 = e;
 
+                            if (part[2] == e.Nom)
+                                equipe2 = e;
+                        }
+                        laPartie = new Partie(equipe1, int.Parse(part[1]), equipe2, int.Parse(part[3]), char.Parse(part[4].ToUpper()));
+                        maxLine = int.Parse(part[1]) + int.Parse(part[3]) + 2;
+                    }
+                    if (pointerLine == 2)
+                    {
+                        Gardien gardien1=null;
+                        Gardien gardien2=null;
+                        for (int i = 1; i <= part.Length; i = i + 3)
+                        {
+                            if (IsJoueurExistInTheList(ListJoueur, part[i]))
+                            {
+                                if (i == 1)
+                                {
+                                    gardien1 = (Gardien)FindJoueurInTheList(ListJoueur, part[i]);
+                                    gardien1.NombreTotalDeTire += uint.Parse(part[2]);
+                                    gardien1.NombreButAlloue += (uint)laPartie.NombreButEq2;
+                                    gardien1.NombreDeMinute += (uint)nombreMinute;
+                                    laPartie.AjouterJoueurDansLaListdeLaPartie(gardien1);
+                                }
+                                if (i == 4)
+                                {
+                                    gardien2 = (Gardien)FindJoueurInTheList(ListJoueur, part[i]);
+                                    gardien2.NombreTotalDeTire += uint.Parse(part[5]);
+                                    gardien2.NombreButAlloue += (uint)laPartie.NombreButEq1;
+                                    gardien2.NombreDeMinute += (uint)nombreMinute;
+                                    laPartie.AjouterJoueurDansLaListdeLaPartie(gardien2);
+                                }
+                            }
+                            else
+                            {
+                                JournalDesErreurs(part[i]);
+                                Console.WriteLine("Nom chercher : " + part[1]);
+                            }
+                        }
+                        if (laPartie.Winner.Equals(laPartie.Equipe1.Nom))
+                        {
+                            gardien1.NombreDeVictoire += 1;
+                            gardien2.NombreDefaite += 1;
+                        }
+                        else { gardien2.NombreDeVictoire += 1; gardien1.NombreDefaite += 1; }
+                    }
+                    if (pointerLine > 2)
+                    {
+                        char CeDontLeJoueurAFait;
+                        for (int i = 2; i <= part.Length; i = i + 2)
+                        {
+                            if (char.TryParse(part[i].ToUpper(), out CeDontLeJoueurAFait))
+                            {
+                                if (CeDontLeJoueurAFait == 'B')
+                                {
+                                    if (IsJoueurExistInTheList(ListJoueur,part[i - 1]))
+                                    {
+                                        var joueur = FindJoueurInTheList(ListJoueur,part[i - 1]);
+                                        //Console.WriteLine("joueur trouver? : " + (joueur.Nom + " " + joueur.PostNom).ToUpper());
+                                        joueur.NombreDeBut++;
+                                        if (!IsJoueurExistInTheList(laPartie.GetListJoueurEnGeneral(), part[i - 1]))
+                                        {
+                                            laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                                    }
+                                }
+                                if (CeDontLeJoueurAFait == 'A')
+                                {
+                                    if (IsJoueurExistInTheList(ListJoueur, part[i - 1]))
+                                    {
+                                        var joueur = FindJoueurInTheList(ListJoueur, part[i - 1]); 
+                                        joueur.NombreDePasse++;
+                                        if (!IsJoueurExistInTheList(laPartie.GetListJoueurEnGeneral(), part[i - 1]))
+                                        {
+                                            laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                                    }
+                                }
+                            }
+                        }                      
+                    }
+                    if (pointerLine == maxLine)
+                    {
+                        foreach (JoueurDeSurface j in laPartie.GetListJoueurDeSurface())
+                        {
+                            j.NombreDeMatch++;
+                        }
+                        pointerLine = 1;
+                    }
+                    else
+                    {
+                        pointerLine++;
+                    }
                 }
             }
+            streamReader.Close();
+        }
+        public static void JournalDesErreurs(String j)
+        {
+            StreamWriter writer = new StreamWriter("../../JournalDesErreurs.txt");
+            writer.WriteLine("Le joueur "+j+" n'est pas repertorier dans la list de la ligue");
+            writer.Close();
+        }
+        public bool IsJoueurExistInTheList(List<Joueur> listJouer, String nomJoueurAVerifier)
+        {
+            if (listJouer.Any(j => (j.Nom + " " + j.PostNom).Trim().ToUpper().Equals(nomJoueurAVerifier.Trim().ToUpper())))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public Joueur FindJoueurInTheList(List<Joueur> listJouer, string nomJoueurATrouver)
+        {
+            Joueur joueur = listJouer.Find(j => (j.Nom + " " + j.PostNom).Trim().ToUpper().Equals(nomJoueurATrouver.Trim().ToUpper()));
+            return joueur;
         }
     }
 }
