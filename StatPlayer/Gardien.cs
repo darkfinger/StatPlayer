@@ -131,31 +131,24 @@ namespace StatPlayer
         {
             get
             {
-                if (this.NombreDeMinute == 0)
+                float tranch=(float)this.NombreDeMinute / 60;
+                if (tranch > 0)
                 {
-                    return 0;
+                    tranch = (float)(Math.Round((float)(NombreButAlloue / tranch), 1));
+                    return tranch;
                 }
-                else
-                {
-                    return this.NombreButAlloue/this.NombreDeMinute;
-                }
-                
+                else { return 0; }
             }
         }
-        public Gardien(Joueur joueur) 
-            : base(joueur)
+        public float Efficacite
         {
-            if (!joueur.Position.ToUpper().Equals("G"))
+            get
             {
-                throw new ApplicationException("only players with position G can be Gardien");
+                uint tireArretes = NombreTotalDeTire - NombreButAlloue;
+                float eff = (float)tireArretes / NombreTotalDeTire;
+                eff = (float)(Math.Round((float)eff, 3));
+                return  eff;
             }
-            this.NombreDeMinute = 0;
-            this.NombreDeBut = 0;
-            this.NombreDePasse = 0;
-            this.NombreDeVictoire = 0;
-            this.NombreDefaite = 0;
-            this.NombreTotalDeTire = 0;
-            this.NombreButAlloue = 0;
         }
         public Gardien(Gardien gardien) 
             : base(gardien)
@@ -165,30 +158,6 @@ namespace StatPlayer
             this.NombreDefaite = gardien.NombreDefaite;
             this.NombreTotalDeTire = gardien.NombreTotalDeTire;
             this.NombreButAlloue = gardien.NombreButAlloue;
-        }
-        public Gardien(Joueur joueur,uint minute, uint nombreVictoire, uint nombreDefaite, uint nombreTotalDeTire, uint nombreButAlloue) 
-            : base(joueur)
-        {
-            if (!joueur.Position.ToUpper().Equals("G"))
-            {
-                throw new ApplicationException("only players with position G can be Gardien");
-            }
-            this.NombreDeMinute = minute;
-            if (this.NombreDeMinute < 1)
-            {
-                this.NombreDeBut = 0;
-                this.NombreDePasse = 0;
-                this.NombreTotalDeTire = 0;
-                this.NombreButAlloue = 0;
-            }
-            else
-            {
-                this.NombreDeVictoire = nombreVictoire;
-                this.NombreDefaite = nombreDefaite;
-                this.NombreTotalDeTire = nombreTotalDeTire;
-                this.NombreButAlloue = nombreButAlloue;
-            }
-            
         }
         public Gardien(String nomEquipe, string nom, string position, uint minute, uint but, uint passe, uint nombreVictoire, uint nombreDefaite, uint nombreTotalDeTire, uint nombreButAlloue) 
             : base(nomEquipe, nom, position, but, passe)
@@ -224,7 +193,8 @@ namespace StatPlayer
             String details;
             details =this.Nom + " " + this.PostNom + " " +this.NomEquipe+" "+  this.Position + " " + this.NombreDeMinute
                         + " " + this.NombreDeBut + " " + this.NombreDePasse + " " + this.NombreDeVictoire
-                        + " " + this.NombreDefaite + " " + this.NombreTotalDeTire + " " + this.NombreButAlloue;
+                        + " " + this.NombreDefaite + " " + this.NombreTotalDeTire + " " + this.NombreButAlloue
+                        + " " + this.Efficacite + " " + this.Rendement;
             return details;
         }
 
@@ -235,15 +205,15 @@ namespace StatPlayer
                 throw new ArgumentException("L'objet n'est pas de la classe Etudiant");
             }
             Gardien autreGardien = obj as Gardien;
-            int comparaison = -(Rendement.CompareTo(autreGardien.Rendement));
+            int comparaison = (Rendement.CompareTo(autreGardien.Rendement));
             //Console.WriteLine(Rendement + " est sup que " + autreJoueur.Rendement + " comp==" + comparaison);
             if (comparaison == 0)
             {
-                comparaison = -(NombreDeBut.CompareTo(autreGardien.NombreDeBut));
+                comparaison = -(NombreDeMinute.CompareTo(autreGardien.NombreDeMinute));
             }
             if (comparaison == 0)
             {
-                comparaison = (NombreDeMinute.CompareTo(autreGardien.NombreDeMinute));
+                comparaison = -(Efficacite.CompareTo(autreGardien.Efficacite));
             }
             if (comparaison == 0)
             {
