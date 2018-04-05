@@ -24,7 +24,7 @@ namespace StatPlayer
                 }
                 if (chx == 1)
                 {
-
+                    league.LectureResultat("resultat");
                     Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
                     chx = Console.ReadKey().KeyChar;
                 }

@@ -11,7 +11,6 @@ namespace StatPlayer
     {
         const int MAX_NOMBRE_EQUIPE= 31;
         StreamReader streamReader=null;
-        enum TYPEPARTIE{R='R',P='P',F='F'};
         uint nombreEquipe_;
         List<Equipe> listEquipe_;
         List<Joueur> listJoueur_;
@@ -201,127 +200,161 @@ namespace StatPlayer
             classementparGardien.Sort();
             return classementparGardien;
         }
-        public void LectureResultat(StreamReader streamReader, string resultat)
+        public void LectureResultat(string resultat)
         {
-            streamReader = new StreamReader("../../"+ resultat + ".txt");
+            StreamReader streamReader = new StreamReader("../../"+ resultat + ".txt");
             String chaine;
-            int counter = 1, maxLine=0;
+            int pointerLine = 1, maxLine=0;
             int nombreMinute=0;
             Partie laPartie=null;
             while (!streamReader.EndOfStream)
             {
                 chaine = streamReader.ReadLine();
                 String[] part = chaine.Split(';');
-                if (counter == 1)
-                {
-                    if (part.Length == 6)
-                        nombreMinute = int.Parse(part[5]);
-                    if (part.Length == 5 && char.Parse(part[4].ToUpper()) == 'F')
-                        nombreMinute = 65;
+                if (part.Length > 2)
+                {                
+                    if (pointerLine == 1)
+                    {
+                        if (part.Length == 6)
+                        {
+                            nombreMinute = int.Parse(part[5]);
+                        }
+                        if (part.Length == 5 && char.Parse(part[4].ToUpper()) == 'F')
+                        {
+                            nombreMinute = 65;
+                        }
+                        else { nombreMinute = 60;}
+                    
+                        Equipe equipe1 = null, equipe2 = null;
+                        foreach(Equipe e in this.ListEquipe)
+                        {
+                            if (part[0] == e.Nom)
+                                equipe1 = e;
 
-                    nombreMinute = 60;
-                    Equipe equipe1 = null, equipe2 = null;
-                    foreach(Equipe e in this.ListEquipe)
-                    {
-                        if (part[0] == e.Nom)
-                            equipe1 = e;
-
-                        if (part[2] == e.Nom)
-                            equipe2 = e;
+                            if (part[2] == e.Nom)
+                                equipe2 = e;
+                        }
+                        laPartie = new Partie(equipe1, int.Parse(part[1]), equipe2, int.Parse(part[3]), char.Parse(part[4].ToUpper()));
+                        maxLine = int.Parse(part[1]) + int.Parse(part[3]) + 2;
                     }
-                    laPartie = new Partie(equipe1, int.Parse(part[1]), equipe2, int.Parse(part[3]), char.Parse(part[4].ToUpper()));
-                    maxLine = int.Parse(part[1]) + int.Parse(part[3]) + 1;
-                    counter++;
-                }
-                if (counter == 2)
-                {
-                    if(!(ListJoueur.Any(g => (g.Nom + g.PostNom).Equals(part[1]))))
+                    if (pointerLine == 2)
                     {
-                        JournalDesErreurs(part[1]);
-                    }
-                    if (!(ListJoueur.Any(g => (g.Nom+g.PostNom).Equals(part[4]))))
-                    {
-                        JournalDesErreurs(part[4]);
-                    }
-                        Gardien gardien1 = (Gardien)ListJoueur.Find(g => (g.Nom + g.PostNom).Equals(part[1]));
-                        Gardien gardien2 = (Gardien)ListJoueur.Find(g => (g.Nom + g.PostNom).Equals(part[4]));
-                        gardien1.NombreTotalDeTire += uint.Parse(part[2]);
-                        gardien1.NombreButAlloue += (uint)laPartie.NombreButEq2;
-                        gardien1.NombreDeMinute = (uint)nombreMinute;
+                        Gardien gardien1=null;
+                        Gardien gardien2=null;
+                        for (int i = 1; i <= part.Length; i = i + 3)
+                        {
+                            if (IsJoueurExistInTheList(ListJoueur, part[i]))
+                            {
+                                if (i == 1)
+                                {
+                                    gardien1 = (Gardien)FindJoueurInTheList(ListJoueur, part[i]);
+                                    gardien1.NombreTotalDeTire += uint.Parse(part[2]);
+                                    gardien1.NombreButAlloue += (uint)laPartie.NombreButEq2;
+                                    gardien1.NombreDeMinute += (uint)nombreMinute;
+                                    laPartie.AjouterJoueurDansLaListdeLaPartie(gardien1);
+                                }
+                                if (i == 4)
+                                {
+                                    gardien2 = (Gardien)FindJoueurInTheList(ListJoueur, part[i]);
+                                    gardien2.NombreTotalDeTire += uint.Parse(part[5]);
+                                    gardien2.NombreButAlloue += (uint)laPartie.NombreButEq1;
+                                    gardien2.NombreDeMinute += (uint)nombreMinute;
+                                    laPartie.AjouterJoueurDansLaListdeLaPartie(gardien2);
+                                }
+                            }
+                            else
+                            {
+                                JournalDesErreurs(part[i]);
+                                Console.WriteLine("Nom chercher : " + part[1]);
+                            }
+                        }
                         if (laPartie.Winner.Equals(laPartie.Equipe1.Nom))
                         {
                             gardien1.NombreDeVictoire += 1;
                             gardien2.NombreDefaite += 1;
                         }
                         else { gardien2.NombreDeVictoire += 1; gardien1.NombreDefaite += 1; }
-
-                        gardien2.NombreTotalDeTire += uint.Parse(part[5]);
-                        gardien2.NombreButAlloue += (uint)laPartie.NombreButEq1;
-                        gardien2.NombreDeMinute = (uint)nombreMinute;
-
-                        laPartie.AjouterJoueurDansLaListdeLaPartie(gardien1);
-                        laPartie.AjouterJoueurDansLaListdeLaPartie(gardien2);
-                    
-                    counter++;
-                }
-                if (counter > 2)
-                {
-                    for(int i = 0; i <= part.Length; i++)
+                    }
+                    if (pointerLine > 2)
                     {
-                        if (char.Parse(part[i].ToUpper()) == 'B')
+                        char CeDontLeJoueurAFait;
+                        for (int i = 2; i <= part.Length; i = i + 2)
                         {
-                            if(ListJoueur.Any(j => (j.Nom+" "+j.PostNom).Equals(part[i - 1])))
+                            if (char.TryParse(part[i].ToUpper(), out CeDontLeJoueurAFait))
                             {
-                                var joueur = ListJoueur.Find(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1]));
-                                joueur.NombreDeBut++;
-                                if(!(laPartie.GetListJoueurDeSurface().Any(j=> (j.Nom + " " + j.PostNom).Equals(part[i - 1]))))
+                                if (CeDontLeJoueurAFait == 'B')
                                 {
-                                    laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
-                                }                                
-                            }
-                            else
-                            {
-                                JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
-                            }
-                            
-                        }
-                        if (char.Parse(part[i].ToUpper()) == 'A')
-                        {
-                            if (ListJoueur.Any(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1])))
-                            {
-                                var joueur = ListJoueur.Find(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1]));
-                                joueur.NombreDePasse++;
-                                if (!(laPartie.GetListJoueurDeSurface().Any(j => (j.Nom + " " + j.PostNom).Equals(part[i - 1]))))
+                                    if (IsJoueurExistInTheList(ListJoueur,part[i - 1]))
+                                    {
+                                        var joueur = FindJoueurInTheList(ListJoueur,part[i - 1]);
+                                        //Console.WriteLine("joueur trouver? : " + (joueur.Nom + " " + joueur.PostNom).ToUpper());
+                                        joueur.NombreDeBut++;
+                                        if (!IsJoueurExistInTheList(laPartie.GetListJoueurEnGeneral(), part[i - 1]))
+                                        {
+                                            laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                                    }
+                                }
+                                if (CeDontLeJoueurAFait == 'A')
                                 {
-                                    laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                    if (IsJoueurExistInTheList(ListJoueur, part[i - 1]))
+                                    {
+                                        var joueur = FindJoueurInTheList(ListJoueur, part[i - 1]); 
+                                        joueur.NombreDePasse++;
+                                        if (!IsJoueurExistInTheList(laPartie.GetListJoueurEnGeneral(), part[i - 1]))
+                                        {
+                                            laPartie.AjouterJoueurDansLaListdeLaPartie(joueur);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                                    }
                                 }
                             }
-                            else
-                            {
-                                JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
-                            }
-                        }
+                        }                      
                     }
-                    counter++;
-                    if (counter == maxLine)
+                    if (pointerLine == maxLine)
                     {
-                        foreach(JoueurDeSurface j in laPartie.GetListJoueurDeSurface())
+                        foreach (JoueurDeSurface j in laPartie.GetListJoueurDeSurface())
                         {
                             j.NombreDeMatch++;
                         }
-                        counter = 1;
+                        pointerLine = 1;
                     }
-                        
+                    else
+                    {
+                        pointerLine++;
+                    }
                 }
-
             }
             streamReader.Close();
         }
         public static void JournalDesErreurs(String j)
         {
             StreamWriter writer = new StreamWriter("../../JournalDesErreurs.txt");
-            writer.WriteLine("Le joueur "+j+"n'est pas repertorier dans la list de la ligue");
+            writer.WriteLine("Le joueur "+j+" n'est pas repertorier dans la list de la ligue");
             writer.Close();
+        }
+        public bool IsJoueurExistInTheList(List<Joueur> listJouer, String nomJoueurAVerifier)
+        {
+            if (listJouer.Any(j => (j.Nom + " " + j.PostNom).Trim().ToUpper().Equals(nomJoueurAVerifier.Trim().ToUpper())))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public Joueur FindJoueurInTheList(List<Joueur> listJouer, string nomJoueurATrouver)
+        {
+            Joueur joueur = listJouer.Find(j => (j.Nom + " " + j.PostNom).Trim().ToUpper().Equals(nomJoueurATrouver.Trim().ToUpper()));
+            return joueur;
         }
     }
 }
