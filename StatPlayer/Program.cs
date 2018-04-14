@@ -10,108 +10,141 @@ namespace StatPlayer
 {
     class Program
     {
+        /// <summary>
+        /// Declaration de la variable static ligue
+        /// </summary>
         static League league;
-        
+
+
+        /// <summary>
+        /// entrer du programme
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            init();
-            Gardien n = new Gardien("Christopher", "Gibson", "G", 310, 0, 0, 4, 2, 211, 100);
-            Console.WriteLine((float)(Math.Round((float)(4 / (60/60)), 2)));
-    int chx=0;
+            //initialisation du programme
+            try
+            {
+                init();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Erreur lors de l'unitialisation "+e.Message);
+            }
+
+            int chx=0;//variable contenant le choix de l'utilisateur durant le deroulement du programme.
             do
             {
-                Console.Write(AffichageBannerEtMenu());
-                chx = ChoixUtilisateur(0,4);
-                while (chx == -1)
+                try
                 {
-                    Console.Write("Votre choix doit etre entre 0-4 : ");
-                    chx = ChoixUtilisateur(0,4);
+                    //affichage du menu
+                    Console.Write(AffichageBannerEtMenu());
+                    chx = ChoixUtilisateur(0, 4);
+                    while (chx == -1)//si la methode return une valeur negative donc le choix est errone.
+                    {
+                        Console.Write("Votre choix doit etre entre 0-4 : ");
+                        chx = ChoixUtilisateur(0, 4);
+                    }
+                    if (chx == 1)//traitement au cas ou le choix de l utilisateur a 1.
+                    {
+                        Console.Write("Donnez le nom du fichier des resultats : ");
+                        league.LectureResultat(DemandDuFichier());
+                        Console.Write("Fichier traiter, retourner au menu principal pour afficher les resultats a jours ");
+                        Console.ReadKey();
+                    }
+                    if (chx == 2)
+                    {
+                        Console.Write("Ou voulez-vous Afficher les statistique : \n1.Affichage a l'Ecrant \n2.Creer un fichier txt.\nVotre choix : ");
+                        int affichage = ChoixUtilisateur(1, 2);
+                        while (affichage == -1)
+                        {
+                            Console.Write("Votre choix doit etre entre 1.(Affichage Ecran) et 2.(Creer fichier) : ");
+                            affichage = ChoixUtilisateur(1, 2);
+                        }
+                        if (affichage == 1)
+                        {
+                            EcrireSurEcran(league.ProduirClassementJoueurParEquipe());
+                            Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
+                            Console.ReadKey();
+                        }
+                        if (affichage == 2)
+                        {
+                            EcrireSurFicher(league.ProduirClassementJoueurParEquipe(), NomDuFichierDestination());
+                            Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
+                            chx = Console.ReadKey().KeyChar;
+                        }
+                    }
+                    if (chx == 3)
+                    {
+                        Console.Write("Ou voulez-vous Afficher les statistique : \n1.Affichage a l'Ecrant \n2.Creer un fichier txt.\nVotre choix : ");
+                        int affichage = ChoixUtilisateur(1, 2);
+                        while (affichage == -1)
+                        {
+                            Console.Write("Votre choix doit etre entre 1.(Affichage Ecran) et 2.(Creer fichier) : ");
+                            affichage = ChoixUtilisateur(1, 2);
+                        }
+                        if (affichage == 1)
+                        {
+                            EcrireSurEcran(league.ProduirClassementGenJoueurDeSurface());
+                            Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
+                            chx = Console.ReadKey().KeyChar;
+                        }
+                        if (affichage == 2)
+                        {
+                            EcrireSurFicher(league.ProduirClassementGenJoueurDeSurface(), NomDuFichierDestination());
+                            Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
+                            chx = Console.ReadKey().KeyChar;
+                        }
+                    }
+                    if (chx == 4)
+                    {
+                        Console.Write("Ou voulez-vous Afficher les statistique : \n1.Affichage a l'Ecrant \n2.Creer un fichier txt.\nVotre choix : ");
+                        int affichage = ChoixUtilisateur(1, 2);
+                        while (affichage == -1)
+                        {
+                            Console.Write("Votre choix doit etre entre 1.(Affichage Ecran) et 2.(Creer fichier) : ");
+                            affichage = ChoixUtilisateur(1, 2);
+                        }
+                        if (affichage == 1)
+                        {
+                            EcrireSurEcran(league.ProduirClassementGenGardien());
+                            Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
+                            chx = Console.ReadKey().KeyChar;
+                        }
+                        if (affichage == 2)
+                        {
+                            EcrireSurFicher(league.ProduirClassementGenGardien(), NomDuFichierDestination());
+                            Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
+                            chx = Console.ReadKey().KeyChar;
+                        }
+                    }
+                    if (chx == 0)
+                        chx = 0;
                 }
-                if (chx == 1)
+                catch(ApplicationException e)
                 {
-                    Console.Write("Give the result file's name : ");
-                    league.LectureResultat(DemandDuFichier());
-                    Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                    chx = Console.ReadKey().KeyChar;
+                    Console.WriteLine("Erreur survenue :" + e.Message);
+                    Console.Read();
                 }
-                if (chx == 2)
-                {
-                    Console.Write("Ou voulez-vous Afficher les statistique : \n1.Affichage a l'Ecrant \n2.Creer un fichier txt.");
-                    int affichage = ChoixUtilisateur(1, 2);
-                    while (affichage == -1)
-                    {
-                        Console.Write("Votre choix doit etre entre 1.(Affichage Ecran) et 2.(Creer fichier) : ");
-                        affichage = ChoixUtilisateur(1,2);
-                    }
-                    if (affichage == 1)
-                    {
-                        EcrireSurEcran(league.ProduirClassementJoueurParEquipe());
-                        Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                        chx=Console.ReadKey().KeyChar;
-                    }
-                    if (affichage == 2)
-                    {
-                        EcrireSurFicher(league.ProduirClassementJoueurParEquipe(), NomDuFichierDestination());
-                        Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                        chx = Console.ReadKey().KeyChar;
-                    }
-                }
-                if (chx == 3)
-                {
-                    Console.Write("Ou voulez-vous Afficher les statistique : \n1.Affichage a l'Ecrant \n2.Creer un fichier txt.");
-                    int affichage = ChoixUtilisateur(1, 2);
-                    while (affichage == -1)
-                    {
-                        Console.Write("Votre choix doit etre entre 1.(Affichage Ecran) et 2.(Creer fichier) : ");
-                        affichage = ChoixUtilisateur(1, 2);
-                    }
-                    if (affichage == 1)
-                    {
-                        EcrireSurEcran(league.ProduirClassementGenJoueurDeSurface());
-                        Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                        chx = Console.ReadKey().KeyChar;
-                    }
-                    if (affichage == 2)
-                    {
-                        EcrireSurFicher(league.ProduirClassementGenJoueurDeSurface(), NomDuFichierDestination());
-                        Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                        chx = Console.ReadKey().KeyChar;
-                    }                    
-                }
-                if (chx == 4)
-                {
-                    Console.Write("Ou voulez-vous Afficher les statistique : \n1.Affichage a l'Ecrant \n2.Creer un fichier txt.");
-                    int affichage = ChoixUtilisateur(1, 2);
-                    while (affichage == -1)
-                    {
-                        Console.Write("Votre choix doit etre entre 1.(Affichage Ecran) et 2.(Creer fichier) : ");
-                        affichage = ChoixUtilisateur(1, 2);
-                    }
-                    if (affichage == 1)
-                    {
-                        EcrireSurEcran(league.ProduirClassementGenGardien());
-                        Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                        chx = Console.ReadKey().KeyChar;
-                    }
-                    if (affichage == 2)
-                    {
-                        EcrireSurFicher(league.ProduirClassementGenGardien(), NomDuFichierDestination());
-                        Console.Write("Appuyez sur n'importe quelle touche pour revenir au menu principal : ");
-                        chx = Console.ReadKey().KeyChar;
-                    }
-                }
-                if (chx == 0)
-                    chx = 0;
-
             } while (chx != 0);
         }
+
+        /// <summary>
+        /// Methode static qui initialise le programe en lisant les fichier JoueurStat.txt
+        /// et Equipe.txt et affecte chaque joueurs dans une Equipe
+        /// </summary>
         private static void init()
         {
             league = new League(31);
             league.AffectationJoueurDansEquipe();
-        }        
+        }
+        /// <summary>
+        /// Methode static qui affiche l'entete et le menu principal
+        /// </summary>
+        /// <returns>retourne le string a affichier</returns>
         private static String AffichageBannerEtMenu()
         {
+            Console.Clear();
             string msg = "\n";
             msg += new string(' ', 5);
             msg += new string('*', 60);
@@ -135,6 +168,12 @@ namespace StatPlayer
             msg += "Votre choix : ";
             return msg;
         }
+        /// <summary>
+        /// Methode static qui prend le choix de l'utilisateur prend en param l'interval du choix
+        /// </summary>
+        /// <param name="minRang">le choix minim</param>
+        /// <param name="maxRange">le choix max</param>
+        /// <returns></returns>
         private static int ChoixUtilisateur(int minRang, int maxRange)
         {
             int chx;
@@ -151,14 +190,29 @@ namespace StatPlayer
             else { return -1; }
             
         }
+        /// <summary>
+        /// Methode static qui affiche a l'ecran les stats d'une list 
+        /// </summary>
+        /// <param name="list">la list a afficher</param>
         private static void EcrireSurEcran(List<Joueur> list)
         {
+            Console.Clear();
             Console.WriteLine(ParseListToString(list));
         }
+        /// <summary>
+        /// Methode static qui affiche a l'ecran le stat d'un string deja formater (overload)
+        /// </summary>
+        /// <param name="list">string de la list formater</param>
         private static void EcrireSurEcran(String list)
         {
+            Console.Clear();
             Console.WriteLine(list);
         }
+        /// <summary>
+        /// overload de la Methode static qui ecrit les stats dans un fichier
+        /// </summary>
+        /// <param name="list">la lis a ecrire</param>
+        /// <param name="nom">le nom du ficheir de destination</param>
         private static void EcrireSurFicher(List<Joueur> list,String nom)
         {
             StreamWriter fWriter;
@@ -173,6 +227,11 @@ namespace StatPlayer
             }
             fWriter.Close();
         }
+        /// <summary>
+        /// overload Methode static qui ecrit les stats dans un fichier a partir du string formater
+        /// </summary>
+        /// <param name="list">string formater a ecrire</param>
+        /// <param name="nom">nom du fichier destination</param>
         private static void EcrireSurFicher(String list, String nom)
         {
             StreamWriter fWriter=null;
@@ -187,6 +246,11 @@ namespace StatPlayer
             }
             fWriter.Close();
         }
+        /// <summary>
+        /// Parse une liste en string pour etre affichee
+        /// </summary>
+        /// <param name="list">list a transferer</param>
+        /// <returns></returns>
         private static String ParseListToString(List<Joueur> list)
         {
             String data = Environment.NewLine; 
@@ -207,11 +271,15 @@ namespace StatPlayer
                 data += Environment.NewLine;
                 data += (lisGardien.ToStringTable(
                   new[] { "Nom", "Post-Nom", "Nom Equipe","V","D", "Min.", "B", "A","Tire","But Al.","Effic.", "Rend." },
-                  a => a.Nom, a => a.PostNom, a => a.NomEquipe, a=> a.NombreDeVictoire,a =>a.NombreDefaite, a => a.NombreDeMinute,
+                  a => a.Nom, a => a.PostNom, a => a.NomEquipe, a=> a.NombreDeVictoire,a =>a.NombreDefaite, a => a.NombreDeMinute + ":" + a.NombreDeSecond,
                   a => a.NombreDeBut, a => a.NombreDePasse, a => a.NombreTotalDeTire, a => a.NombreButAlloue, a => a.Efficacite, a => a.Rendement));
             }
             return data;
         }
+        /// <summary>
+        /// Methode static qui prend et verifi le nom du fichier contenant le resulta du match
+        /// </summary>
+        /// <returns>return le path du nom du fichier donner</returns>
         private static String DemandDuFichier()
         {  
             String path = Console.ReadLine();
@@ -229,6 +297,10 @@ namespace StatPlayer
             }
             return path;
         }
+        /// <summary>
+        /// Methode static qui demand le nom du fichier dest.
+        /// </summary>
+        /// <returns>retourne le nom d un fichier destination si correct</returns>
         private static String NomDuFichierDestination()
         {
             Console.Write("Enregistrer le resultat sous quel nom : ");
