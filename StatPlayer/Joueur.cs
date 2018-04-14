@@ -1,8 +1,18 @@
-﻿using System;
+﻿/*
+ * Program written by David Kapanga, Rogers Mukuna Kashala Jean Robert Leriche and Abdelwahab Laouni for the OOP class's project (INF731)
+ * the program called StatPlayer,it provides a statistic for LNH Hockey games 
+ * on starting poin, it takes 2 initial file that contain teams and players 
+ * and after you can product a statistic on console or on file,
+ * can also recieve a result file of new games and update the initial statistic
+ * this is an abstract class of the player
+ * Created on Mar 25 2018
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System;
 
 namespace StatPlayer
 {
