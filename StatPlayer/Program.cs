@@ -121,9 +121,12 @@ namespace StatPlayer
                     if (chx == 0)
                         chx = 0;
                 }
+                //vue qu'il ya une multitude d erreur pouvan arriver nous avons generaliser la capture, manque de temps 
+                //pour les traiter toute une par une
                 catch(ApplicationException e)
                 {
                     Console.WriteLine("Erreur survenue :" + e.Message);
+                    Console.WriteLine("le traitement a ete annuler, veriffier que l'erreur et fixee, puis recomencer le traitement");
                     Console.Read();
                 }
             } while (chx != 0);

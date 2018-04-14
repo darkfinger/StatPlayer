@@ -352,12 +352,33 @@ namespace StatPlayer
                                 JournalDesErreurs(part[i]);
                             }
                         }
-                        if (laPartie.Winner.Equals(laPartie.Equipe1.Nom))
+                        //si le 2 gardien existe pas dans la ligue, update
+                        if (gardien1 != null && gardien2 != null)
                         {
-                            gardien1.NombreDeVictoire += 1;
-                            gardien2.NombreDefaite += 1;
+                            if (laPartie.Winner.Equals(laPartie.Equipe1.Nom))
+                            {
+                                gardien1.NombreDeVictoire += 1;
+                                gardien2.NombreDefaite += 1;
+                            }
+                            else { gardien2.NombreDeVictoire += 1; gardien1.NombreDefaite += 1; }
                         }
-                        else { gardien2.NombreDeVictoire += 1; gardien1.NombreDefaite += 1; }
+                        //si le 1er gardien n existe pas, update le 2eme
+                        else if (gardien1 == null && gardien2 != null)
+                        {
+                            if (laPartie.Winner.Equals(laPartie.Equipe2.Nom))
+                            {
+                                gardien2.NombreDefaite += 1;
+                            }
+                        }
+                        //update le premier au cas contraire
+                        else if (gardien1 != null && gardien2 == null)
+                        {
+                            if (laPartie.Winner.Equals(laPartie.Equipe1.Nom))
+                            {
+                                gardien1.NombreDefaite += 1;
+                            }
+                        }
+                        else { JournalDesErreurs("aucun gardien update"); }
                     }
                     //if pointer is >2 then we are at the score line
                     if (pointerLine > 2)
@@ -382,7 +403,7 @@ namespace StatPlayer
                                     }
                                     else
                                     {
-                                        JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                                        JournalDesErreurs(part[i - 1] );
                                     }
                                 }
                                 if (CeDontLeJoueurAFait == 'A')
@@ -398,7 +419,7 @@ namespace StatPlayer
                                     }
                                     else
                                     {
-                                        JournalDesErreurs(part[i - 1] + " N'est pas repertoriee dans la ligue");
+                                        JournalDesErreurs(part[i - 1]);
                                     }
                                 }
                             }
