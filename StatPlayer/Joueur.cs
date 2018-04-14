@@ -38,7 +38,7 @@ namespace StatPlayer
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Le nom d'un joueur n'est pas correct format. ");
                 }
             }
         }
@@ -59,7 +59,7 @@ namespace StatPlayer
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Le nom d'un joueur n'est pas correct format. ");
                 }
             }
         }
@@ -80,7 +80,7 @@ namespace StatPlayer
                 }
                 else
                 {
-                    throw new Exception();
+                    throw new ApplicationException("Le nom de l'equipe du joueur n'est pas au format correct . ");
                 }
             }
         }

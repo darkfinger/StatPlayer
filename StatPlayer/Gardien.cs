@@ -8,6 +8,7 @@ namespace StatPlayer
         /// attribut declaration
         /// </summary>
         uint nombreDeMinute_;
+        uint nombreDeSecond_;
         uint nombreVictoire_;
         uint nombreDefaite_;
         uint nombreTotalDeTire_;
@@ -27,6 +28,28 @@ namespace StatPlayer
                 {
                     //chack if the format is in the correct form
                     try { this.nombreDeMinute_ = value; } catch (FormatException) { throw new ApplicationException("invalid format for NombreDeMinute"); }
+                }
+                else
+                {
+                    throw new ApplicationException("invalid format for NombreDeMinute");
+                }
+            }
+        }
+        /// <summary>
+        /// Property for the Nombre de sec attribut
+        /// </summary>
+        public uint NombreDeSecond
+        {
+            get
+            {
+                return this.nombreDeSecond_;
+            }
+            set
+            {
+                if (value >= 0)//if the quantity is positive
+                {
+                    //chack if the format is in the correct form
+                    try { this.nombreDeSecond_ = value; } catch (FormatException) { throw new ApplicationException("invalid format for NombreDeMinute"); }
 
                 }
                 else
@@ -35,6 +58,7 @@ namespace StatPlayer
                 }
             }
         }
+
         /// <summary>
         /// property for the nombreVictoire att.
         /// </summary>
@@ -169,6 +193,7 @@ namespace StatPlayer
             this.NombreDeMinute=minute;
             if (this.NombreDeMinute < 1)
             {
+                this.NombreDeSecond = 0;
                 this.NombreDeBut = 0;
                 this.NombreDePasse = 0;
                 this.NombreDeVictoire = 0;
@@ -178,6 +203,7 @@ namespace StatPlayer
             }
             else
             {
+                this.NombreDeSecond = 0;
                 this.NombreDeVictoire=nombreVictoire;
                 this.NombreDefaite = nombreDefaite;
                 this.NombreTotalDeTire = nombreTotalDeTire;
@@ -185,7 +211,7 @@ namespace StatPlayer
             }
         }
         /// <summary>
-        /// toString ovverride to print out stat of an individual Gardien
+        /// toString ovverrided to print out stat of an individual Gardien
         /// </summary>
         /// <returns></returns>
         public override string ToString()
@@ -206,7 +232,6 @@ namespace StatPlayer
             }
             Gardien autreGardien = obj as Gardien;
             int comparaison = (Rendement.CompareTo(autreGardien.Rendement));
-            //Console.WriteLine(Rendement + " est sup que " + autreJoueur.Rendement + " comp==" + comparaison);
             if (comparaison == 0)
             {
                 comparaison = -(NombreDeMinute.CompareTo(autreGardien.NombreDeMinute));
