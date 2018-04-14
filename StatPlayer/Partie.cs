@@ -120,7 +120,7 @@ namespace StatPlayer
                 foreach (char type in TYPEPARTIE)
                 {
                     //we cannot throw an Exception on an else, because we want to check that the value in every index of TYPEPARTIE
-                    //if we throw it, the program will stop after checking and not finding an accurate type at the index 
+                    //if we throw it, the program will stop after checking and not finding an accurate type at the first index 
                     if (value.Equals(type))
                     {
                         this.typeDePartie_ = value;
@@ -143,15 +143,6 @@ namespace StatPlayer
                 try { this.listjoueurDeLaPartie_ = value; } catch (Exception) { throw new ApplicationException("imcopatible list de jour for this game "); }
             }
         }      
-        public Joueur this[int index]
-        {
-            get
-            {
-                // on retourne une copie de la tasse dans la liste, rendant impossible
-                // d'atteindre la tasse originale qui se trouve dans la liste
-                return new JoueurDeSurface(ListjoueurDeLaPartie[index]);
-            }
-        }
 
         /// <summary>
         /// Properti that return the gardien list of the game
@@ -175,12 +166,23 @@ namespace StatPlayer
             List<JoueurDeSurface> listJoueurDeSurface = this.ListjoueurDeLaPartie.OfType<JoueurDeSurface>().ToList();
             return listJoueurDeSurface;
         }
+        /// <summary>
+        /// Methode that retourn a general list of all playeur in the game
+        /// </summary>
+        /// <returns></returns>
         public List<Joueur> GetListJoueurEnGeneral()
         {
             List<Joueur> listJoueurEnGeneral = this.ListjoueurDeLaPartie;
             return listJoueurEnGeneral;
         }
-
+        /// <summary>
+        /// construtor
+        /// </summary>
+        /// <param name="equipe1">la premiere equipe</param>
+        /// <param name="nombreButEq1">le nombre de but marquee</param>
+        /// <param name="equipe2">2eme equipe</param>
+        /// <param name="nombreButEq2">le nombre de but marquee de la 2eme equipe</param>
+        /// <param name="typeDePartie">le type de parti</param>
         public Partie(Equipe equipe1, int nombreButEq1, Equipe equipe2, int nombreButEq2, char typeDePartie)
         {
             try
@@ -198,10 +200,17 @@ namespace StatPlayer
             }
             
         }
+        /// <summary>
+        /// ajoute un joueur dans la parti
+        /// </summary>
+        /// <param name="j"></param>
         public void AjouterJoueurDansLaListdeLaPartie(Joueur j)
         {
             this.listjoueurDeLaPartie_.Add(j);
         }
+        /// <summary>
+        /// determine le gagnant d'une partie
+        /// </summary>
         public String Winner
         {
             get

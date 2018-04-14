@@ -42,42 +42,9 @@ namespace StatPlayer
             }
         }
         /// <summary>
-        /// copy constructor
-        /// </summary>
-        /// <param name="joueur"></param>
-        public JoueurDeSurface(Joueur joueur) : base(joueur)
-        {
-            if (joueur.Position.ToUpper().Equals("G"))
-            {
-                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
-            }
-            this.NombreDeMatch = 0;
-            this.NombreDeBut = 0;
-            this.NombreDePasse = 0;            
-        }
-        /// <summary>
-        /// copy constructeur of joueur with an additional param for the nombredematch 
-        /// </summary>
-        /// <param name="joueur"></param>
-        /// <param name="match"></param>
-        public JoueurDeSurface(Joueur joueur,uint match) : base(joueur)
-        {
-            if (joueur.Position.ToUpper().Equals("G"))
-            {
-                throw new ApplicationException("only players with position diferent than G can be JoueurDesurface");
-            }
-            this.NombreDeMatch = match;
-            if (this.NombreDeMatch == 0)
-            {
-                this.NombreDeBut = 0;
-                this.NombreDePasse = 0;
-            }
-        }
-        /// <summary>
         /// copy constructeur of joueurDeSurface
         /// </summary>
-        /// <param name="joueur"></param>
-        /// <param name="match"></param>
+        /// <param name="joueurDeSurface"></param>
         public JoueurDeSurface(JoueurDeSurface joueurDeSurface) : base(joueurDeSurface)
         {
             this.NombreDeMatch = joueurDeSurface.NombreDeMatch;
@@ -137,7 +104,6 @@ namespace StatPlayer
             }
             JoueurDeSurface autreJoueur = obj as JoueurDeSurface;
             int comparaison = -(Rendement.CompareTo(autreJoueur.Rendement));
-            //Console.WriteLine(Rendement + " est sup que " + autreJoueur.Rendement + " comp==" + comparaison);
             if (comparaison == 0)
             {
                 comparaison = -(NombreDeBut.CompareTo(autreJoueur.NombreDeBut));

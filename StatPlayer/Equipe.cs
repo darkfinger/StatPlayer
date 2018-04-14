@@ -31,7 +31,7 @@ namespace StatPlayer
             this.ListJoueurs = new List<Joueur>();
         }
         /// <summary>
-        /// deuxieme constructeur de la class avec list a l initialisation
+        /// deuxieme constructeur de la class avec list des joueurs a l initialisation
         /// </summary>
         /// <param name="nom"></param>
         /// <param name="Ville"></param>
@@ -49,11 +49,7 @@ namespace StatPlayer
         /// <summary>
         /// copy constructeur
         /// </summary>
-        /// <param name="nom"></param>
-        /// <param name="Ville"></param>
-        /// <param name="division"></param>
-        /// <param name="conference"></param>
-        /// <param name="listJoueur"></param>
+        /// <param name="e"></param>
         public Equipe(Equipe e)
         {
             this.Nom = e.Nom;
@@ -254,7 +250,19 @@ namespace StatPlayer
             }
             
         }
-
+        /// <summary>
+        /// methode to delete a player from the team.
+        /// </summary>
+        /// <param name="j">the player object to delete</param>
+        public void DeleteJoueurFromTean(Joueur j)
+        {
+            try
+            {
+                this.ListJoueurs.Remove(j);
+            }
+            catch (Exception) { throw new ApplicationException("joueur a supprimer n'exist pas"); }
+            
+        }
         public override string ToString()
         {
             String details;
@@ -272,9 +280,6 @@ namespace StatPlayer
             int comparaison = Nom.CompareTo(autre.Nom);          
             return comparaison;
         }
-        static bool EquipeDuNom(String nom)
-        {
-            return true; 
-        }
+        
     }
 }
