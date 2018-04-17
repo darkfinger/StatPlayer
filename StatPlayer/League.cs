@@ -461,8 +461,8 @@ namespace StatPlayer
         public static void JournalDesErreurs(String j)
         {
             StreamWriter writer = new StreamWriter("../../JournalDesErreurs.txt",true);
-            writer.WriteLine("Le joueur "+j+" n'est pas repertorier dans la list de la ligue");
-            writer.WriteLine(Environment.NewLine);
+            writer.WriteLine(DateTime.Now + "Le joueur "+j+" n'est pas repertorier dans la list de la ligue");
+            writer.WriteLine();
             writer.Close();
         }
         /// <summary>

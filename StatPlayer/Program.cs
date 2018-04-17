@@ -28,16 +28,17 @@ namespace StatPlayer
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            
             //initialisation du programme
             try
             {
-                init();
+                init();               
             }
             catch (Exception e)
             {
                 Console.WriteLine("Erreur lors de l'unitialisation "+e.Message);
             }
-
+            
             int chx=0;//variable contenant le choix de l'utilisateur durant le deroulement du programme.
             do
             {
